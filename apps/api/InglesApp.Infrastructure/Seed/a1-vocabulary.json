@@ -1,0 +1,9290 @@
+[
+  {
+    "word": "hello",
+    "translation": "hola",
+    "partOfSpeech": "interjection",
+    "category": "greetings",
+    "exampleSentences": [
+      "She shouted \"hello!\" happily."
+    ]
+  },
+  {
+    "word": "hi",
+    "translation": "hola",
+    "partOfSpeech": "interjection",
+    "category": "greetings",
+    "exampleSentences": [
+      "She shouted \"hi!\" happily."
+    ]
+  },
+  {
+    "word": "goodbye",
+    "translation": "adiós",
+    "partOfSpeech": "interjection",
+    "category": "greetings",
+    "exampleSentences": [
+      "She shouted \"goodbye!\" happily."
+    ]
+  },
+  {
+    "word": "bye",
+    "translation": "adiós",
+    "partOfSpeech": "interjection",
+    "category": "greetings",
+    "exampleSentences": [
+      "She shouted \"bye!\" happily."
+    ]
+  },
+  {
+    "word": "good morning",
+    "translation": "buenos días",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"good morning\" in daily life."
+    ]
+  },
+  {
+    "word": "good afternoon",
+    "translation": "buenas tardes",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"good afternoon\" in daily life."
+    ]
+  },
+  {
+    "word": "good evening",
+    "translation": "buenas noches",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"good evening\" in daily life."
+    ]
+  },
+  {
+    "word": "good night",
+    "translation": "buenas noches",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"good night\" in daily life."
+    ]
+  },
+  {
+    "word": "please",
+    "translation": "por favor",
+    "partOfSpeech": "adverb",
+    "category": "greetings",
+    "exampleSentences": [
+      "He speaks please."
+    ]
+  },
+  {
+    "word": "thank you",
+    "translation": "gracias",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"thank you\" in daily life."
+    ]
+  },
+  {
+    "word": "thanks",
+    "translation": "gracias",
+    "partOfSpeech": "interjection",
+    "category": "greetings",
+    "exampleSentences": [
+      "She shouted \"thanks!\" happily."
+    ]
+  },
+  {
+    "word": "you're welcome",
+    "translation": "de nada",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"you're welcome\" in daily life."
+    ]
+  },
+  {
+    "word": "sorry",
+    "translation": "lo siento",
+    "partOfSpeech": "adjective",
+    "category": "greetings",
+    "exampleSentences": [
+      "I say \"sorry\" when I meet someone."
+    ]
+  },
+  {
+    "word": "excuse me",
+    "translation": "disculpe",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"excuse me\" in daily life."
+    ]
+  },
+  {
+    "word": "yes",
+    "translation": "sí",
+    "partOfSpeech": "adverb",
+    "category": "greetings",
+    "exampleSentences": [
+      "He speaks yes."
+    ]
+  },
+  {
+    "word": "no",
+    "translation": "no",
+    "partOfSpeech": "adverb",
+    "category": "greetings",
+    "exampleSentences": [
+      "He speaks no."
+    ]
+  },
+  {
+    "word": "how are you",
+    "translation": "¿cómo estás?",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"how are you\" in daily life."
+    ]
+  },
+  {
+    "word": "nice to meet you",
+    "translation": "mucho gusto",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"nice to meet you\" in daily life."
+    ]
+  },
+  {
+    "word": "see you later",
+    "translation": "hasta luego",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"see you later\" in daily life."
+    ]
+  },
+  {
+    "word": "see you tomorrow",
+    "translation": "hasta mañana",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"see you tomorrow\" in daily life."
+    ]
+  },
+  {
+    "word": "welcome",
+    "translation": "bienvenido",
+    "partOfSpeech": "interjection",
+    "category": "greetings",
+    "exampleSentences": [
+      "She shouted \"welcome!\" happily."
+    ]
+  },
+  {
+    "word": "hello there",
+    "translation": "hola",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"hello there\" in daily life."
+    ]
+  },
+  {
+    "word": "take care",
+    "translation": "cuídate",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"take care\" in daily life."
+    ]
+  },
+  {
+    "word": "good luck",
+    "translation": "buena suerte",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"good luck\" in daily life."
+    ]
+  },
+  {
+    "word": "congratulations",
+    "translation": "felicidades",
+    "partOfSpeech": "interjection",
+    "category": "greetings",
+    "exampleSentences": [
+      "She shouted \"congratulations!\" happily."
+    ]
+  },
+  {
+    "word": "happy birthday",
+    "translation": "feliz cumpleaños",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"happy birthday\" in daily life."
+    ]
+  },
+  {
+    "word": "cheers",
+    "translation": "salud",
+    "partOfSpeech": "interjection",
+    "category": "greetings",
+    "exampleSentences": [
+      "She shouted \"cheers!\" happily."
+    ]
+  },
+  {
+    "word": "pardon",
+    "translation": "perdón",
+    "partOfSpeech": "interjection",
+    "category": "greetings",
+    "exampleSentences": [
+      "She shouted \"pardon!\" happily."
+    ]
+  },
+  {
+    "word": "of course",
+    "translation": "por supuesto",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"of course\" in daily life."
+    ]
+  },
+  {
+    "word": "no problem",
+    "translation": "no hay problema",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"no problem\" in daily life."
+    ]
+  },
+  {
+    "word": "how do you do",
+    "translation": "encantado",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"how do you do\" in daily life."
+    ]
+  },
+  {
+    "word": "what is your name",
+    "translation": "¿cómo te llamas?",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"what is your name\" in daily life."
+    ]
+  },
+  {
+    "word": "my name is",
+    "translation": "me llamo",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"my name is\" in daily life."
+    ]
+  },
+  {
+    "word": "pleased to meet you",
+    "translation": "encantado de conocerte",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"pleased to meet you\" in daily life."
+    ]
+  },
+  {
+    "word": "long time no see",
+    "translation": "cuánto tiempo",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"long time no see\" in daily life."
+    ]
+  },
+  {
+    "word": "good to see you",
+    "translation": "qué gusto verte",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"good to see you\" in daily life."
+    ]
+  },
+  {
+    "word": "have a nice day",
+    "translation": "que tengas un buen día",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"have a nice day\" in daily life."
+    ]
+  },
+  {
+    "word": "sleep well",
+    "translation": "que duermas bien",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"sleep well\" in daily life."
+    ]
+  },
+  {
+    "word": "get well soon",
+    "translation": "que te mejores pronto",
+    "partOfSpeech": "phrase",
+    "category": "greetings",
+    "exampleSentences": [
+      "People say \"get well soon\" in daily life."
+    ]
+  },
+  {
+    "word": "apple",
+    "translation": "manzana",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some apple for lunch."
+    ]
+  },
+  {
+    "word": "banana",
+    "translation": "plátano",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some banana for lunch."
+    ]
+  },
+  {
+    "word": "orange",
+    "translation": "naranja",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some orange for lunch."
+    ]
+  },
+  {
+    "word": "bread",
+    "translation": "pan",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some bread for lunch."
+    ]
+  },
+  {
+    "word": "water",
+    "translation": "agua",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some water for lunch."
+    ]
+  },
+  {
+    "word": "milk",
+    "translation": "leche",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some milk for lunch."
+    ]
+  },
+  {
+    "word": "coffee",
+    "translation": "café",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some coffee for lunch."
+    ]
+  },
+  {
+    "word": "tea",
+    "translation": "té",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some tea for lunch."
+    ]
+  },
+  {
+    "word": "rice",
+    "translation": "arroz",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some rice for lunch."
+    ]
+  },
+  {
+    "word": "egg",
+    "translation": "huevo",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some egg for lunch."
+    ]
+  },
+  {
+    "word": "cheese",
+    "translation": "queso",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some cheese for lunch."
+    ]
+  },
+  {
+    "word": "meat",
+    "translation": "carne",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some meat for lunch."
+    ]
+  },
+  {
+    "word": "chicken",
+    "translation": "pollo",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some chicken for lunch."
+    ]
+  },
+  {
+    "word": "fish",
+    "translation": "pescado",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some fish for lunch."
+    ]
+  },
+  {
+    "word": "potato",
+    "translation": "patata",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some potato for lunch."
+    ]
+  },
+  {
+    "word": "tomato",
+    "translation": "tomate",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some tomato for lunch."
+    ]
+  },
+  {
+    "word": "salad",
+    "translation": "ensalada",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some salad for lunch."
+    ]
+  },
+  {
+    "word": "soup",
+    "translation": "sopa",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some soup for lunch."
+    ]
+  },
+  {
+    "word": "sugar",
+    "translation": "azúcar",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some sugar for lunch."
+    ]
+  },
+  {
+    "word": "salt",
+    "translation": "sal",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some salt for lunch."
+    ]
+  },
+  {
+    "word": "pepper",
+    "translation": "pimienta",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some pepper for lunch."
+    ]
+  },
+  {
+    "word": "butter",
+    "translation": "mantequilla",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some butter for lunch."
+    ]
+  },
+  {
+    "word": "honey",
+    "translation": "miel",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some honey for lunch."
+    ]
+  },
+  {
+    "word": "juice",
+    "translation": "zumo",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some juice for lunch."
+    ]
+  },
+  {
+    "word": "wine",
+    "translation": "vino",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some wine for lunch."
+    ]
+  },
+  {
+    "word": "beer",
+    "translation": "cerveza",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some beer for lunch."
+    ]
+  },
+  {
+    "word": "cake",
+    "translation": "pastel",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some cake for lunch."
+    ]
+  },
+  {
+    "word": "cookie",
+    "translation": "galleta",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some cookie for lunch."
+    ]
+  },
+  {
+    "word": "chocolate",
+    "translation": "chocolate",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some chocolate for lunch."
+    ]
+  },
+  {
+    "word": "ice cream",
+    "translation": "helado",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some ice cream for lunch."
+    ]
+  },
+  {
+    "word": "pizza",
+    "translation": "pizza",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some pizza for lunch."
+    ]
+  },
+  {
+    "word": "sandwich",
+    "translation": "sándwich",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some sandwich for lunch."
+    ]
+  },
+  {
+    "word": "breakfast",
+    "translation": "desayuno",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some breakfast for lunch."
+    ]
+  },
+  {
+    "word": "lunch",
+    "translation": "almuerzo",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some lunch for lunch."
+    ]
+  },
+  {
+    "word": "dinner",
+    "translation": "cena",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some dinner for lunch."
+    ]
+  },
+  {
+    "word": "snack",
+    "translation": "merienda",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some snack for lunch."
+    ]
+  },
+  {
+    "word": "fruit",
+    "translation": "fruta",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some fruit for lunch."
+    ]
+  },
+  {
+    "word": "vegetable",
+    "translation": "verdura",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some vegetable for lunch."
+    ]
+  },
+  {
+    "word": "carrot",
+    "translation": "zanahoria",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some carrot for lunch."
+    ]
+  },
+  {
+    "word": "onion",
+    "translation": "cebolla",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some onion for lunch."
+    ]
+  },
+  {
+    "word": "garlic",
+    "translation": "ajo",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some garlic for lunch."
+    ]
+  },
+  {
+    "word": "lemon",
+    "translation": "limón",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some lemon for lunch."
+    ]
+  },
+  {
+    "word": "strawberry",
+    "translation": "fresa",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some strawberry for lunch."
+    ]
+  },
+  {
+    "word": "grape",
+    "translation": "uva",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some grape for lunch."
+    ]
+  },
+  {
+    "word": "pear",
+    "translation": "pera",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some pear for lunch."
+    ]
+  },
+  {
+    "word": "peach",
+    "translation": "melocotón",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some peach for lunch."
+    ]
+  },
+  {
+    "word": "melon",
+    "translation": "melón",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some melon for lunch."
+    ]
+  },
+  {
+    "word": "watermelon",
+    "translation": "sandía",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some watermelon for lunch."
+    ]
+  },
+  {
+    "word": "pineapple",
+    "translation": "piña",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some pineapple for lunch."
+    ]
+  },
+  {
+    "word": "mango",
+    "translation": "mango",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some mango for lunch."
+    ]
+  },
+  {
+    "word": "avocado",
+    "translation": "aguacate",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some avocado for lunch."
+    ]
+  },
+  {
+    "word": "corn",
+    "translation": "maíz",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some corn for lunch."
+    ]
+  },
+  {
+    "word": "bean",
+    "translation": "frijol",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some bean for lunch."
+    ]
+  },
+  {
+    "word": "pea",
+    "translation": "guisante",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some pea for lunch."
+    ]
+  },
+  {
+    "word": "mushroom",
+    "translation": "champiñón",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some mushroom for lunch."
+    ]
+  },
+  {
+    "word": "noodle",
+    "translation": "fideo",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some noodle for lunch."
+    ]
+  },
+  {
+    "word": "pasta",
+    "translation": "pasta",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some pasta for lunch."
+    ]
+  },
+  {
+    "word": "sausage",
+    "translation": "salchicha",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some sausage for lunch."
+    ]
+  },
+  {
+    "word": "ham",
+    "translation": "jamón",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some ham for lunch."
+    ]
+  },
+  {
+    "word": "bacon",
+    "translation": "tocino",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some bacon for lunch."
+    ]
+  },
+  {
+    "word": "yogurt",
+    "translation": "yogur",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some yogurt for lunch."
+    ]
+  },
+  {
+    "word": "cereal",
+    "translation": "cereal",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some cereal for lunch."
+    ]
+  },
+  {
+    "word": "oil",
+    "translation": "aceite",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some oil for lunch."
+    ]
+  },
+  {
+    "word": "vinegar",
+    "translation": "vinagre",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some vinegar for lunch."
+    ]
+  },
+  {
+    "word": "flour",
+    "translation": "harina",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some flour for lunch."
+    ]
+  },
+  {
+    "word": "nut",
+    "translation": "nuez",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some nut for lunch."
+    ]
+  },
+  {
+    "word": "almond",
+    "translation": "almendra",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some almond for lunch."
+    ]
+  },
+  {
+    "word": "spice",
+    "translation": "especia",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some spice for lunch."
+    ]
+  },
+  {
+    "word": "menu",
+    "translation": "menú",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some menu for lunch."
+    ]
+  },
+  {
+    "word": "restaurant",
+    "translation": "restaurante",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some restaurant for lunch."
+    ]
+  },
+  {
+    "word": "kitchen",
+    "translation": "cocina",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some kitchen for lunch."
+    ]
+  },
+  {
+    "word": "plate",
+    "translation": "plato",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some plate for lunch."
+    ]
+  },
+  {
+    "word": "cup",
+    "translation": "taza",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some cup for lunch."
+    ]
+  },
+  {
+    "word": "glass",
+    "translation": "vaso",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some glass for lunch."
+    ]
+  },
+  {
+    "word": "fork",
+    "translation": "tenedor",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some fork for lunch."
+    ]
+  },
+  {
+    "word": "knife",
+    "translation": "cuchillo",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some knife for lunch."
+    ]
+  },
+  {
+    "word": "spoon",
+    "translation": "cuchara",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some spoon for lunch."
+    ]
+  },
+  {
+    "word": "napkin",
+    "translation": "servilleta",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some napkin for lunch."
+    ]
+  },
+  {
+    "word": "bottle",
+    "translation": "botella",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some bottle for lunch."
+    ]
+  },
+  {
+    "word": "recipe",
+    "translation": "receta",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some recipe for lunch."
+    ]
+  },
+  {
+    "word": "taste",
+    "translation": "sabor",
+    "partOfSpeech": "noun",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some taste for lunch."
+    ]
+  },
+  {
+    "word": "hungry",
+    "translation": "hambriento",
+    "partOfSpeech": "adjective",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some hungry for lunch."
+    ]
+  },
+  {
+    "word": "thirsty",
+    "translation": "sediento",
+    "partOfSpeech": "adjective",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some thirsty for lunch."
+    ]
+  },
+  {
+    "word": "delicious",
+    "translation": "delicioso",
+    "partOfSpeech": "adjective",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some delicious for lunch."
+    ]
+  },
+  {
+    "word": "sweet",
+    "translation": "dulce",
+    "partOfSpeech": "adjective",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some sweet for lunch."
+    ]
+  },
+  {
+    "word": "sour",
+    "translation": "agrio",
+    "partOfSpeech": "adjective",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some sour for lunch."
+    ]
+  },
+  {
+    "word": "hot",
+    "translation": "caliente",
+    "partOfSpeech": "adjective",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some hot for lunch."
+    ]
+  },
+  {
+    "word": "cold",
+    "translation": "frío",
+    "partOfSpeech": "adjective",
+    "category": "food",
+    "exampleSentences": [
+      "I would like some cold for lunch."
+    ]
+  },
+  {
+    "word": "be",
+    "translation": "ser",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I be every day."
+    ]
+  },
+  {
+    "word": "have",
+    "translation": "tener",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I have every day."
+    ]
+  },
+  {
+    "word": "do",
+    "translation": "hacer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I do every day."
+    ]
+  },
+  {
+    "word": "go",
+    "translation": "ir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I go every day."
+    ]
+  },
+  {
+    "word": "come",
+    "translation": "venir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I come every day."
+    ]
+  },
+  {
+    "word": "see",
+    "translation": "ver",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I see every day."
+    ]
+  },
+  {
+    "word": "know",
+    "translation": "saber",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I know every day."
+    ]
+  },
+  {
+    "word": "get",
+    "translation": "obtener",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I get every day."
+    ]
+  },
+  {
+    "word": "make",
+    "translation": "hacer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I make every day."
+    ]
+  },
+  {
+    "word": "take",
+    "translation": "tomar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I take every day."
+    ]
+  },
+  {
+    "word": "want",
+    "translation": "querer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I want every day."
+    ]
+  },
+  {
+    "word": "use",
+    "translation": "usar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I use every day."
+    ]
+  },
+  {
+    "word": "find",
+    "translation": "encontrar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I find every day."
+    ]
+  },
+  {
+    "word": "give",
+    "translation": "dar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I give every day."
+    ]
+  },
+  {
+    "word": "tell",
+    "translation": "decir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I tell every day."
+    ]
+  },
+  {
+    "word": "work",
+    "translation": "trabajar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I work every day."
+    ]
+  },
+  {
+    "word": "call",
+    "translation": "llamar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I call every day."
+    ]
+  },
+  {
+    "word": "try",
+    "translation": "intentar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I try every day."
+    ]
+  },
+  {
+    "word": "ask",
+    "translation": "preguntar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I ask every day."
+    ]
+  },
+  {
+    "word": "need",
+    "translation": "necesitar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I need every day."
+    ]
+  },
+  {
+    "word": "feel",
+    "translation": "sentir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I feel every day."
+    ]
+  },
+  {
+    "word": "become",
+    "translation": "volverse",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I become every day."
+    ]
+  },
+  {
+    "word": "leave",
+    "translation": "salir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I leave every day."
+    ]
+  },
+  {
+    "word": "put",
+    "translation": "poner",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I put every day."
+    ]
+  },
+  {
+    "word": "mean",
+    "translation": "significar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I mean every day."
+    ]
+  },
+  {
+    "word": "keep",
+    "translation": "mantener",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I keep every day."
+    ]
+  },
+  {
+    "word": "let",
+    "translation": "dejar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I let every day."
+    ]
+  },
+  {
+    "word": "begin",
+    "translation": "empezar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I begin every day."
+    ]
+  },
+  {
+    "word": "seem",
+    "translation": "parecer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I seem every day."
+    ]
+  },
+  {
+    "word": "help",
+    "translation": "ayudar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I help every day."
+    ]
+  },
+  {
+    "word": "talk",
+    "translation": "hablar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I talk every day."
+    ]
+  },
+  {
+    "word": "turn",
+    "translation": "girar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I turn every day."
+    ]
+  },
+  {
+    "word": "start",
+    "translation": "empezar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I start every day."
+    ]
+  },
+  {
+    "word": "show",
+    "translation": "mostrar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I show every day."
+    ]
+  },
+  {
+    "word": "hear",
+    "translation": "oír",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I hear every day."
+    ]
+  },
+  {
+    "word": "play",
+    "translation": "jugar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I play every day."
+    ]
+  },
+  {
+    "word": "run",
+    "translation": "correr",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I run every day."
+    ]
+  },
+  {
+    "word": "move",
+    "translation": "mover",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I move every day."
+    ]
+  },
+  {
+    "word": "like",
+    "translation": "gustar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I like every day."
+    ]
+  },
+  {
+    "word": "live",
+    "translation": "vivir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I live every day."
+    ]
+  },
+  {
+    "word": "believe",
+    "translation": "creer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I believe every day."
+    ]
+  },
+  {
+    "word": "hold",
+    "translation": "sostener",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I hold every day."
+    ]
+  },
+  {
+    "word": "bring",
+    "translation": "traer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I bring every day."
+    ]
+  },
+  {
+    "word": "happen",
+    "translation": "pasar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I happen every day."
+    ]
+  },
+  {
+    "word": "write",
+    "translation": "escribir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I write every day."
+    ]
+  },
+  {
+    "word": "provide",
+    "translation": "proporcionar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I provide every day."
+    ]
+  },
+  {
+    "word": "sit",
+    "translation": "sentarse",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I sit every day."
+    ]
+  },
+  {
+    "word": "stand",
+    "translation": "pararse",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I stand every day."
+    ]
+  },
+  {
+    "word": "lose",
+    "translation": "perder",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I lose every day."
+    ]
+  },
+  {
+    "word": "pay",
+    "translation": "pagar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I pay every day."
+    ]
+  },
+  {
+    "word": "meet",
+    "translation": "conocer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I meet every day."
+    ]
+  },
+  {
+    "word": "include",
+    "translation": "incluir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I include every day."
+    ]
+  },
+  {
+    "word": "continue",
+    "translation": "continuar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I continue every day."
+    ]
+  },
+  {
+    "word": "set",
+    "translation": "colocar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I set every day."
+    ]
+  },
+  {
+    "word": "learn",
+    "translation": "aprender",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I learn every day."
+    ]
+  },
+  {
+    "word": "change",
+    "translation": "cambiar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I change every day."
+    ]
+  },
+  {
+    "word": "lead",
+    "translation": "liderar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I lead every day."
+    ]
+  },
+  {
+    "word": "understand",
+    "translation": "entender",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I understand every day."
+    ]
+  },
+  {
+    "word": "watch",
+    "translation": "mirar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I watch every day."
+    ]
+  },
+  {
+    "word": "follow",
+    "translation": "seguir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I follow every day."
+    ]
+  },
+  {
+    "word": "stop",
+    "translation": "parar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I stop every day."
+    ]
+  },
+  {
+    "word": "create",
+    "translation": "crear",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I create every day."
+    ]
+  },
+  {
+    "word": "speak",
+    "translation": "hablar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I speak every day."
+    ]
+  },
+  {
+    "word": "read",
+    "translation": "leer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I read every day."
+    ]
+  },
+  {
+    "word": "allow",
+    "translation": "permitir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I allow every day."
+    ]
+  },
+  {
+    "word": "add",
+    "translation": "añadir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I add every day."
+    ]
+  },
+  {
+    "word": "spend",
+    "translation": "gastar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I spend every day."
+    ]
+  },
+  {
+    "word": "grow",
+    "translation": "crecer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I grow every day."
+    ]
+  },
+  {
+    "word": "open",
+    "translation": "abrir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I open every day."
+    ]
+  },
+  {
+    "word": "walk",
+    "translation": "caminar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I walk every day."
+    ]
+  },
+  {
+    "word": "win",
+    "translation": "ganar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I win every day."
+    ]
+  },
+  {
+    "word": "offer",
+    "translation": "ofrecer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I offer every day."
+    ]
+  },
+  {
+    "word": "remember",
+    "translation": "recordar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I remember every day."
+    ]
+  },
+  {
+    "word": "love",
+    "translation": "amar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I love every day."
+    ]
+  },
+  {
+    "word": "consider",
+    "translation": "considerar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I consider every day."
+    ]
+  },
+  {
+    "word": "appear",
+    "translation": "aparecer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I appear every day."
+    ]
+  },
+  {
+    "word": "buy",
+    "translation": "comprar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I buy every day."
+    ]
+  },
+  {
+    "word": "wait",
+    "translation": "esperar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I wait every day."
+    ]
+  },
+  {
+    "word": "serve",
+    "translation": "servir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I serve every day."
+    ]
+  },
+  {
+    "word": "die",
+    "translation": "morir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I die every day."
+    ]
+  },
+  {
+    "word": "send",
+    "translation": "enviar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I send every day."
+    ]
+  },
+  {
+    "word": "expect",
+    "translation": "esperar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I expect every day."
+    ]
+  },
+  {
+    "word": "build",
+    "translation": "construir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I build every day."
+    ]
+  },
+  {
+    "word": "stay",
+    "translation": "quedarse",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I stay every day."
+    ]
+  },
+  {
+    "word": "fall",
+    "translation": "caer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I fall every day."
+    ]
+  },
+  {
+    "word": "cut",
+    "translation": "cortar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I cut every day."
+    ]
+  },
+  {
+    "word": "reach",
+    "translation": "alcanzar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I reach every day."
+    ]
+  },
+  {
+    "word": "kill",
+    "translation": "matar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I kill every day."
+    ]
+  },
+  {
+    "word": "remain",
+    "translation": "permanecer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I remain every day."
+    ]
+  },
+  {
+    "word": "suggest",
+    "translation": "sugerir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I suggest every day."
+    ]
+  },
+  {
+    "word": "raise",
+    "translation": "levantar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I raise every day."
+    ]
+  },
+  {
+    "word": "pass",
+    "translation": "pasar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I pass every day."
+    ]
+  },
+  {
+    "word": "sell",
+    "translation": "vender",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I sell every day."
+    ]
+  },
+  {
+    "word": "require",
+    "translation": "requerir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I require every day."
+    ]
+  },
+  {
+    "word": "report",
+    "translation": "informar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I report every day."
+    ]
+  },
+  {
+    "word": "decide",
+    "translation": "decidir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I decide every day."
+    ]
+  },
+  {
+    "word": "pull",
+    "translation": "tirar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I pull every day."
+    ]
+  },
+  {
+    "word": "eat",
+    "translation": "comer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I eat every day."
+    ]
+  },
+  {
+    "word": "drink",
+    "translation": "beber",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I drink every day."
+    ]
+  },
+  {
+    "word": "sleep",
+    "translation": "dormir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I sleep every day."
+    ]
+  },
+  {
+    "word": "study",
+    "translation": "estudiar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I study every day."
+    ]
+  },
+  {
+    "word": "listen",
+    "translation": "escuchar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I listen every day."
+    ]
+  },
+  {
+    "word": "cook",
+    "translation": "cocinar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I cook every day."
+    ]
+  },
+  {
+    "word": "clean",
+    "translation": "limpiar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I clean every day."
+    ]
+  },
+  {
+    "word": "wash",
+    "translation": "lavar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I wash every day."
+    ]
+  },
+  {
+    "word": "drive",
+    "translation": "conducir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I drive every day."
+    ]
+  },
+  {
+    "word": "fly",
+    "translation": "volar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I fly every day."
+    ]
+  },
+  {
+    "word": "swim",
+    "translation": "nadar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I swim every day."
+    ]
+  },
+  {
+    "word": "dance",
+    "translation": "bailar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I dance every day."
+    ]
+  },
+  {
+    "word": "sing",
+    "translation": "cantar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I sing every day."
+    ]
+  },
+  {
+    "word": "draw",
+    "translation": "dibujar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I draw every day."
+    ]
+  },
+  {
+    "word": "paint",
+    "translation": "pintar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I paint every day."
+    ]
+  },
+  {
+    "word": "jump",
+    "translation": "saltar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I jump every day."
+    ]
+  },
+  {
+    "word": "climb",
+    "translation": "escalar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I climb every day."
+    ]
+  },
+  {
+    "word": "throw",
+    "translation": "lanzar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I throw every day."
+    ]
+  },
+  {
+    "word": "catch",
+    "translation": "atrapar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I catch every day."
+    ]
+  },
+  {
+    "word": "kick",
+    "translation": "patear",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I kick every day."
+    ]
+  },
+  {
+    "word": "carry",
+    "translation": "llevar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I carry every day."
+    ]
+  },
+  {
+    "word": "wear",
+    "translation": "llevar puesto",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I wear every day."
+    ]
+  },
+  {
+    "word": "break",
+    "translation": "romper",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I break every day."
+    ]
+  },
+  {
+    "word": "fix",
+    "translation": "arreglar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I fix every day."
+    ]
+  },
+  {
+    "word": "close",
+    "translation": "cerrar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I close every day."
+    ]
+  },
+  {
+    "word": "push",
+    "translation": "empujar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I push every day."
+    ]
+  },
+  {
+    "word": "pick",
+    "translation": "recoger",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I pick every day."
+    ]
+  },
+  {
+    "word": "choose",
+    "translation": "elegir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I choose every day."
+    ]
+  },
+  {
+    "word": "answer",
+    "translation": "responder",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I answer every day."
+    ]
+  },
+  {
+    "word": "explain",
+    "translation": "explicar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I explain every day."
+    ]
+  },
+  {
+    "word": "think",
+    "translation": "pensar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I think every day."
+    ]
+  },
+  {
+    "word": "forget",
+    "translation": "olvidar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I forget every day."
+    ]
+  },
+  {
+    "word": "finish",
+    "translation": "terminar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I finish every day."
+    ]
+  },
+  {
+    "word": "return",
+    "translation": "volver",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I return every day."
+    ]
+  },
+  {
+    "word": "visit",
+    "translation": "visitar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I visit every day."
+    ]
+  },
+  {
+    "word": "travel",
+    "translation": "viajar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I travel every day."
+    ]
+  },
+  {
+    "word": "arrive",
+    "translation": "llegar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I arrive every day."
+    ]
+  },
+  {
+    "word": "enter",
+    "translation": "entrar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I enter every day."
+    ]
+  },
+  {
+    "word": "exit",
+    "translation": "salir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I exit every day."
+    ]
+  },
+  {
+    "word": "join",
+    "translation": "unirse",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I join every day."
+    ]
+  },
+  {
+    "word": "share",
+    "translation": "compartir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I share every day."
+    ]
+  },
+  {
+    "word": "save",
+    "translation": "ahorrar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I save every day."
+    ]
+  },
+  {
+    "word": "borrow",
+    "translation": "pedir prestado",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I borrow every day."
+    ]
+  },
+  {
+    "word": "lend",
+    "translation": "prestar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I lend every day."
+    ]
+  },
+  {
+    "word": "count",
+    "translation": "contar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I count every day."
+    ]
+  },
+  {
+    "word": "measure",
+    "translation": "medir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I measure every day."
+    ]
+  },
+  {
+    "word": "weigh",
+    "translation": "pesar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I weigh every day."
+    ]
+  },
+  {
+    "word": "smile",
+    "translation": "sonreír",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I smile every day."
+    ]
+  },
+  {
+    "word": "laugh",
+    "translation": "reír",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I laugh every day."
+    ]
+  },
+  {
+    "word": "cry",
+    "translation": "llorar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I cry every day."
+    ]
+  },
+  {
+    "word": "shout",
+    "translation": "gritar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I shout every day."
+    ]
+  },
+  {
+    "word": "whisper",
+    "translation": "susurrar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I whisper every day."
+    ]
+  },
+  {
+    "word": "kiss",
+    "translation": "besar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I kiss every day."
+    ]
+  },
+  {
+    "word": "hug",
+    "translation": "abrazar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I hug every day."
+    ]
+  },
+  {
+    "word": "marry",
+    "translation": "casarse",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I marry every day."
+    ]
+  },
+  {
+    "word": "introduce",
+    "translation": "presentar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I introduce every day."
+    ]
+  },
+  {
+    "word": "invite",
+    "translation": "invitar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I invite every day."
+    ]
+  },
+  {
+    "word": "accept",
+    "translation": "aceptar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I accept every day."
+    ]
+  },
+  {
+    "word": "refuse",
+    "translation": "rechazar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I refuse every day."
+    ]
+  },
+  {
+    "word": "promise",
+    "translation": "prometer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I promise every day."
+    ]
+  },
+  {
+    "word": "plan",
+    "translation": "planear",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I plan every day."
+    ]
+  },
+  {
+    "word": "prepare",
+    "translation": "preparar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I prepare every day."
+    ]
+  },
+  {
+    "word": "practice",
+    "translation": "practicar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I practice every day."
+    ]
+  },
+  {
+    "word": "repeat",
+    "translation": "repetir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I repeat every day."
+    ]
+  },
+  {
+    "word": "check",
+    "translation": "comprobar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I check every day."
+    ]
+  },
+  {
+    "word": "correct",
+    "translation": "corregir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I correct every day."
+    ]
+  },
+  {
+    "word": "improve",
+    "translation": "mejorar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I improve every day."
+    ]
+  },
+  {
+    "word": "fail",
+    "translation": "fallar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I fail every day."
+    ]
+  },
+  {
+    "word": "succeed",
+    "translation": "tener éxito",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I succeed every day."
+    ]
+  },
+  {
+    "word": "hope",
+    "translation": "esperar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I hope every day."
+    ]
+  },
+  {
+    "word": "wish",
+    "translation": "desear",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I wish every day."
+    ]
+  },
+  {
+    "word": "prefer",
+    "translation": "preferir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I prefer every day."
+    ]
+  },
+  {
+    "word": "enjoy",
+    "translation": "disfrutar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I enjoy every day."
+    ]
+  },
+  {
+    "word": "hate",
+    "translation": "odiar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I hate every day."
+    ]
+  },
+  {
+    "word": "worry",
+    "translation": "preocuparse",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I worry every day."
+    ]
+  },
+  {
+    "word": "relax",
+    "translation": "relajarse",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I relax every day."
+    ]
+  },
+  {
+    "word": "rest",
+    "translation": "descansar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I rest every day."
+    ]
+  },
+  {
+    "word": "wake",
+    "translation": "despertar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I wake every day."
+    ]
+  },
+  {
+    "word": "dream",
+    "translation": "soñar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I dream every day."
+    ]
+  },
+  {
+    "word": "rain",
+    "translation": "llover",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I rain every day."
+    ]
+  },
+  {
+    "word": "snow",
+    "translation": "nevar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I snow every day."
+    ]
+  },
+  {
+    "word": "shine",
+    "translation": "brillar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I shine every day."
+    ]
+  },
+  {
+    "word": "blow",
+    "translation": "soplar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I blow every day."
+    ]
+  },
+  {
+    "word": "burn",
+    "translation": "quemar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I burn every day."
+    ]
+  },
+  {
+    "word": "freeze",
+    "translation": "congelar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I freeze every day."
+    ]
+  },
+  {
+    "word": "melt",
+    "translation": "derretir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I melt every day."
+    ]
+  },
+  {
+    "word": "boil",
+    "translation": "hervir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I boil every day."
+    ]
+  },
+  {
+    "word": "mix",
+    "translation": "mezclar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I mix every day."
+    ]
+  },
+  {
+    "word": "pour",
+    "translation": "verter",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I pour every day."
+    ]
+  },
+  {
+    "word": "fill",
+    "translation": "llenar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I fill every day."
+    ]
+  },
+  {
+    "word": "empty",
+    "translation": "vaciar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I empty every day."
+    ]
+  },
+  {
+    "word": "pack",
+    "translation": "empacar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I pack every day."
+    ]
+  },
+  {
+    "word": "unpack",
+    "translation": "desempacar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I unpack every day."
+    ]
+  },
+  {
+    "word": "lock",
+    "translation": "cerrar con llave",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I lock every day."
+    ]
+  },
+  {
+    "word": "unlock",
+    "translation": "abrir con llave",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I unlock every day."
+    ]
+  },
+  {
+    "word": "hide",
+    "translation": "esconder",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I hide every day."
+    ]
+  },
+  {
+    "word": "seek",
+    "translation": "buscar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I seek every day."
+    ]
+  },
+  {
+    "word": "search",
+    "translation": "buscar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I search every day."
+    ]
+  },
+  {
+    "word": "look",
+    "translation": "mirar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I look every day."
+    ]
+  },
+  {
+    "word": "touch",
+    "translation": "tocar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I touch every day."
+    ]
+  },
+  {
+    "word": "smell",
+    "translation": "oler",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I smell every day."
+    ]
+  },
+  {
+    "word": "hurt",
+    "translation": "doler",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I hurt every day."
+    ]
+  },
+  {
+    "word": "heal",
+    "translation": "curar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I heal every day."
+    ]
+  },
+  {
+    "word": "cough",
+    "translation": "toser",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I cough every day."
+    ]
+  },
+  {
+    "word": "sneeze",
+    "translation": "estornudar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I sneeze every day."
+    ]
+  },
+  {
+    "word": "bleed",
+    "translation": "sangrar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I bleed every day."
+    ]
+  },
+  {
+    "word": "breathe",
+    "translation": "respirar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I breathe every day."
+    ]
+  },
+  {
+    "word": "exercise",
+    "translation": "ejercitar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I exercise every day."
+    ]
+  },
+  {
+    "word": "stretch",
+    "translation": "estirar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I stretch every day."
+    ]
+  },
+  {
+    "word": "bend",
+    "translation": "doblar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I bend every day."
+    ]
+  },
+  {
+    "word": "lift",
+    "translation": "levantar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I lift every day."
+    ]
+  },
+  {
+    "word": "drop",
+    "translation": "soltar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I drop every day."
+    ]
+  },
+  {
+    "word": "grab",
+    "translation": "agarrar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I grab every day."
+    ]
+  },
+  {
+    "word": "point",
+    "translation": "señalar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I point every day."
+    ]
+  },
+  {
+    "word": "wave",
+    "translation": "saludar con la mano",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I wave every day."
+    ]
+  },
+  {
+    "word": "nod",
+    "translation": "asentir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I nod every day."
+    ]
+  },
+  {
+    "word": "shake",
+    "translation": "sacudir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I shake every day."
+    ]
+  },
+  {
+    "word": "turn on",
+    "translation": "encender",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I turn on every day."
+    ]
+  },
+  {
+    "word": "turn off",
+    "translation": "apagar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I turn off every day."
+    ]
+  },
+  {
+    "word": "plug in",
+    "translation": "enchufar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I plug in every day."
+    ]
+  },
+  {
+    "word": "unplug",
+    "translation": "desenchufar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I unplug every day."
+    ]
+  },
+  {
+    "word": "charge",
+    "translation": "cargar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I charge every day."
+    ]
+  },
+  {
+    "word": "download",
+    "translation": "descargar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I download every day."
+    ]
+  },
+  {
+    "word": "upload",
+    "translation": "subir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I upload every day."
+    ]
+  },
+  {
+    "word": "click",
+    "translation": "hacer clic",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I click every day."
+    ]
+  },
+  {
+    "word": "type",
+    "translation": "escribir a máquina",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I type every day."
+    ]
+  },
+  {
+    "word": "print",
+    "translation": "imprimir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I print every day."
+    ]
+  },
+  {
+    "word": "scan",
+    "translation": "escanear",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I scan every day."
+    ]
+  },
+  {
+    "word": "copy",
+    "translation": "copiar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I copy every day."
+    ]
+  },
+  {
+    "word": "paste",
+    "translation": "pegar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I paste every day."
+    ]
+  },
+  {
+    "word": "delete",
+    "translation": "borrar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I delete every day."
+    ]
+  },
+  {
+    "word": "save file",
+    "translation": "guardar archivo",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I save file every day."
+    ]
+  },
+  {
+    "word": "email",
+    "translation": "enviar correo",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I email every day."
+    ]
+  },
+  {
+    "word": "text",
+    "translation": "enviar mensaje",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I text every day."
+    ]
+  },
+  {
+    "word": "phone",
+    "translation": "llamar por teléfono",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I phone every day."
+    ]
+  },
+  {
+    "word": "order",
+    "translation": "pedir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I order every day."
+    ]
+  },
+  {
+    "word": "pay bill",
+    "translation": "pagar cuenta",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I pay bill every day."
+    ]
+  },
+  {
+    "word": "rent",
+    "translation": "alquilar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I rent every day."
+    ]
+  },
+  {
+    "word": "own",
+    "translation": "poseer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I own every day."
+    ]
+  },
+  {
+    "word": "belong",
+    "translation": "pertenecer",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I belong every day."
+    ]
+  },
+  {
+    "word": "contain",
+    "translation": "contener",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I contain every day."
+    ]
+  },
+  {
+    "word": "cost",
+    "translation": "costar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I cost every day."
+    ]
+  },
+  {
+    "word": "weigh item",
+    "translation": "pesar objeto",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I weigh item every day."
+    ]
+  },
+  {
+    "word": "sign",
+    "translation": "firmar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I sign every day."
+    ]
+  },
+  {
+    "word": "post",
+    "translation": "publicar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I post every day."
+    ]
+  },
+  {
+    "word": "deliver",
+    "translation": "entregar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I deliver every day."
+    ]
+  },
+  {
+    "word": "receive",
+    "translation": "recibir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I receive every day."
+    ]
+  },
+  {
+    "word": "wrap",
+    "translation": "envolver",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I wrap every day."
+    ]
+  },
+  {
+    "word": "unwrap",
+    "translation": " desenvolver",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I unwrap every day."
+    ]
+  },
+  {
+    "word": "wrap gift",
+    "translation": "envolver regalo",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I wrap gift every day."
+    ]
+  },
+  {
+    "word": "celebrate",
+    "translation": "celebrar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I celebrate every day."
+    ]
+  },
+  {
+    "word": "decorate",
+    "translation": "decorar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I decorate every day."
+    ]
+  },
+  {
+    "word": "organize",
+    "translation": "organizar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I organize every day."
+    ]
+  },
+  {
+    "word": "sort",
+    "translation": "ordenar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I sort every day."
+    ]
+  },
+  {
+    "word": "compare",
+    "translation": "comparar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I compare every day."
+    ]
+  },
+  {
+    "word": "match",
+    "translation": "emparejar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I match every day."
+    ]
+  },
+  {
+    "word": "guess",
+    "translation": "adivinar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I guess every day."
+    ]
+  },
+  {
+    "word": "solve",
+    "translation": "resolver",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I solve every day."
+    ]
+  },
+  {
+    "word": "calculate",
+    "translation": "calcular",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I calculate every day."
+    ]
+  },
+  {
+    "word": "divide",
+    "translation": "dividir",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I divide every day."
+    ]
+  },
+  {
+    "word": "multiply",
+    "translation": "multiplicar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I multiply every day."
+    ]
+  },
+  {
+    "word": "subtract",
+    "translation": "restar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I subtract every day."
+    ]
+  },
+  {
+    "word": "add up",
+    "translation": "sumar",
+    "partOfSpeech": "verb",
+    "category": "verbs",
+    "exampleSentences": [
+      "I add up every day."
+    ]
+  },
+  {
+    "word": "good",
+    "translation": "bueno",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very good."
+    ]
+  },
+  {
+    "word": "bad",
+    "translation": "malo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very bad."
+    ]
+  },
+  {
+    "word": "big",
+    "translation": "grande",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very big."
+    ]
+  },
+  {
+    "word": "small",
+    "translation": "pequeño",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very small."
+    ]
+  },
+  {
+    "word": "long",
+    "translation": "largo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very long."
+    ]
+  },
+  {
+    "word": "short",
+    "translation": "corto",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very short."
+    ]
+  },
+  {
+    "word": "new",
+    "translation": "nuevo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very new."
+    ]
+  },
+  {
+    "word": "old",
+    "translation": "viejo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very old."
+    ]
+  },
+  {
+    "word": "young",
+    "translation": "joven",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very young."
+    ]
+  },
+  {
+    "word": "happy",
+    "translation": "feliz",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very happy."
+    ]
+  },
+  {
+    "word": "sad",
+    "translation": "triste",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very sad."
+    ]
+  },
+  {
+    "word": "angry",
+    "translation": "enojado",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very angry."
+    ]
+  },
+  {
+    "word": "tired",
+    "translation": "cansado",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very tired."
+    ]
+  },
+  {
+    "word": "busy",
+    "translation": "ocupado",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very busy."
+    ]
+  },
+  {
+    "word": "free",
+    "translation": "libre",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very free."
+    ]
+  },
+  {
+    "word": "easy",
+    "translation": "fácil",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very easy."
+    ]
+  },
+  {
+    "word": "hard",
+    "translation": "difícil",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very hard."
+    ]
+  },
+  {
+    "word": "fast",
+    "translation": "rápido",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very fast."
+    ]
+  },
+  {
+    "word": "slow",
+    "translation": "lento",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very slow."
+    ]
+  },
+  {
+    "word": "early",
+    "translation": "temprano",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very early."
+    ]
+  },
+  {
+    "word": "late",
+    "translation": "tarde",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very late."
+    ]
+  },
+  {
+    "word": "right",
+    "translation": "correcto",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very right."
+    ]
+  },
+  {
+    "word": "wrong",
+    "translation": "incorrecto",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very wrong."
+    ]
+  },
+  {
+    "word": "true",
+    "translation": "verdadero",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very true."
+    ]
+  },
+  {
+    "word": "false",
+    "translation": "falso",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very false."
+    ]
+  },
+  {
+    "word": "closed",
+    "translation": "cerrado",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very closed."
+    ]
+  },
+  {
+    "word": "full",
+    "translation": "lleno",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very full."
+    ]
+  },
+  {
+    "word": "dirty",
+    "translation": "sucio",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very dirty."
+    ]
+  },
+  {
+    "word": "wet",
+    "translation": "mojado",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very wet."
+    ]
+  },
+  {
+    "word": "dry",
+    "translation": "seco",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very dry."
+    ]
+  },
+  {
+    "word": "warm",
+    "translation": "cálido",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very warm."
+    ]
+  },
+  {
+    "word": "cool",
+    "translation": "fresco",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very cool."
+    ]
+  },
+  {
+    "word": "beautiful",
+    "translation": "hermoso",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very beautiful."
+    ]
+  },
+  {
+    "word": "ugly",
+    "translation": "feo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very ugly."
+    ]
+  },
+  {
+    "word": "pretty",
+    "translation": "bonito",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very pretty."
+    ]
+  },
+  {
+    "word": "handsome",
+    "translation": "guapo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very handsome."
+    ]
+  },
+  {
+    "word": "nice",
+    "translation": "agradable",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very nice."
+    ]
+  },
+  {
+    "word": "kind",
+    "translation": "amable",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very kind."
+    ]
+  },
+  {
+    "word": "friendly",
+    "translation": "amigable",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very friendly."
+    ]
+  },
+  {
+    "word": "shy",
+    "translation": "tímido",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very shy."
+    ]
+  },
+  {
+    "word": "brave",
+    "translation": "valiente",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very brave."
+    ]
+  },
+  {
+    "word": "strong",
+    "translation": "fuerte",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very strong."
+    ]
+  },
+  {
+    "word": "weak",
+    "translation": "débil",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very weak."
+    ]
+  },
+  {
+    "word": "healthy",
+    "translation": "saludable",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very healthy."
+    ]
+  },
+  {
+    "word": "sick",
+    "translation": "enfermo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very sick."
+    ]
+  },
+  {
+    "word": "rich",
+    "translation": "rico",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very rich."
+    ]
+  },
+  {
+    "word": "poor",
+    "translation": "pobre",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very poor."
+    ]
+  },
+  {
+    "word": "expensive",
+    "translation": "caro",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very expensive."
+    ]
+  },
+  {
+    "word": "cheap",
+    "translation": "barato",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very cheap."
+    ]
+  },
+  {
+    "word": "important",
+    "translation": "importante",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very important."
+    ]
+  },
+  {
+    "word": "interesting",
+    "translation": "interesante",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very interesting."
+    ]
+  },
+  {
+    "word": "boring",
+    "translation": "aburrido",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very boring."
+    ]
+  },
+  {
+    "word": "funny",
+    "translation": "divertido",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very funny."
+    ]
+  },
+  {
+    "word": "serious",
+    "translation": "serio",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very serious."
+    ]
+  },
+  {
+    "word": "quiet",
+    "translation": "silencioso",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very quiet."
+    ]
+  },
+  {
+    "word": "loud",
+    "translation": "ruidoso",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very loud."
+    ]
+  },
+  {
+    "word": "dark",
+    "translation": "oscuro",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very dark."
+    ]
+  },
+  {
+    "word": "light",
+    "translation": "claro",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very light."
+    ]
+  },
+  {
+    "word": "bright",
+    "translation": "brillante",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very bright."
+    ]
+  },
+  {
+    "word": "heavy",
+    "translation": "pesado",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very heavy."
+    ]
+  },
+  {
+    "word": "lightweight",
+    "translation": "ligero",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very lightweight."
+    ]
+  },
+  {
+    "word": "thick",
+    "translation": "grueso",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very thick."
+    ]
+  },
+  {
+    "word": "thin",
+    "translation": "delgado",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very thin."
+    ]
+  },
+  {
+    "word": "wide",
+    "translation": "ancho",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very wide."
+    ]
+  },
+  {
+    "word": "narrow",
+    "translation": "estrecho",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very narrow."
+    ]
+  },
+  {
+    "word": "high",
+    "translation": "alto",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very high."
+    ]
+  },
+  {
+    "word": "low",
+    "translation": "bajo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very low."
+    ]
+  },
+  {
+    "word": "deep",
+    "translation": "profundo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very deep."
+    ]
+  },
+  {
+    "word": "shallow",
+    "translation": "poco profundo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very shallow."
+    ]
+  },
+  {
+    "word": "soft",
+    "translation": "suave",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very soft."
+    ]
+  },
+  {
+    "word": "hard surface",
+    "translation": "duro",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very hard surface."
+    ]
+  },
+  {
+    "word": "smooth",
+    "translation": "liso",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very smooth."
+    ]
+  },
+  {
+    "word": "rough",
+    "translation": "áspero",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very rough."
+    ]
+  },
+  {
+    "word": "sharp",
+    "translation": "afilado",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very sharp."
+    ]
+  },
+  {
+    "word": "dull",
+    "translation": "desafilado",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very dull."
+    ]
+  },
+  {
+    "word": "safe",
+    "translation": "seguro",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very safe."
+    ]
+  },
+  {
+    "word": "dangerous",
+    "translation": "peligroso",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very dangerous."
+    ]
+  },
+  {
+    "word": "possible",
+    "translation": "posible",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very possible."
+    ]
+  },
+  {
+    "word": "impossible",
+    "translation": "imposible",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very impossible."
+    ]
+  },
+  {
+    "word": "ready",
+    "translation": "listo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very ready."
+    ]
+  },
+  {
+    "word": "sure",
+    "translation": "seguro",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very sure."
+    ]
+  },
+  {
+    "word": "different",
+    "translation": "diferente",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very different."
+    ]
+  },
+  {
+    "word": "same",
+    "translation": "mismo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very same."
+    ]
+  },
+  {
+    "word": "similar",
+    "translation": "similar",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very similar."
+    ]
+  },
+  {
+    "word": "special",
+    "translation": "especial",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very special."
+    ]
+  },
+  {
+    "word": "normal",
+    "translation": "normal",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very normal."
+    ]
+  },
+  {
+    "word": "strange",
+    "translation": "extraño",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very strange."
+    ]
+  },
+  {
+    "word": "foreign",
+    "translation": "extranjero",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very foreign."
+    ]
+  },
+  {
+    "word": "local",
+    "translation": "local",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very local."
+    ]
+  },
+  {
+    "word": "national",
+    "translation": "nacional",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very national."
+    ]
+  },
+  {
+    "word": "international",
+    "translation": "internacional",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very international."
+    ]
+  },
+  {
+    "word": "public",
+    "translation": "público",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very public."
+    ]
+  },
+  {
+    "word": "private",
+    "translation": "privado",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very private."
+    ]
+  },
+  {
+    "word": "personal",
+    "translation": "personal",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very personal."
+    ]
+  },
+  {
+    "word": "general",
+    "translation": "general",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very general."
+    ]
+  },
+  {
+    "word": "specific",
+    "translation": "específico",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very specific."
+    ]
+  },
+  {
+    "word": "simple",
+    "translation": "simple",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very simple."
+    ]
+  },
+  {
+    "word": "complex",
+    "translation": "complejo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very complex."
+    ]
+  },
+  {
+    "word": "clear",
+    "translation": "claro",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very clear."
+    ]
+  },
+  {
+    "word": "famous",
+    "translation": "famoso",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very famous."
+    ]
+  },
+  {
+    "word": "popular",
+    "translation": "popular",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very popular."
+    ]
+  },
+  {
+    "word": "alone",
+    "translation": "solo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very alone."
+    ]
+  },
+  {
+    "word": "together",
+    "translation": "juntos",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very together."
+    ]
+  },
+  {
+    "word": "married",
+    "translation": "casado",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very married."
+    ]
+  },
+  {
+    "word": "single",
+    "translation": "soltero",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very single."
+    ]
+  },
+  {
+    "word": "pregnant",
+    "translation": "embarazada",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very pregnant."
+    ]
+  },
+  {
+    "word": "dead",
+    "translation": "muerto",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very dead."
+    ]
+  },
+  {
+    "word": "alive",
+    "translation": "vivo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very alive."
+    ]
+  },
+  {
+    "word": "asleep",
+    "translation": "dormido",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very asleep."
+    ]
+  },
+  {
+    "word": "awake",
+    "translation": "despierto",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very awake."
+    ]
+  },
+  {
+    "word": "hungry adj",
+    "translation": "hambriento",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very hungry adj."
+    ]
+  },
+  {
+    "word": "thirsty adj",
+    "translation": "sediento",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very thirsty adj."
+    ]
+  },
+  {
+    "word": "red",
+    "translation": "rojo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very red."
+    ]
+  },
+  {
+    "word": "blue",
+    "translation": "azul",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very blue."
+    ]
+  },
+  {
+    "word": "green",
+    "translation": "verde",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very green."
+    ]
+  },
+  {
+    "word": "yellow",
+    "translation": "amarillo",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very yellow."
+    ]
+  },
+  {
+    "word": "black",
+    "translation": "negro",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very black."
+    ]
+  },
+  {
+    "word": "white",
+    "translation": "blanco",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very white."
+    ]
+  },
+  {
+    "word": "brown",
+    "translation": "marrón",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very brown."
+    ]
+  },
+  {
+    "word": "gray",
+    "translation": "gris",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very gray."
+    ]
+  },
+  {
+    "word": "pink",
+    "translation": "rosa",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very pink."
+    ]
+  },
+  {
+    "word": "purple",
+    "translation": "morado",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very purple."
+    ]
+  },
+  {
+    "word": "orange color",
+    "translation": "naranja",
+    "partOfSpeech": "adjective",
+    "category": "adjectives",
+    "exampleSentences": [
+      "This is very orange color."
+    ]
+  },
+  {
+    "word": "house",
+    "translation": "casa",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the house on Saturday."
+    ]
+  },
+  {
+    "word": "home",
+    "translation": "hogar",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the home on Saturday."
+    ]
+  },
+  {
+    "word": "apartment",
+    "translation": "apartamento",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the apartment on Saturday."
+    ]
+  },
+  {
+    "word": "room",
+    "translation": "habitación",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the room on Saturday."
+    ]
+  },
+  {
+    "word": "bedroom",
+    "translation": "dormitorio",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the bedroom on Saturday."
+    ]
+  },
+  {
+    "word": "bathroom",
+    "translation": "baño",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the bathroom on Saturday."
+    ]
+  },
+  {
+    "word": "kitchen place",
+    "translation": "cocina",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the kitchen place on Saturday."
+    ]
+  },
+  {
+    "word": "garden",
+    "translation": "jardín",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the garden on Saturday."
+    ]
+  },
+  {
+    "word": "school",
+    "translation": "escuela",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the school on Saturday."
+    ]
+  },
+  {
+    "word": "university",
+    "translation": "universidad",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the university on Saturday."
+    ]
+  },
+  {
+    "word": "library",
+    "translation": "biblioteca",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the library on Saturday."
+    ]
+  },
+  {
+    "word": "hospital",
+    "translation": "hospital",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the hospital on Saturday."
+    ]
+  },
+  {
+    "word": "pharmacy",
+    "translation": "farmacia",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the pharmacy on Saturday."
+    ]
+  },
+  {
+    "word": "store",
+    "translation": "tienda",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the store on Saturday."
+    ]
+  },
+  {
+    "word": "supermarket",
+    "translation": "supermercado",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the supermarket on Saturday."
+    ]
+  },
+  {
+    "word": "market",
+    "translation": "mercado",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the market on Saturday."
+    ]
+  },
+  {
+    "word": "bank",
+    "translation": "banco",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the bank on Saturday."
+    ]
+  },
+  {
+    "word": "post office",
+    "translation": "oficina de correos",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the post office on Saturday."
+    ]
+  },
+  {
+    "word": "police station",
+    "translation": "comisaría",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the police station on Saturday."
+    ]
+  },
+  {
+    "word": "fire station",
+    "translation": "estación de bomberos",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the fire station on Saturday."
+    ]
+  },
+  {
+    "word": "park",
+    "translation": "parque",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the park on Saturday."
+    ]
+  },
+  {
+    "word": "street",
+    "translation": "calle",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the street on Saturday."
+    ]
+  },
+  {
+    "word": "road",
+    "translation": "carretera",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the road on Saturday."
+    ]
+  },
+  {
+    "word": "bridge",
+    "translation": "puente",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the bridge on Saturday."
+    ]
+  },
+  {
+    "word": "city",
+    "translation": "ciudad",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the city on Saturday."
+    ]
+  },
+  {
+    "word": "town",
+    "translation": "pueblo",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the town on Saturday."
+    ]
+  },
+  {
+    "word": "village",
+    "translation": "aldea",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the village on Saturday."
+    ]
+  },
+  {
+    "word": "country",
+    "translation": "país",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the country on Saturday."
+    ]
+  },
+  {
+    "word": "world",
+    "translation": "mundo",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the world on Saturday."
+    ]
+  },
+  {
+    "word": "beach",
+    "translation": "playa",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the beach on Saturday."
+    ]
+  },
+  {
+    "word": "mountain",
+    "translation": "montaña",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the mountain on Saturday."
+    ]
+  },
+  {
+    "word": "river",
+    "translation": "río",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the river on Saturday."
+    ]
+  },
+  {
+    "word": "lake",
+    "translation": "lago",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the lake on Saturday."
+    ]
+  },
+  {
+    "word": "sea",
+    "translation": "mar",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the sea on Saturday."
+    ]
+  },
+  {
+    "word": "ocean",
+    "translation": "océano",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the ocean on Saturday."
+    ]
+  },
+  {
+    "word": "island",
+    "translation": "isla",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the island on Saturday."
+    ]
+  },
+  {
+    "word": "forest",
+    "translation": "bosque",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the forest on Saturday."
+    ]
+  },
+  {
+    "word": "desert",
+    "translation": "desierto",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the desert on Saturday."
+    ]
+  },
+  {
+    "word": "farm",
+    "translation": "granja",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the farm on Saturday."
+    ]
+  },
+  {
+    "word": "factory",
+    "translation": "fábrica",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the factory on Saturday."
+    ]
+  },
+  {
+    "word": "office",
+    "translation": "oficina",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the office on Saturday."
+    ]
+  },
+  {
+    "word": "building",
+    "translation": "edificio",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the building on Saturday."
+    ]
+  },
+  {
+    "word": "station",
+    "translation": "estación",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the station on Saturday."
+    ]
+  },
+  {
+    "word": "airport",
+    "translation": "aeropuerto",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the airport on Saturday."
+    ]
+  },
+  {
+    "word": "bus stop",
+    "translation": "parada de autobús",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the bus stop on Saturday."
+    ]
+  },
+  {
+    "word": "train station",
+    "translation": "estación de tren",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the train station on Saturday."
+    ]
+  },
+  {
+    "word": "hotel",
+    "translation": "hotel",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the hotel on Saturday."
+    ]
+  },
+  {
+    "word": "restaurant place",
+    "translation": "restaurante",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the restaurant place on Saturday."
+    ]
+  },
+  {
+    "word": "cafe",
+    "translation": "cafetería",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the cafe on Saturday."
+    ]
+  },
+  {
+    "word": "cinema",
+    "translation": "cine",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the cinema on Saturday."
+    ]
+  },
+  {
+    "word": "theater",
+    "translation": "teatro",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the theater on Saturday."
+    ]
+  },
+  {
+    "word": "museum",
+    "translation": "museo",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the museum on Saturday."
+    ]
+  },
+  {
+    "word": "church",
+    "translation": "iglesia",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the church on Saturday."
+    ]
+  },
+  {
+    "word": "temple",
+    "translation": "templo",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the temple on Saturday."
+    ]
+  },
+  {
+    "word": "stadium",
+    "translation": "estadio",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the stadium on Saturday."
+    ]
+  },
+  {
+    "word": "gym",
+    "translation": "gimnasio",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the gym on Saturday."
+    ]
+  },
+  {
+    "word": "pool",
+    "translation": "piscina",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the pool on Saturday."
+    ]
+  },
+  {
+    "word": "zoo",
+    "translation": "zoológico",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the zoo on Saturday."
+    ]
+  },
+  {
+    "word": "playground",
+    "translation": "parque infantil",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the playground on Saturday."
+    ]
+  },
+  {
+    "word": "north",
+    "translation": "norte",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the north on Saturday."
+    ]
+  },
+  {
+    "word": "south",
+    "translation": "sur",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the south on Saturday."
+    ]
+  },
+  {
+    "word": "east",
+    "translation": "este",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the east on Saturday."
+    ]
+  },
+  {
+    "word": "west",
+    "translation": "oeste",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the west on Saturday."
+    ]
+  },
+  {
+    "word": "center",
+    "translation": "centro",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the center on Saturday."
+    ]
+  },
+  {
+    "word": "left side",
+    "translation": "izquierda",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the left side on Saturday."
+    ]
+  },
+  {
+    "word": "right side",
+    "translation": "derecha",
+    "partOfSpeech": "noun",
+    "category": "places",
+    "exampleSentences": [
+      "We go to the right side on Saturday."
+    ]
+  },
+  {
+    "word": "here",
+    "translation": "aquí",
+    "partOfSpeech": "adverb",
+    "category": "places",
+    "exampleSentences": [
+      "He speaks here."
+    ]
+  },
+  {
+    "word": "there",
+    "translation": "allí",
+    "partOfSpeech": "adverb",
+    "category": "places",
+    "exampleSentences": [
+      "He speaks there."
+    ]
+  },
+  {
+    "word": "everywhere",
+    "translation": "en todas partes",
+    "partOfSpeech": "adverb",
+    "category": "places",
+    "exampleSentences": [
+      "He speaks everywhere."
+    ]
+  },
+  {
+    "word": "somewhere",
+    "translation": "en algún lugar",
+    "partOfSpeech": "adverb",
+    "category": "places",
+    "exampleSentences": [
+      "He speaks somewhere."
+    ]
+  },
+  {
+    "word": "nowhere",
+    "translation": "en ninguna parte",
+    "partOfSpeech": "adverb",
+    "category": "places",
+    "exampleSentences": [
+      "He speaks nowhere."
+    ]
+  },
+  {
+    "word": "inside",
+    "translation": "dentro",
+    "partOfSpeech": "adverb",
+    "category": "places",
+    "exampleSentences": [
+      "He speaks inside."
+    ]
+  },
+  {
+    "word": "outside",
+    "translation": "fuera",
+    "partOfSpeech": "adverb",
+    "category": "places",
+    "exampleSentences": [
+      "He speaks outside."
+    ]
+  },
+  {
+    "word": "upstairs",
+    "translation": "arriba",
+    "partOfSpeech": "adverb",
+    "category": "places",
+    "exampleSentences": [
+      "He speaks upstairs."
+    ]
+  },
+  {
+    "word": "downstairs",
+    "translation": "abajo",
+    "partOfSpeech": "adverb",
+    "category": "places",
+    "exampleSentences": [
+      "He speaks downstairs."
+    ]
+  },
+  {
+    "word": "near",
+    "translation": "cerca",
+    "partOfSpeech": "adverb",
+    "category": "places",
+    "exampleSentences": [
+      "He speaks near."
+    ]
+  },
+  {
+    "word": "far",
+    "translation": "lejos",
+    "partOfSpeech": "adverb",
+    "category": "places",
+    "exampleSentences": [
+      "He speaks far."
+    ]
+  },
+  {
+    "word": "mother",
+    "translation": "madre",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My mother lives with us."
+    ]
+  },
+  {
+    "word": "father",
+    "translation": "padre",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My father lives with us."
+    ]
+  },
+  {
+    "word": "mom",
+    "translation": "mamá",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My mom lives with us."
+    ]
+  },
+  {
+    "word": "dad",
+    "translation": "papá",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My dad lives with us."
+    ]
+  },
+  {
+    "word": "parent",
+    "translation": "padre o madre",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My parent lives with us."
+    ]
+  },
+  {
+    "word": "parents",
+    "translation": "padres",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My parents lives with us."
+    ]
+  },
+  {
+    "word": "son",
+    "translation": "hijo",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My son lives with us."
+    ]
+  },
+  {
+    "word": "daughter",
+    "translation": "hija",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My daughter lives with us."
+    ]
+  },
+  {
+    "word": "child",
+    "translation": "niño",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My child lives with us."
+    ]
+  },
+  {
+    "word": "children",
+    "translation": "niños",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My children lives with us."
+    ]
+  },
+  {
+    "word": "baby",
+    "translation": "bebé",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My baby lives with us."
+    ]
+  },
+  {
+    "word": "brother",
+    "translation": "hermano",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My brother lives with us."
+    ]
+  },
+  {
+    "word": "sister",
+    "translation": "hermana",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My sister lives with us."
+    ]
+  },
+  {
+    "word": "sibling",
+    "translation": "hermano o hermana",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My sibling lives with us."
+    ]
+  },
+  {
+    "word": "grandmother",
+    "translation": "abuela",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My grandmother lives with us."
+    ]
+  },
+  {
+    "word": "grandfather",
+    "translation": "abuelo",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My grandfather lives with us."
+    ]
+  },
+  {
+    "word": "grandma",
+    "translation": "abuela",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My grandma lives with us."
+    ]
+  },
+  {
+    "word": "grandpa",
+    "translation": "abuelo",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My grandpa lives with us."
+    ]
+  },
+  {
+    "word": "grandparent",
+    "translation": "abuelo o abuela",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My grandparent lives with us."
+    ]
+  },
+  {
+    "word": "grandson",
+    "translation": "nieto",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My grandson lives with us."
+    ]
+  },
+  {
+    "word": "granddaughter",
+    "translation": "nieta",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My granddaughter lives with us."
+    ]
+  },
+  {
+    "word": "uncle",
+    "translation": "tío",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My uncle lives with us."
+    ]
+  },
+  {
+    "word": "aunt",
+    "translation": "tía",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My aunt lives with us."
+    ]
+  },
+  {
+    "word": "cousin",
+    "translation": "primo",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My cousin lives with us."
+    ]
+  },
+  {
+    "word": "nephew",
+    "translation": "sobrino",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My nephew lives with us."
+    ]
+  },
+  {
+    "word": "niece",
+    "translation": "sobrina",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My niece lives with us."
+    ]
+  },
+  {
+    "word": "husband",
+    "translation": "esposo",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My husband lives with us."
+    ]
+  },
+  {
+    "word": "wife",
+    "translation": "esposa",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My wife lives with us."
+    ]
+  },
+  {
+    "word": "spouse",
+    "translation": "cónyuge",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My spouse lives with us."
+    ]
+  },
+  {
+    "word": "partner",
+    "translation": "pareja",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My partner lives with us."
+    ]
+  },
+  {
+    "word": "boyfriend",
+    "translation": "novio",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My boyfriend lives with us."
+    ]
+  },
+  {
+    "word": "girlfriend",
+    "translation": "novia",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My girlfriend lives with us."
+    ]
+  },
+  {
+    "word": "friend",
+    "translation": "amigo",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My friend lives with us."
+    ]
+  },
+  {
+    "word": "neighbor",
+    "translation": "vecino",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My neighbor lives with us."
+    ]
+  },
+  {
+    "word": "family",
+    "translation": "familia",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My family lives with us."
+    ]
+  },
+  {
+    "word": "relative",
+    "translation": "pariente",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My relative lives with us."
+    ]
+  },
+  {
+    "word": "twins",
+    "translation": "gemelos",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My twins lives with us."
+    ]
+  },
+  {
+    "word": "stepmother",
+    "translation": "madrastra",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My stepmother lives with us."
+    ]
+  },
+  {
+    "word": "stepfather",
+    "translation": "padrastro",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My stepfather lives with us."
+    ]
+  },
+  {
+    "word": "stepson",
+    "translation": "hijastro",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My stepson lives with us."
+    ]
+  },
+  {
+    "word": "stepdaughter",
+    "translation": "hijastra",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My stepdaughter lives with us."
+    ]
+  },
+  {
+    "word": "father-in-law",
+    "translation": "suegro",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My father-in-law lives with us."
+    ]
+  },
+  {
+    "word": "mother-in-law",
+    "translation": "suegra",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My mother-in-law lives with us."
+    ]
+  },
+  {
+    "word": "brother-in-law",
+    "translation": "cuñado",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My brother-in-law lives with us."
+    ]
+  },
+  {
+    "word": "sister-in-law",
+    "translation": "cuñada",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My sister-in-law lives with us."
+    ]
+  },
+  {
+    "word": "godfather",
+    "translation": "padrino",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My godfather lives with us."
+    ]
+  },
+  {
+    "word": "godmother",
+    "translation": "madrina",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My godmother lives with us."
+    ]
+  },
+  {
+    "word": "orphan",
+    "translation": "huérfano",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My orphan lives with us."
+    ]
+  },
+  {
+    "word": "widow",
+    "translation": "viuda",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My widow lives with us."
+    ]
+  },
+  {
+    "word": "widower",
+    "translation": "viudo",
+    "partOfSpeech": "noun",
+    "category": "family",
+    "exampleSentences": [
+      "My widower lives with us."
+    ]
+  },
+  {
+    "word": "job",
+    "translation": "trabajo",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the job."
+    ]
+  },
+  {
+    "word": "work noun",
+    "translation": "trabajo",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the work noun."
+    ]
+  },
+  {
+    "word": "career",
+    "translation": "carrera",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the career."
+    ]
+  },
+  {
+    "word": "boss",
+    "translation": "jefe",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the boss."
+    ]
+  },
+  {
+    "word": "employee",
+    "translation": "empleado",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the employee."
+    ]
+  },
+  {
+    "word": "employer",
+    "translation": "empleador",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the employer."
+    ]
+  },
+  {
+    "word": "colleague",
+    "translation": "colega",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the colleague."
+    ]
+  },
+  {
+    "word": "coworker",
+    "translation": "compañero de trabajo",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the coworker."
+    ]
+  },
+  {
+    "word": "team",
+    "translation": "equipo",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the team."
+    ]
+  },
+  {
+    "word": "meeting",
+    "translation": "reunión",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the meeting."
+    ]
+  },
+  {
+    "word": "project",
+    "translation": "proyecto",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the project."
+    ]
+  },
+  {
+    "word": "task",
+    "translation": "tarea",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the task."
+    ]
+  },
+  {
+    "word": "deadline",
+    "translation": "fecha límite",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the deadline."
+    ]
+  },
+  {
+    "word": "salary",
+    "translation": "salario",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the salary."
+    ]
+  },
+  {
+    "word": "wage",
+    "translation": "sueldo",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the wage."
+    ]
+  },
+  {
+    "word": "contract",
+    "translation": "contrato",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the contract."
+    ]
+  },
+  {
+    "word": "interview",
+    "translation": "entrevista",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the interview."
+    ]
+  },
+  {
+    "word": "resume",
+    "translation": "currículum",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the resume."
+    ]
+  },
+  {
+    "word": "application",
+    "translation": "solicitud",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the application."
+    ]
+  },
+  {
+    "word": "experience",
+    "translation": "experiencia",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the experience."
+    ]
+  },
+  {
+    "word": "skill",
+    "translation": "habilidad",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the skill."
+    ]
+  },
+  {
+    "word": "training",
+    "translation": "capacitación",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the training."
+    ]
+  },
+  {
+    "word": "promotion",
+    "translation": "ascenso",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the promotion."
+    ]
+  },
+  {
+    "word": "vacation",
+    "translation": "vacaciones",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the vacation."
+    ]
+  },
+  {
+    "word": "holiday work",
+    "translation": "día festivo",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the holiday work."
+    ]
+  },
+  {
+    "word": "schedule",
+    "translation": "horario",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the schedule."
+    ]
+  },
+  {
+    "word": "shift",
+    "translation": "turno",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the shift."
+    ]
+  },
+  {
+    "word": "overtime",
+    "translation": "horas extra",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the overtime."
+    ]
+  },
+  {
+    "word": "office work",
+    "translation": "oficina",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the office work."
+    ]
+  },
+  {
+    "word": "desk",
+    "translation": "escritorio",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the desk."
+    ]
+  },
+  {
+    "word": "computer",
+    "translation": "computadora",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the computer."
+    ]
+  },
+  {
+    "word": "laptop",
+    "translation": "portátil",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the laptop."
+    ]
+  },
+  {
+    "word": "printer",
+    "translation": "impresora",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the printer."
+    ]
+  },
+  {
+    "word": "email noun",
+    "translation": "correo electrónico",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the email noun."
+    ]
+  },
+  {
+    "word": "phone work",
+    "translation": "teléfono",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the phone work."
+    ]
+  },
+  {
+    "word": "customer",
+    "translation": "cliente",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the customer."
+    ]
+  },
+  {
+    "word": "client",
+    "translation": "cliente",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the client."
+    ]
+  },
+  {
+    "word": "company",
+    "translation": "empresa",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the company."
+    ]
+  },
+  {
+    "word": "business",
+    "translation": "negocio",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the business."
+    ]
+  },
+  {
+    "word": "industry",
+    "translation": "industria",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the industry."
+    ]
+  },
+  {
+    "word": "manager",
+    "translation": "gerente",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the manager."
+    ]
+  },
+  {
+    "word": "director",
+    "translation": "director",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the director."
+    ]
+  },
+  {
+    "word": "secretary",
+    "translation": "secretario",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the secretary."
+    ]
+  },
+  {
+    "word": "accountant",
+    "translation": "contador",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the accountant."
+    ]
+  },
+  {
+    "word": "engineer",
+    "translation": "ingeniero",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the engineer."
+    ]
+  },
+  {
+    "word": "doctor",
+    "translation": "médico",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the doctor."
+    ]
+  },
+  {
+    "word": "nurse",
+    "translation": "enfermera",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the nurse."
+    ]
+  },
+  {
+    "word": "teacher",
+    "translation": "profesor",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the teacher."
+    ]
+  },
+  {
+    "word": "student",
+    "translation": "estudiante",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the student."
+    ]
+  },
+  {
+    "word": "lawyer",
+    "translation": "abogado",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the lawyer."
+    ]
+  },
+  {
+    "word": "police officer",
+    "translation": "policía",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the police officer."
+    ]
+  },
+  {
+    "word": "firefighter",
+    "translation": "bombero",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the firefighter."
+    ]
+  },
+  {
+    "word": "driver",
+    "translation": "conductor",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the driver."
+    ]
+  },
+  {
+    "word": "chef",
+    "translation": "chef",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the chef."
+    ]
+  },
+  {
+    "word": "waiter",
+    "translation": "camarero",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the waiter."
+    ]
+  },
+  {
+    "word": "farmer",
+    "translation": "granjero",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the farmer."
+    ]
+  },
+  {
+    "word": "artist",
+    "translation": "artista",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the artist."
+    ]
+  },
+  {
+    "word": "writer",
+    "translation": "escritor",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the writer."
+    ]
+  },
+  {
+    "word": "musician",
+    "translation": "músico",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the musician."
+    ]
+  },
+  {
+    "word": "actor",
+    "translation": "actor",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the actor."
+    ]
+  },
+  {
+    "word": "scientist",
+    "translation": "científico",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the scientist."
+    ]
+  },
+  {
+    "word": "worker",
+    "translation": "trabajador",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the worker."
+    ]
+  },
+  {
+    "word": "unemployed",
+    "translation": "desempleado",
+    "partOfSpeech": "adjective",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the unemployed."
+    ]
+  },
+  {
+    "word": "retired",
+    "translation": "jubilado",
+    "partOfSpeech": "adjective",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the retired."
+    ]
+  },
+  {
+    "word": "part-time",
+    "translation": "a tiempo parcial",
+    "partOfSpeech": "adjective",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the part-time."
+    ]
+  },
+  {
+    "word": "full-time",
+    "translation": "a tiempo completo",
+    "partOfSpeech": "adjective",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the full-time."
+    ]
+  },
+  {
+    "word": "profession",
+    "translation": "profesión",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the profession."
+    ]
+  },
+  {
+    "word": "occupation",
+    "translation": "ocupación",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the occupation."
+    ]
+  },
+  {
+    "word": "workplace",
+    "translation": "lugar de trabajo",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the workplace."
+    ]
+  },
+  {
+    "word": "factory work",
+    "translation": "fábrica",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the factory work."
+    ]
+  },
+  {
+    "word": "warehouse",
+    "translation": "almacén",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the warehouse."
+    ]
+  },
+  {
+    "word": "construction",
+    "translation": "construcción",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the construction."
+    ]
+  },
+  {
+    "word": "retail",
+    "translation": "venta minorista",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the retail."
+    ]
+  },
+  {
+    "word": "service",
+    "translation": "servicio",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the service."
+    ]
+  },
+  {
+    "word": "sales",
+    "translation": "ventas",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the sales."
+    ]
+  },
+  {
+    "word": "marketing",
+    "translation": "mercadotecnia",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the marketing."
+    ]
+  },
+  {
+    "word": "finance",
+    "translation": "finanzas",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the finance."
+    ]
+  },
+  {
+    "word": "technology",
+    "translation": "tecnología",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the technology."
+    ]
+  },
+  {
+    "word": "healthcare",
+    "translation": "atención médica",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the healthcare."
+    ]
+  },
+  {
+    "word": "education",
+    "translation": "educación",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we talk about the education."
+    ]
+  },
+  {
+    "word": "the",
+    "translation": "el/la",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "The student is here."
+    ]
+  },
+  {
+    "word": "a",
+    "translation": "un/una",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "A student is here."
+    ]
+  },
+  {
+    "word": "an",
+    "translation": "un/una",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "An student is here."
+    ]
+  },
+  {
+    "word": "I",
+    "translation": "yo",
+    "partOfSpeech": "pronoun",
+    "category": "common",
+    "exampleSentences": [
+      "I are my friend."
+    ]
+  },
+  {
+    "word": "you",
+    "translation": "tú/usted",
+    "partOfSpeech": "pronoun",
+    "category": "common",
+    "exampleSentences": [
+      "You are my friend."
+    ]
+  },
+  {
+    "word": "he",
+    "translation": "él",
+    "partOfSpeech": "pronoun",
+    "category": "common",
+    "exampleSentences": [
+      "He are my friend."
+    ]
+  },
+  {
+    "word": "she",
+    "translation": "ella",
+    "partOfSpeech": "pronoun",
+    "category": "common",
+    "exampleSentences": [
+      "She are my friend."
+    ]
+  },
+  {
+    "word": "it",
+    "translation": "ello",
+    "partOfSpeech": "pronoun",
+    "category": "common",
+    "exampleSentences": [
+      "It are my friend."
+    ]
+  },
+  {
+    "word": "we",
+    "translation": "nosotros",
+    "partOfSpeech": "pronoun",
+    "category": "common",
+    "exampleSentences": [
+      "We are my friend."
+    ]
+  },
+  {
+    "word": "they",
+    "translation": "ellos",
+    "partOfSpeech": "pronoun",
+    "category": "common",
+    "exampleSentences": [
+      "They are my friend."
+    ]
+  },
+  {
+    "word": "my",
+    "translation": "mi",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "My student is here."
+    ]
+  },
+  {
+    "word": "your",
+    "translation": "tu",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Your student is here."
+    ]
+  },
+  {
+    "word": "his",
+    "translation": "su",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "His student is here."
+    ]
+  },
+  {
+    "word": "her",
+    "translation": "su",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Her student is here."
+    ]
+  },
+  {
+    "word": "our",
+    "translation": "nuestro",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Our student is here."
+    ]
+  },
+  {
+    "word": "their",
+    "translation": "su",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Their student is here."
+    ]
+  },
+  {
+    "word": "this",
+    "translation": "este",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "This student is here."
+    ]
+  },
+  {
+    "word": "that",
+    "translation": "ese",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "That student is here."
+    ]
+  },
+  {
+    "word": "these",
+    "translation": "estos",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "These student is here."
+    ]
+  },
+  {
+    "word": "those",
+    "translation": "esos",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Those student is here."
+    ]
+  },
+  {
+    "word": "what",
+    "translation": "qué",
+    "partOfSpeech": "pronoun",
+    "category": "common",
+    "exampleSentences": [
+      "What are my friend."
+    ]
+  },
+  {
+    "word": "who",
+    "translation": "quién",
+    "partOfSpeech": "pronoun",
+    "category": "common",
+    "exampleSentences": [
+      "Who are my friend."
+    ]
+  },
+  {
+    "word": "where",
+    "translation": "dónde",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks where."
+    ]
+  },
+  {
+    "word": "when",
+    "translation": "cuándo",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks when."
+    ]
+  },
+  {
+    "word": "why",
+    "translation": "por qué",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks why."
+    ]
+  },
+  {
+    "word": "how",
+    "translation": "cómo",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks how."
+    ]
+  },
+  {
+    "word": "which",
+    "translation": "cuál",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Which student is here."
+    ]
+  },
+  {
+    "word": "many",
+    "translation": "muchos",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Many student is here."
+    ]
+  },
+  {
+    "word": "much",
+    "translation": "mucho",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Much student is here."
+    ]
+  },
+  {
+    "word": "some",
+    "translation": "algunos",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Some student is here."
+    ]
+  },
+  {
+    "word": "any",
+    "translation": "cualquier",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Any student is here."
+    ]
+  },
+  {
+    "word": "all",
+    "translation": "todos",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "All student is here."
+    ]
+  },
+  {
+    "word": "every",
+    "translation": "cada",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Every student is here."
+    ]
+  },
+  {
+    "word": "each",
+    "translation": "cada",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Each student is here."
+    ]
+  },
+  {
+    "word": "other",
+    "translation": "otro",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Other student is here."
+    ]
+  },
+  {
+    "word": "another",
+    "translation": "otro",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Another student is here."
+    ]
+  },
+  {
+    "word": "more",
+    "translation": "más",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "More student is here."
+    ]
+  },
+  {
+    "word": "most",
+    "translation": "la mayoría",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Most student is here."
+    ]
+  },
+  {
+    "word": "less",
+    "translation": "menos",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Less student is here."
+    ]
+  },
+  {
+    "word": "few",
+    "translation": "pocos",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Few student is here."
+    ]
+  },
+  {
+    "word": "little",
+    "translation": "poco",
+    "partOfSpeech": "determiner",
+    "category": "common",
+    "exampleSentences": [
+      "Little student is here."
+    ]
+  },
+  {
+    "word": "time",
+    "translation": "tiempo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"time\" often."
+    ]
+  },
+  {
+    "word": "day",
+    "translation": "día",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"day\" often."
+    ]
+  },
+  {
+    "word": "week",
+    "translation": "semana",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"week\" often."
+    ]
+  },
+  {
+    "word": "month",
+    "translation": "mes",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"month\" often."
+    ]
+  },
+  {
+    "word": "year",
+    "translation": "año",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"year\" often."
+    ]
+  },
+  {
+    "word": "hour",
+    "translation": "hora",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"hour\" often."
+    ]
+  },
+  {
+    "word": "minute",
+    "translation": "minuto",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"minute\" often."
+    ]
+  },
+  {
+    "word": "second",
+    "translation": "segundo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"second\" often."
+    ]
+  },
+  {
+    "word": "today",
+    "translation": "hoy",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks today."
+    ]
+  },
+  {
+    "word": "tomorrow",
+    "translation": "mañana",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks tomorrow."
+    ]
+  },
+  {
+    "word": "yesterday",
+    "translation": "ayer",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks yesterday."
+    ]
+  },
+  {
+    "word": "now",
+    "translation": "ahora",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks now."
+    ]
+  },
+  {
+    "word": "then",
+    "translation": "entonces",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks then."
+    ]
+  },
+  {
+    "word": "always",
+    "translation": "siempre",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks always."
+    ]
+  },
+  {
+    "word": "never",
+    "translation": "nunca",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks never."
+    ]
+  },
+  {
+    "word": "sometimes",
+    "translation": "a veces",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks sometimes."
+    ]
+  },
+  {
+    "word": "often",
+    "translation": "a menudo",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks often."
+    ]
+  },
+  {
+    "word": "usually",
+    "translation": "normalmente",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks usually."
+    ]
+  },
+  {
+    "word": "already",
+    "translation": "ya",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks already."
+    ]
+  },
+  {
+    "word": "still",
+    "translation": "todavía",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks still."
+    ]
+  },
+  {
+    "word": "again",
+    "translation": "otra vez",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks again."
+    ]
+  },
+  {
+    "word": "once",
+    "translation": "una vez",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks once."
+    ]
+  },
+  {
+    "word": "twice",
+    "translation": "dos veces",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks twice."
+    ]
+  },
+  {
+    "word": "very",
+    "translation": "muy",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks very."
+    ]
+  },
+  {
+    "word": "too",
+    "translation": "demasiado",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks too."
+    ]
+  },
+  {
+    "word": "also",
+    "translation": "también",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks also."
+    ]
+  },
+  {
+    "word": "only",
+    "translation": "solo",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks only."
+    ]
+  },
+  {
+    "word": "just",
+    "translation": "solo",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks just."
+    ]
+  },
+  {
+    "word": "even",
+    "translation": "incluso",
+    "partOfSpeech": "adverb",
+    "category": "common",
+    "exampleSentences": [
+      "He speaks even."
+    ]
+  },
+  {
+    "word": "about",
+    "translation": "sobre",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is about the table."
+    ]
+  },
+  {
+    "word": "after",
+    "translation": "después",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is after the table."
+    ]
+  },
+  {
+    "word": "before",
+    "translation": "antes",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is before the table."
+    ]
+  },
+  {
+    "word": "with",
+    "translation": "con",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is with the table."
+    ]
+  },
+  {
+    "word": "without",
+    "translation": "sin",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is without the table."
+    ]
+  },
+  {
+    "word": "for",
+    "translation": "para",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is for the table."
+    ]
+  },
+  {
+    "word": "from",
+    "translation": "de",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is from the table."
+    ]
+  },
+  {
+    "word": "to",
+    "translation": "a",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is to the table."
+    ]
+  },
+  {
+    "word": "in",
+    "translation": "en",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is in the table."
+    ]
+  },
+  {
+    "word": "on",
+    "translation": "en",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is on the table."
+    ]
+  },
+  {
+    "word": "at",
+    "translation": "en",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is at the table."
+    ]
+  },
+  {
+    "word": "by",
+    "translation": "por",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is by the table."
+    ]
+  },
+  {
+    "word": "of",
+    "translation": "de",
+    "partOfSpeech": "preposition",
+    "category": "common",
+    "exampleSentences": [
+      "The book is of the table."
+    ]
+  },
+  {
+    "word": "and",
+    "translation": "y",
+    "partOfSpeech": "conjunction",
+    "category": "common",
+    "exampleSentences": [
+      "I am tired, and I will rest."
+    ]
+  },
+  {
+    "word": "or",
+    "translation": "o",
+    "partOfSpeech": "conjunction",
+    "category": "common",
+    "exampleSentences": [
+      "I am tired, or I will rest."
+    ]
+  },
+  {
+    "word": "but",
+    "translation": "pero",
+    "partOfSpeech": "conjunction",
+    "category": "common",
+    "exampleSentences": [
+      "I am tired, but I will rest."
+    ]
+  },
+  {
+    "word": "because",
+    "translation": "porque",
+    "partOfSpeech": "conjunction",
+    "category": "common",
+    "exampleSentences": [
+      "I am tired, because I will rest."
+    ]
+  },
+  {
+    "word": "if",
+    "translation": "si",
+    "partOfSpeech": "conjunction",
+    "category": "common",
+    "exampleSentences": [
+      "I am tired, if I will rest."
+    ]
+  },
+  {
+    "word": "when conj",
+    "translation": "cuando",
+    "partOfSpeech": "conjunction",
+    "category": "common",
+    "exampleSentences": [
+      "I am tired, when conj I will rest."
+    ]
+  },
+  {
+    "word": "while",
+    "translation": "mientras",
+    "partOfSpeech": "conjunction",
+    "category": "common",
+    "exampleSentences": [
+      "I am tired, while I will rest."
+    ]
+  },
+  {
+    "word": "although",
+    "translation": "aunque",
+    "partOfSpeech": "conjunction",
+    "category": "common",
+    "exampleSentences": [
+      "I am tired, although I will rest."
+    ]
+  },
+  {
+    "word": "thing",
+    "translation": "cosa",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"thing\" often."
+    ]
+  },
+  {
+    "word": "person",
+    "translation": "persona",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"person\" often."
+    ]
+  },
+  {
+    "word": "people",
+    "translation": "gente",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"people\" often."
+    ]
+  },
+  {
+    "word": "man",
+    "translation": "hombre",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"man\" often."
+    ]
+  },
+  {
+    "word": "woman",
+    "translation": "mujer",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"woman\" often."
+    ]
+  },
+  {
+    "word": "boy",
+    "translation": "niño",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"boy\" often."
+    ]
+  },
+  {
+    "word": "girl",
+    "translation": "niña",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"girl\" often."
+    ]
+  },
+  {
+    "word": "name",
+    "translation": "nombre",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"name\" often."
+    ]
+  },
+  {
+    "word": "age",
+    "translation": "edad",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"age\" often."
+    ]
+  },
+  {
+    "word": "address",
+    "translation": "dirección",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"address\" often."
+    ]
+  },
+  {
+    "word": "phone common",
+    "translation": "teléfono",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"phone common\" often."
+    ]
+  },
+  {
+    "word": "number",
+    "translation": "número",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"number\" often."
+    ]
+  },
+  {
+    "word": "question",
+    "translation": "pregunta",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"question\" often."
+    ]
+  },
+  {
+    "word": "answer noun",
+    "translation": "respuesta",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"answer noun\" often."
+    ]
+  },
+  {
+    "word": "idea",
+    "translation": "idea",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"idea\" often."
+    ]
+  },
+  {
+    "word": "problem",
+    "translation": "problema",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"problem\" often."
+    ]
+  },
+  {
+    "word": "solution",
+    "translation": "solución",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"solution\" often."
+    ]
+  },
+  {
+    "word": "reason",
+    "translation": "razón",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"reason\" often."
+    ]
+  },
+  {
+    "word": "way",
+    "translation": "manera",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"way\" often."
+    ]
+  },
+  {
+    "word": "life",
+    "translation": "vida",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"life\" often."
+    ]
+  },
+  {
+    "word": "death",
+    "translation": "muerte",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"death\" often."
+    ]
+  },
+  {
+    "word": "health",
+    "translation": "salud",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"health\" often."
+    ]
+  },
+  {
+    "word": "money",
+    "translation": "dinero",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"money\" often."
+    ]
+  },
+  {
+    "word": "price",
+    "translation": "precio",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"price\" often."
+    ]
+  },
+  {
+    "word": "cost noun",
+    "translation": "costo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"cost noun\" often."
+    ]
+  },
+  {
+    "word": "dollar",
+    "translation": "dólar",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"dollar\" often."
+    ]
+  },
+  {
+    "word": "euro",
+    "translation": "euro",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"euro\" often."
+    ]
+  },
+  {
+    "word": "book",
+    "translation": "libro",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"book\" often."
+    ]
+  },
+  {
+    "word": "pen",
+    "translation": "bolígrafo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"pen\" often."
+    ]
+  },
+  {
+    "word": "pencil",
+    "translation": "lápiz",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"pencil\" often."
+    ]
+  },
+  {
+    "word": "paper",
+    "translation": "papel",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"paper\" often."
+    ]
+  },
+  {
+    "word": "bag",
+    "translation": "bolsa",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"bag\" often."
+    ]
+  },
+  {
+    "word": "box",
+    "translation": "caja",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"box\" often."
+    ]
+  },
+  {
+    "word": "key",
+    "translation": "llave",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"key\" often."
+    ]
+  },
+  {
+    "word": "door",
+    "translation": "puerta",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"door\" often."
+    ]
+  },
+  {
+    "word": "window",
+    "translation": "ventana",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"window\" often."
+    ]
+  },
+  {
+    "word": "wall",
+    "translation": "pared",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"wall\" often."
+    ]
+  },
+  {
+    "word": "floor",
+    "translation": "suelo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"floor\" often."
+    ]
+  },
+  {
+    "word": "ceiling",
+    "translation": "techo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"ceiling\" often."
+    ]
+  },
+  {
+    "word": "roof",
+    "translation": "tejado",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"roof\" often."
+    ]
+  },
+  {
+    "word": "table",
+    "translation": "mesa",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"table\" often."
+    ]
+  },
+  {
+    "word": "chair",
+    "translation": "silla",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"chair\" often."
+    ]
+  },
+  {
+    "word": "bed",
+    "translation": "cama",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"bed\" often."
+    ]
+  },
+  {
+    "word": "sofa",
+    "translation": "sofá",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"sofa\" often."
+    ]
+  },
+  {
+    "word": "lamp",
+    "translation": "lámpara",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"lamp\" often."
+    ]
+  },
+  {
+    "word": "light noun",
+    "translation": "luz",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"light noun\" often."
+    ]
+  },
+  {
+    "word": "clock",
+    "translation": "reloj",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"clock\" often."
+    ]
+  },
+  {
+    "word": "watch noun",
+    "translation": "reloj de pulsera",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"watch noun\" often."
+    ]
+  },
+  {
+    "word": "calendar",
+    "translation": "calendario",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"calendar\" often."
+    ]
+  },
+  {
+    "word": "weather",
+    "translation": "clima",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"weather\" often."
+    ]
+  },
+  {
+    "word": "sun",
+    "translation": "sol",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"sun\" often."
+    ]
+  },
+  {
+    "word": "moon",
+    "translation": "luna",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"moon\" often."
+    ]
+  },
+  {
+    "word": "star",
+    "translation": "estrella",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"star\" often."
+    ]
+  },
+  {
+    "word": "sky",
+    "translation": "cielo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"sky\" often."
+    ]
+  },
+  {
+    "word": "cloud",
+    "translation": "nube",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"cloud\" often."
+    ]
+  },
+  {
+    "word": "rain noun",
+    "translation": "lluvia",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"rain noun\" often."
+    ]
+  },
+  {
+    "word": "snow noun",
+    "translation": "nieve",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"snow noun\" often."
+    ]
+  },
+  {
+    "word": "wind",
+    "translation": "viento",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"wind\" often."
+    ]
+  },
+  {
+    "word": "storm",
+    "translation": "tormenta",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"storm\" often."
+    ]
+  },
+  {
+    "word": "dog",
+    "translation": "perro",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"dog\" often."
+    ]
+  },
+  {
+    "word": "cat",
+    "translation": "gato",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"cat\" often."
+    ]
+  },
+  {
+    "word": "bird",
+    "translation": "pájaro",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"bird\" often."
+    ]
+  },
+  {
+    "word": "horse",
+    "translation": "caballo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"horse\" often."
+    ]
+  },
+  {
+    "word": "cow",
+    "translation": "vaca",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"cow\" often."
+    ]
+  },
+  {
+    "word": "pig",
+    "translation": "cerdo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"pig\" often."
+    ]
+  },
+  {
+    "word": "sheep",
+    "translation": "oveja",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"sheep\" often."
+    ]
+  },
+  {
+    "word": "chicken animal",
+    "translation": "gallina",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"chicken animal\" often."
+    ]
+  },
+  {
+    "word": "fish animal",
+    "translation": "pez",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"fish animal\" often."
+    ]
+  },
+  {
+    "word": "head",
+    "translation": "cabeza",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"head\" often."
+    ]
+  },
+  {
+    "word": "face",
+    "translation": "cara",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"face\" often."
+    ]
+  },
+  {
+    "word": "eye",
+    "translation": "ojo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"eye\" often."
+    ]
+  },
+  {
+    "word": "ear",
+    "translation": "oreja",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"ear\" often."
+    ]
+  },
+  {
+    "word": "nose",
+    "translation": "nariz",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"nose\" often."
+    ]
+  },
+  {
+    "word": "mouth",
+    "translation": "boca",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"mouth\" often."
+    ]
+  },
+  {
+    "word": "tooth",
+    "translation": "diente",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"tooth\" often."
+    ]
+  },
+  {
+    "word": "hair",
+    "translation": "pelo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"hair\" often."
+    ]
+  },
+  {
+    "word": "hand",
+    "translation": "mano",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"hand\" often."
+    ]
+  },
+  {
+    "word": "finger",
+    "translation": "dedo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"finger\" often."
+    ]
+  },
+  {
+    "word": "arm",
+    "translation": "brazo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"arm\" often."
+    ]
+  },
+  {
+    "word": "leg",
+    "translation": "pierna",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"leg\" often."
+    ]
+  },
+  {
+    "word": "foot",
+    "translation": "pie",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"foot\" often."
+    ]
+  },
+  {
+    "word": "heart",
+    "translation": "corazón",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"heart\" often."
+    ]
+  },
+  {
+    "word": "back",
+    "translation": "espalda",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"back\" often."
+    ]
+  },
+  {
+    "word": "stomach",
+    "translation": "estómago",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"stomach\" often."
+    ]
+  },
+  {
+    "word": "shirt",
+    "translation": "camisa",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"shirt\" often."
+    ]
+  },
+  {
+    "word": "pants",
+    "translation": "pantalones",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"pants\" often."
+    ]
+  },
+  {
+    "word": "dress",
+    "translation": "vestido",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"dress\" often."
+    ]
+  },
+  {
+    "word": "shoes",
+    "translation": "zapatos",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"shoes\" often."
+    ]
+  },
+  {
+    "word": "hat",
+    "translation": "sombrero",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"hat\" often."
+    ]
+  },
+  {
+    "word": "coat",
+    "translation": "abrigo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"coat\" often."
+    ]
+  },
+  {
+    "word": "jacket",
+    "translation": "chaqueta",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"jacket\" often."
+    ]
+  },
+  {
+    "word": "sock",
+    "translation": "calcetín",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"sock\" often."
+    ]
+  },
+  {
+    "word": "car",
+    "translation": "coche",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"car\" often."
+    ]
+  },
+  {
+    "word": "bus",
+    "translation": "autobús",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"bus\" often."
+    ]
+  },
+  {
+    "word": "train",
+    "translation": "tren",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"train\" often."
+    ]
+  },
+  {
+    "word": "plane",
+    "translation": "avión",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"plane\" often."
+    ]
+  },
+  {
+    "word": "bike",
+    "translation": "bicicleta",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"bike\" often."
+    ]
+  },
+  {
+    "word": "boat",
+    "translation": "barco",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"boat\" often."
+    ]
+  },
+  {
+    "word": "ticket",
+    "translation": "billete",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"ticket\" often."
+    ]
+  },
+  {
+    "word": "passport",
+    "translation": "pasaporte",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"passport\" often."
+    ]
+  },
+  {
+    "word": "language",
+    "translation": "idioma",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"language\" often."
+    ]
+  },
+  {
+    "word": "English",
+    "translation": "inglés",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"English\" often."
+    ]
+  },
+  {
+    "word": "Spanish",
+    "translation": "español",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"Spanish\" often."
+    ]
+  },
+  {
+    "word": "word common",
+    "translation": "palabra",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"word common\" often."
+    ]
+  },
+  {
+    "word": "sentence",
+    "translation": "oración",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"sentence\" often."
+    ]
+  },
+  {
+    "word": "story",
+    "translation": "historia",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"story\" often."
+    ]
+  },
+  {
+    "word": "news",
+    "translation": "noticias",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"news\" often."
+    ]
+  },
+  {
+    "word": "music",
+    "translation": "música",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"music\" often."
+    ]
+  },
+  {
+    "word": "song",
+    "translation": "canción",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"song\" often."
+    ]
+  },
+  {
+    "word": "movie",
+    "translation": "película",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"movie\" often."
+    ]
+  },
+  {
+    "word": "game",
+    "translation": "juego",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"game\" often."
+    ]
+  },
+  {
+    "word": "sport",
+    "translation": "deporte",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"sport\" often."
+    ]
+  },
+  {
+    "word": "ball",
+    "translation": "pelota",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"ball\" often."
+    ]
+  },
+  {
+    "word": "color",
+    "translation": "color",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"color\" often."
+    ]
+  },
+  {
+    "word": "picture",
+    "translation": "imagen",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"picture\" often."
+    ]
+  },
+  {
+    "word": "photo",
+    "translation": "foto",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"photo\" often."
+    ]
+  },
+  {
+    "word": "camera",
+    "translation": "cámara",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"camera\" often."
+    ]
+  },
+  {
+    "word": "television",
+    "translation": "televisión",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"television\" often."
+    ]
+  },
+  {
+    "word": "radio",
+    "translation": "radio",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"radio\" often."
+    ]
+  },
+  {
+    "word": "internet",
+    "translation": "internet",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"internet\" often."
+    ]
+  },
+  {
+    "word": "website",
+    "translation": "sitio web",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"website\" often."
+    ]
+  },
+  {
+    "word": "password",
+    "translation": "contraseña",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"password\" often."
+    ]
+  },
+  {
+    "word": "message",
+    "translation": "mensaje",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"message\" often."
+    ]
+  },
+  {
+    "word": "letter",
+    "translation": "carta",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"letter\" often."
+    ]
+  },
+  {
+    "word": "gift",
+    "translation": "regalo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"gift\" often."
+    ]
+  },
+  {
+    "word": "party",
+    "translation": "fiesta",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"party\" often."
+    ]
+  },
+  {
+    "word": "holiday",
+    "translation": "vacaciones",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"holiday\" often."
+    ]
+  },
+  {
+    "word": "birthday",
+    "translation": "cumpleaños",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"birthday\" often."
+    ]
+  },
+  {
+    "word": "morning",
+    "translation": "mañana",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"morning\" often."
+    ]
+  },
+  {
+    "word": "afternoon",
+    "translation": "tarde",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"afternoon\" often."
+    ]
+  },
+  {
+    "word": "evening",
+    "translation": "tarde-noche",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"evening\" often."
+    ]
+  },
+  {
+    "word": "night",
+    "translation": "noche",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"night\" often."
+    ]
+  },
+  {
+    "word": "spring",
+    "translation": "primavera",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"spring\" often."
+    ]
+  },
+  {
+    "word": "summer",
+    "translation": "verano",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"summer\" often."
+    ]
+  },
+  {
+    "word": "autumn",
+    "translation": "otoño",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"autumn\" often."
+    ]
+  },
+  {
+    "word": "fall season",
+    "translation": "otoño",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"fall season\" often."
+    ]
+  },
+  {
+    "word": "winter",
+    "translation": "invierno",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"winter\" often."
+    ]
+  },
+  {
+    "word": "Monday",
+    "translation": "lunes",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"Monday\" often."
+    ]
+  },
+  {
+    "word": "Tuesday",
+    "translation": "martes",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"Tuesday\" often."
+    ]
+  },
+  {
+    "word": "Wednesday",
+    "translation": "miércoles",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"Wednesday\" often."
+    ]
+  },
+  {
+    "word": "Thursday",
+    "translation": "jueves",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"Thursday\" often."
+    ]
+  },
+  {
+    "word": "Friday",
+    "translation": "viernes",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"Friday\" often."
+    ]
+  },
+  {
+    "word": "Saturday",
+    "translation": "sábado",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"Saturday\" often."
+    ]
+  },
+  {
+    "word": "Sunday",
+    "translation": "domingo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"Sunday\" often."
+    ]
+  },
+  {
+    "word": "January",
+    "translation": "enero",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"January\" often."
+    ]
+  },
+  {
+    "word": "February",
+    "translation": "febrero",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"February\" often."
+    ]
+  },
+  {
+    "word": "March",
+    "translation": "marzo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"March\" often."
+    ]
+  },
+  {
+    "word": "April",
+    "translation": "abril",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"April\" often."
+    ]
+  },
+  {
+    "word": "May",
+    "translation": "mayo",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"May\" often."
+    ]
+  },
+  {
+    "word": "June",
+    "translation": "junio",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"June\" often."
+    ]
+  },
+  {
+    "word": "July",
+    "translation": "julio",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"July\" often."
+    ]
+  },
+  {
+    "word": "August",
+    "translation": "agosto",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"August\" often."
+    ]
+  },
+  {
+    "word": "September",
+    "translation": "septiembre",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"September\" often."
+    ]
+  },
+  {
+    "word": "October",
+    "translation": "octubre",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"October\" often."
+    ]
+  },
+  {
+    "word": "November",
+    "translation": "noviembre",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"November\" often."
+    ]
+  },
+  {
+    "word": "December",
+    "translation": "diciembre",
+    "partOfSpeech": "noun",
+    "category": "common",
+    "exampleSentences": [
+      "I use the word \"December\" often."
+    ]
+  },
+  {
+    "word": "zero",
+    "translation": "cero",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is zero."
+    ]
+  },
+  {
+    "word": "one",
+    "translation": "uno",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is one."
+    ]
+  },
+  {
+    "word": "two",
+    "translation": "dos",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is two."
+    ]
+  },
+  {
+    "word": "three",
+    "translation": "tres",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is three."
+    ]
+  },
+  {
+    "word": "four",
+    "translation": "cuatro",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is four."
+    ]
+  },
+  {
+    "word": "five",
+    "translation": "cinco",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is five."
+    ]
+  },
+  {
+    "word": "six",
+    "translation": "seis",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is six."
+    ]
+  },
+  {
+    "word": "seven",
+    "translation": "siete",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is seven."
+    ]
+  },
+  {
+    "word": "eight",
+    "translation": "ocho",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is eight."
+    ]
+  },
+  {
+    "word": "nine",
+    "translation": "nueve",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is nine."
+    ]
+  },
+  {
+    "word": "ten",
+    "translation": "diez",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is ten."
+    ]
+  },
+  {
+    "word": "eleven",
+    "translation": "once",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is eleven."
+    ]
+  },
+  {
+    "word": "twelve",
+    "translation": "doce",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is twelve."
+    ]
+  },
+  {
+    "word": "thirteen",
+    "translation": "trece",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is thirteen."
+    ]
+  },
+  {
+    "word": "fourteen",
+    "translation": "catorce",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is fourteen."
+    ]
+  },
+  {
+    "word": "fifteen",
+    "translation": "quince",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is fifteen."
+    ]
+  },
+  {
+    "word": "sixteen",
+    "translation": "dieciséis",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is sixteen."
+    ]
+  },
+  {
+    "word": "seventeen",
+    "translation": "diecisiete",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is seventeen."
+    ]
+  },
+  {
+    "word": "eighteen",
+    "translation": "dieciocho",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is eighteen."
+    ]
+  },
+  {
+    "word": "nineteen",
+    "translation": "diecinueve",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is nineteen."
+    ]
+  },
+  {
+    "word": "twenty",
+    "translation": "veinte",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is twenty."
+    ]
+  },
+  {
+    "word": "thirty",
+    "translation": "treinta",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is thirty."
+    ]
+  },
+  {
+    "word": "forty",
+    "translation": "cuarenta",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is forty."
+    ]
+  },
+  {
+    "word": "fifty",
+    "translation": "cincuenta",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is fifty."
+    ]
+  },
+  {
+    "word": "sixty",
+    "translation": "sesenta",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is sixty."
+    ]
+  },
+  {
+    "word": "seventy",
+    "translation": "setenta",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is seventy."
+    ]
+  },
+  {
+    "word": "eighty",
+    "translation": "ochenta",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is eighty."
+    ]
+  },
+  {
+    "word": "ninety",
+    "translation": "noventa",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is ninety."
+    ]
+  },
+  {
+    "word": "hundred",
+    "translation": "cien",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is hundred."
+    ]
+  },
+  {
+    "word": "thousand",
+    "translation": "mil",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is thousand."
+    ]
+  },
+  {
+    "word": "million",
+    "translation": "millón",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is million."
+    ]
+  },
+  {
+    "word": "first",
+    "translation": "primero",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is first."
+    ]
+  },
+  {
+    "word": "third",
+    "translation": "tercero",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is third."
+    ]
+  },
+  {
+    "word": "fourth",
+    "translation": "cuarto",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is fourth."
+    ]
+  },
+  {
+    "word": "fifth",
+    "translation": "quinto",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is fifth."
+    ]
+  },
+  {
+    "word": "sixth",
+    "translation": "sexto",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is sixth."
+    ]
+  },
+  {
+    "word": "seventh",
+    "translation": "séptimo",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is seventh."
+    ]
+  },
+  {
+    "word": "eighth",
+    "translation": "octavo",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is eighth."
+    ]
+  },
+  {
+    "word": "ninth",
+    "translation": "noveno",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is ninth."
+    ]
+  },
+  {
+    "word": "tenth",
+    "translation": "décimo",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is tenth."
+    ]
+  },
+  {
+    "word": "twenty-one",
+    "translation": "veintiuno",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is twenty-one."
+    ]
+  },
+  {
+    "word": "twenty-two",
+    "translation": "veintidós",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is twenty-two."
+    ]
+  },
+  {
+    "word": "twenty-three",
+    "translation": "veintitrés",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is twenty-three."
+    ]
+  },
+  {
+    "word": "twenty-four",
+    "translation": "veinticuatro",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is twenty-four."
+    ]
+  },
+  {
+    "word": "twenty-five",
+    "translation": "veinticinco",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is twenty-five."
+    ]
+  },
+  {
+    "word": "twenty-six",
+    "translation": "veintiséis",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is twenty-six."
+    ]
+  },
+  {
+    "word": "twenty-seven",
+    "translation": "veintisiete",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is twenty-seven."
+    ]
+  },
+  {
+    "word": "twenty-eight",
+    "translation": "veintiocho",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is twenty-eight."
+    ]
+  },
+  {
+    "word": "twenty-nine",
+    "translation": "veintinueve",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is twenty-nine."
+    ]
+  },
+  {
+    "word": "thirty-one",
+    "translation": "treinta y uno",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is thirty-one."
+    ]
+  },
+  {
+    "word": "forty-two",
+    "translation": "cuarenta y dos",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is forty-two."
+    ]
+  },
+  {
+    "word": "fifty-five",
+    "translation": "cincuenta y cinco",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is fifty-five."
+    ]
+  },
+  {
+    "word": "sixty-seven",
+    "translation": "sesenta y siete",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is sixty-seven."
+    ]
+  },
+  {
+    "word": "ninety-nine",
+    "translation": "noventa y nueve",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is ninety-nine."
+    ]
+  },
+  {
+    "word": "one hundred",
+    "translation": "cien",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is one hundred."
+    ]
+  },
+  {
+    "word": "half",
+    "translation": "medio",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is half."
+    ]
+  },
+  {
+    "word": "quarter",
+    "translation": "cuarto",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is quarter."
+    ]
+  },
+  {
+    "word": "double",
+    "translation": "doble",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is double."
+    ]
+  },
+  {
+    "word": "triple",
+    "translation": "triple",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is triple."
+    ]
+  },
+  {
+    "word": "single number",
+    "translation": "único",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is single number."
+    ]
+  },
+  {
+    "word": "pair",
+    "translation": "par",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is pair."
+    ]
+  },
+  {
+    "word": "dozen",
+    "translation": "docena",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is dozen."
+    ]
+  },
+  {
+    "word": "percent",
+    "translation": "por ciento",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is percent."
+    ]
+  },
+  {
+    "word": "plus",
+    "translation": "más",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is plus."
+    ]
+  },
+  {
+    "word": "minus",
+    "translation": "menos",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is minus."
+    ]
+  },
+  {
+    "word": "equals",
+    "translation": "igual",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is equals."
+    ]
+  },
+  {
+    "word": "odd",
+    "translation": "impar",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is odd."
+    ]
+  },
+  {
+    "word": "even number",
+    "translation": "par",
+    "partOfSpeech": "noun",
+    "category": "numbers",
+    "exampleSentences": [
+      "The answer is even number."
+    ]
+  }
+]

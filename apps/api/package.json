@@ -1,0 +1,9 @@
+{
+  "name": "@inglesapp/api",
+  "private": true,
+  "scripts": {
+    "dev": "dotnet watch run --project InglesApp.Api",
+    "build": "dotnet build InglesApp.slnx",
+    "lint": "echo 'No lint configured for API'"
+  }
+}

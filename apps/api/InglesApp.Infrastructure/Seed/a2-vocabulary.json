@@ -1,0 +1,2720 @@
+[
+  {
+    "word": "passport",
+    "translation": "pasaporte",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our passport before we leave."
+    ]
+  },
+  {
+    "word": "luggage",
+    "translation": "equipaje",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our luggage before we leave."
+    ]
+  },
+  {
+    "word": "suitcase",
+    "translation": "maleta",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our suitcase before we leave."
+    ]
+  },
+  {
+    "word": "ticket",
+    "translation": "billete",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our ticket before we leave."
+    ]
+  },
+  {
+    "word": "boarding pass",
+    "translation": "tarjeta de embarque",
+    "partOfSpeech": "phrase",
+    "category": "travel",
+    "exampleSentences": [
+      "People often say \"boarding pass\" in this situation."
+    ]
+  },
+  {
+    "word": "customs",
+    "translation": "aduanas",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our customs before we leave."
+    ]
+  },
+  {
+    "word": "border",
+    "translation": "frontera",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our border before we leave."
+    ]
+  },
+  {
+    "word": "destination",
+    "translation": "destino",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our destination before we leave."
+    ]
+  },
+  {
+    "word": "journey",
+    "translation": "viaje",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our journey before we leave."
+    ]
+  },
+  {
+    "word": "trip",
+    "translation": "excursión",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our trip before we leave."
+    ]
+  },
+  {
+    "word": "tourist",
+    "translation": "turista",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our tourist before we leave."
+    ]
+  },
+  {
+    "word": "guide",
+    "translation": "guía",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our guide before we leave."
+    ]
+  },
+  {
+    "word": "map",
+    "translation": "mapa",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our map before we leave."
+    ]
+  },
+  {
+    "word": "hotel",
+    "translation": "hotel",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our hotel before we leave."
+    ]
+  },
+  {
+    "word": "reservation",
+    "translation": "reserva",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our reservation before we leave."
+    ]
+  },
+  {
+    "word": "reception",
+    "translation": "recepción",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our reception before we leave."
+    ]
+  },
+  {
+    "word": "check in",
+    "translation": "registrarse",
+    "partOfSpeech": "phrase",
+    "category": "travel",
+    "exampleSentences": [
+      "People often say \"check in\" in this situation."
+    ]
+  },
+  {
+    "word": "check out",
+    "translation": "hacer el check-out",
+    "partOfSpeech": "phrase",
+    "category": "travel",
+    "exampleSentences": [
+      "People often say \"check out\" in this situation."
+    ]
+  },
+  {
+    "word": "hostel",
+    "translation": "albergue",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our hostel before we leave."
+    ]
+  },
+  {
+    "word": "airport",
+    "translation": "aeropuerto",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our airport before we leave."
+    ]
+  },
+  {
+    "word": "terminal",
+    "translation": "terminal",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our terminal before we leave."
+    ]
+  },
+  {
+    "word": "gate",
+    "translation": "puerta de embarque",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our gate before we leave."
+    ]
+  },
+  {
+    "word": "flight",
+    "translation": "vuelo",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our flight before we leave."
+    ]
+  },
+  {
+    "word": "delay",
+    "translation": "retraso",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our delay before we leave."
+    ]
+  },
+  {
+    "word": "departure",
+    "translation": "salida",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our departure before we leave."
+    ]
+  },
+  {
+    "word": "arrival",
+    "translation": "llegada",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our arrival before we leave."
+    ]
+  },
+  {
+    "word": "platform",
+    "translation": "andén",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our platform before we leave."
+    ]
+  },
+  {
+    "word": "train",
+    "translation": "tren",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our train before we leave."
+    ]
+  },
+  {
+    "word": "bus station",
+    "translation": "estación de autobuses",
+    "partOfSpeech": "phrase",
+    "category": "travel",
+    "exampleSentences": [
+      "People often say \"bus station\" in this situation."
+    ]
+  },
+  {
+    "word": "taxi",
+    "translation": "taxi",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our taxi before we leave."
+    ]
+  },
+  {
+    "word": "fare",
+    "translation": "tarifa",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our fare before we leave."
+    ]
+  },
+  {
+    "word": "highway",
+    "translation": "autopista",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our highway before we leave."
+    ]
+  },
+  {
+    "word": "bridge",
+    "translation": "puente",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our bridge before we leave."
+    ]
+  },
+  {
+    "word": "ferry",
+    "translation": "ferry",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our ferry before we leave."
+    ]
+  },
+  {
+    "word": "cruise",
+    "translation": "crucero",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our cruise before we leave."
+    ]
+  },
+  {
+    "word": "beach",
+    "translation": "playa",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our beach before we leave."
+    ]
+  },
+  {
+    "word": "mountain",
+    "translation": "montaña",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our mountain before we leave."
+    ]
+  },
+  {
+    "word": "landscape",
+    "translation": "paisaje",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our landscape before we leave."
+    ]
+  },
+  {
+    "word": "souvenir",
+    "translation": "recuerdo",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our souvenir before we leave."
+    ]
+  },
+  {
+    "word": "currency",
+    "translation": "moneda",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our currency before we leave."
+    ]
+  },
+  {
+    "word": "exchange rate",
+    "translation": "tipo de cambio",
+    "partOfSpeech": "phrase",
+    "category": "travel",
+    "exampleSentences": [
+      "People often say \"exchange rate\" in this situation."
+    ]
+  },
+  {
+    "word": "travel insurance",
+    "translation": "seguro de viaje",
+    "partOfSpeech": "phrase",
+    "category": "travel",
+    "exampleSentences": [
+      "People often say \"travel insurance\" in this situation."
+    ]
+  },
+  {
+    "word": "lost and found",
+    "translation": "objetos perdidos",
+    "partOfSpeech": "phrase",
+    "category": "travel",
+    "exampleSentences": [
+      "People often say \"lost and found\" in this situation."
+    ]
+  },
+  {
+    "word": "single room",
+    "translation": "habitación individual",
+    "partOfSpeech": "phrase",
+    "category": "travel",
+    "exampleSentences": [
+      "People often say \"single room\" in this situation."
+    ]
+  },
+  {
+    "word": "double room",
+    "translation": "habitación doble",
+    "partOfSpeech": "phrase",
+    "category": "travel",
+    "exampleSentences": [
+      "People often say \"double room\" in this situation."
+    ]
+  },
+  {
+    "word": "backpack",
+    "translation": "mochila",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our backpack before we leave."
+    ]
+  },
+  {
+    "word": "visa",
+    "translation": "visado",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our visa before we leave."
+    ]
+  },
+  {
+    "word": "landmark",
+    "translation": "punto de referencia",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our landmark before we leave."
+    ]
+  },
+  {
+    "word": "itinerary",
+    "translation": "itinerario",
+    "partOfSpeech": "noun",
+    "category": "travel",
+    "exampleSentences": [
+      "We need our itinerary before we leave."
+    ]
+  },
+  {
+    "word": "abroad",
+    "translation": "en el extranjero",
+    "partOfSpeech": "adverb",
+    "category": "travel",
+    "exampleSentences": [
+      "He spoke abroad about the trip."
+    ]
+  },
+  {
+    "word": "colleague",
+    "translation": "colega",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the colleague."
+    ]
+  },
+  {
+    "word": "employer",
+    "translation": "empleador",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the employer."
+    ]
+  },
+  {
+    "word": "employee",
+    "translation": "empleado",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the employee."
+    ]
+  },
+  {
+    "word": "salary",
+    "translation": "salario",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the salary."
+    ]
+  },
+  {
+    "word": "wage",
+    "translation": "sueldo",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the wage."
+    ]
+  },
+  {
+    "word": "contract",
+    "translation": "contrato",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the contract."
+    ]
+  },
+  {
+    "word": "deadline",
+    "translation": "fecha límite",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the deadline."
+    ]
+  },
+  {
+    "word": "meeting",
+    "translation": "reunión",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the meeting."
+    ]
+  },
+  {
+    "word": "interview",
+    "translation": "entrevista",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the interview."
+    ]
+  },
+  {
+    "word": "application",
+    "translation": "solicitud",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the application."
+    ]
+  },
+  {
+    "word": "CV",
+    "translation": "currículum",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the CV."
+    ]
+  },
+  {
+    "word": "resume",
+    "translation": "currículum",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the resume."
+    ]
+  },
+  {
+    "word": "promotion",
+    "translation": "ascenso",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the promotion."
+    ]
+  },
+  {
+    "word": "overtime",
+    "translation": "horas extra",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the overtime."
+    ]
+  },
+  {
+    "word": "shift",
+    "translation": "turno",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the shift."
+    ]
+  },
+  {
+    "word": "full time",
+    "translation": "a tiempo completo",
+    "partOfSpeech": "phrase",
+    "category": "work",
+    "exampleSentences": [
+      "People often say \"full time\" in this situation."
+    ]
+  },
+  {
+    "word": "part time",
+    "translation": "a tiempo parcial",
+    "partOfSpeech": "phrase",
+    "category": "work",
+    "exampleSentences": [
+      "People often say \"part time\" in this situation."
+    ]
+  },
+  {
+    "word": "workplace",
+    "translation": "lugar de trabajo",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the workplace."
+    ]
+  },
+  {
+    "word": "office",
+    "translation": "oficina",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the office."
+    ]
+  },
+  {
+    "word": "department",
+    "translation": "departamento",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the department."
+    ]
+  },
+  {
+    "word": "manager",
+    "translation": "gerente",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the manager."
+    ]
+  },
+  {
+    "word": "supervisor",
+    "translation": "supervisor",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the supervisor."
+    ]
+  },
+  {
+    "word": "team",
+    "translation": "equipo",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the team."
+    ]
+  },
+  {
+    "word": "project",
+    "translation": "proyecto",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the project."
+    ]
+  },
+  {
+    "word": "task",
+    "translation": "tarea",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the task."
+    ]
+  },
+  {
+    "word": "report",
+    "translation": "informe",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the report."
+    ]
+  },
+  {
+    "word": "email",
+    "translation": "correo electrónico",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the email."
+    ]
+  },
+  {
+    "word": "schedule",
+    "translation": "horario",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the schedule."
+    ]
+  },
+  {
+    "word": "appointment",
+    "translation": "cita",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the appointment."
+    ]
+  },
+  {
+    "word": "client",
+    "translation": "cliente",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the client."
+    ]
+  },
+  {
+    "word": "customer",
+    "translation": "cliente",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the customer."
+    ]
+  },
+  {
+    "word": "invoice",
+    "translation": "factura",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the invoice."
+    ]
+  },
+  {
+    "word": "expense",
+    "translation": "gasto",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the expense."
+    ]
+  },
+  {
+    "word": "budget",
+    "translation": "presupuesto",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the budget."
+    ]
+  },
+  {
+    "word": "training",
+    "translation": "formación",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the training."
+    ]
+  },
+  {
+    "word": "skill",
+    "translation": "habilidad",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the skill."
+    ]
+  },
+  {
+    "word": "experience",
+    "translation": "experiencia",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the experience."
+    ]
+  },
+  {
+    "word": "qualification",
+    "translation": "titulación",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the qualification."
+    ]
+  },
+  {
+    "word": "unemployment",
+    "translation": "desempleo",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the unemployment."
+    ]
+  },
+  {
+    "word": "retirement",
+    "translation": "jubilación",
+    "partOfSpeech": "noun",
+    "category": "work",
+    "exampleSentences": [
+      "At work we often discuss the retirement."
+    ]
+  },
+  {
+    "word": "resign",
+    "translation": "dimitir",
+    "partOfSpeech": "verb",
+    "category": "work",
+    "exampleSentences": [
+      "We resign at the office every week."
+    ]
+  },
+  {
+    "word": "hire",
+    "translation": "contratar",
+    "partOfSpeech": "verb",
+    "category": "work",
+    "exampleSentences": [
+      "We hire at the office every week."
+    ]
+  },
+  {
+    "word": "fire",
+    "translation": "despedir",
+    "partOfSpeech": "verb",
+    "category": "work",
+    "exampleSentences": [
+      "We fire at the office every week."
+    ]
+  },
+  {
+    "word": "attend",
+    "translation": "asistir",
+    "partOfSpeech": "verb",
+    "category": "work",
+    "exampleSentences": [
+      "We attend at the office every week."
+    ]
+  },
+  {
+    "word": "organize",
+    "translation": "organizar",
+    "partOfSpeech": "verb",
+    "category": "work",
+    "exampleSentences": [
+      "We organize at the office every week."
+    ]
+  },
+  {
+    "word": "communicate",
+    "translation": "comunicar",
+    "partOfSpeech": "verb",
+    "category": "work",
+    "exampleSentences": [
+      "We communicate at the office every week."
+    ]
+  },
+  {
+    "word": "responsible",
+    "translation": "responsable",
+    "partOfSpeech": "adjective",
+    "category": "work",
+    "exampleSentences": [
+      "That seems very responsible to me."
+    ]
+  },
+  {
+    "word": "professional",
+    "translation": "profesional",
+    "partOfSpeech": "adjective",
+    "category": "work",
+    "exampleSentences": [
+      "That seems very professional to me."
+    ]
+  },
+  {
+    "word": "busy",
+    "translation": "ocupado",
+    "partOfSpeech": "adjective",
+    "category": "work",
+    "exampleSentences": [
+      "That seems very busy to me."
+    ]
+  },
+  {
+    "word": "stressful",
+    "translation": "estresante",
+    "partOfSpeech": "adjective",
+    "category": "work",
+    "exampleSentences": [
+      "That seems very stressful to me."
+    ]
+  },
+  {
+    "word": "doctor",
+    "translation": "médico",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my doctor."
+    ]
+  },
+  {
+    "word": "nurse",
+    "translation": "enfermera",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my nurse."
+    ]
+  },
+  {
+    "word": "patient",
+    "translation": "paciente",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my patient."
+    ]
+  },
+  {
+    "word": "hospital",
+    "translation": "hospital",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my hospital."
+    ]
+  },
+  {
+    "word": "clinic",
+    "translation": "clínica",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my clinic."
+    ]
+  },
+  {
+    "word": "pharmacy",
+    "translation": "farmacia",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my pharmacy."
+    ]
+  },
+  {
+    "word": "medicine",
+    "translation": "medicina",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my medicine."
+    ]
+  },
+  {
+    "word": "pill",
+    "translation": "pastilla",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my pill."
+    ]
+  },
+  {
+    "word": "prescription",
+    "translation": "receta médica",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my prescription."
+    ]
+  },
+  {
+    "word": "symptom",
+    "translation": "síntoma",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my symptom."
+    ]
+  },
+  {
+    "word": "fever",
+    "translation": "fiebre",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my fever."
+    ]
+  },
+  {
+    "word": "cough",
+    "translation": "tos",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my cough."
+    ]
+  },
+  {
+    "word": "headache",
+    "translation": "dolor de cabeza",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my headache."
+    ]
+  },
+  {
+    "word": "stomachache",
+    "translation": "dolor de estómago",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my stomachache."
+    ]
+  },
+  {
+    "word": "pain",
+    "translation": "dolor",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my pain."
+    ]
+  },
+  {
+    "word": "injury",
+    "translation": "lesión",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my injury."
+    ]
+  },
+  {
+    "word": "allergy",
+    "translation": "alergia",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my allergy."
+    ]
+  },
+  {
+    "word": "infection",
+    "translation": "infección",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my infection."
+    ]
+  },
+  {
+    "word": "vaccine",
+    "translation": "vacuna",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my vaccine."
+    ]
+  },
+  {
+    "word": "blood pressure",
+    "translation": "presión arterial",
+    "partOfSpeech": "phrase",
+    "category": "health",
+    "exampleSentences": [
+      "People often say \"blood pressure\" in this situation."
+    ]
+  },
+  {
+    "word": "blood test",
+    "translation": "análisis de sangre",
+    "partOfSpeech": "phrase",
+    "category": "health",
+    "exampleSentences": [
+      "People often say \"blood test\" in this situation."
+    ]
+  },
+  {
+    "word": "X-ray",
+    "translation": "radiografía",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my X-ray."
+    ]
+  },
+  {
+    "word": "surgery",
+    "translation": "cirugía",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my surgery."
+    ]
+  },
+  {
+    "word": "emergency",
+    "translation": "urgencia",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my emergency."
+    ]
+  },
+  {
+    "word": "ambulance",
+    "translation": "ambulancia",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my ambulance."
+    ]
+  },
+  {
+    "word": "dentist",
+    "translation": "dentista",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my dentist."
+    ]
+  },
+  {
+    "word": "toothache",
+    "translation": "dolor de muelas",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my toothache."
+    ]
+  },
+  {
+    "word": "healthy",
+    "translation": "saludable",
+    "partOfSpeech": "adjective",
+    "category": "health",
+    "exampleSentences": [
+      "That seems very healthy to me."
+    ]
+  },
+  {
+    "word": "sick",
+    "translation": "enfermo",
+    "partOfSpeech": "adjective",
+    "category": "health",
+    "exampleSentences": [
+      "That seems very sick to me."
+    ]
+  },
+  {
+    "word": "ill",
+    "translation": "enfermo",
+    "partOfSpeech": "adjective",
+    "category": "health",
+    "exampleSentences": [
+      "That seems very ill to me."
+    ]
+  },
+  {
+    "word": "tired",
+    "translation": "cansado",
+    "partOfSpeech": "adjective",
+    "category": "health",
+    "exampleSentences": [
+      "That seems very tired to me."
+    ]
+  },
+  {
+    "word": "weak",
+    "translation": "débil",
+    "partOfSpeech": "adjective",
+    "category": "health",
+    "exampleSentences": [
+      "That seems very weak to me."
+    ]
+  },
+  {
+    "word": "strong",
+    "translation": "fuerte",
+    "partOfSpeech": "adjective",
+    "category": "health",
+    "exampleSentences": [
+      "That seems very strong to me."
+    ]
+  },
+  {
+    "word": "recover",
+    "translation": "recuperarse",
+    "partOfSpeech": "verb",
+    "category": "health",
+    "exampleSentences": [
+      "You should recover if you feel unwell."
+    ]
+  },
+  {
+    "word": "exercise",
+    "translation": "ejercicio",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my exercise."
+    ]
+  },
+  {
+    "word": "diet",
+    "translation": "dieta",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my diet."
+    ]
+  },
+  {
+    "word": "nutrition",
+    "translation": "nutrición",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my nutrition."
+    ]
+  },
+  {
+    "word": "stress",
+    "translation": "estrés",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my stress."
+    ]
+  },
+  {
+    "word": "mental health",
+    "translation": "salud mental",
+    "partOfSpeech": "phrase",
+    "category": "health",
+    "exampleSentences": [
+      "People often say \"mental health\" in this situation."
+    ]
+  },
+  {
+    "word": "rest",
+    "translation": "descanso",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my rest."
+    ]
+  },
+  {
+    "word": "sleep",
+    "translation": "sueño",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my sleep."
+    ]
+  },
+  {
+    "word": "insomnia",
+    "translation": "insomnio",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my insomnia."
+    ]
+  },
+  {
+    "word": "bandage",
+    "translation": "vendaje",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my bandage."
+    ]
+  },
+  {
+    "word": "thermometer",
+    "translation": "termómetro",
+    "partOfSpeech": "noun",
+    "category": "health",
+    "exampleSentences": [
+      "The doctor asked about my thermometer."
+    ]
+  },
+  {
+    "word": "feel better",
+    "translation": "sentirse mejor",
+    "partOfSpeech": "phrase",
+    "category": "health",
+    "exampleSentences": [
+      "People often say \"feel better\" in this situation."
+    ]
+  },
+  {
+    "word": "take care",
+    "translation": "cuidarse",
+    "partOfSpeech": "phrase",
+    "category": "health",
+    "exampleSentences": [
+      "People often say \"take care\" in this situation."
+    ]
+  },
+  {
+    "word": "broken bone",
+    "translation": "hueso roto",
+    "partOfSpeech": "phrase",
+    "category": "health",
+    "exampleSentences": [
+      "People often say \"broken bone\" in this situation."
+    ]
+  },
+  {
+    "word": "sore throat",
+    "translation": "dolor de garganta",
+    "partOfSpeech": "phrase",
+    "category": "health",
+    "exampleSentences": [
+      "People often say \"sore throat\" in this situation."
+    ]
+  },
+  {
+    "word": "feel sick",
+    "translation": "sentirse mal",
+    "partOfSpeech": "phrase",
+    "category": "health",
+    "exampleSentences": [
+      "People often say \"feel sick\" in this situation."
+    ]
+  },
+  {
+    "word": "hobby",
+    "translation": "pasatiempo",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy hobby."
+    ]
+  },
+  {
+    "word": "interest",
+    "translation": "interés",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy interest."
+    ]
+  },
+  {
+    "word": "photography",
+    "translation": "fotografía",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy photography."
+    ]
+  },
+  {
+    "word": "painting",
+    "translation": "pintura",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy painting."
+    ]
+  },
+  {
+    "word": "drawing",
+    "translation": "dibujo",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy drawing."
+    ]
+  },
+  {
+    "word": "music",
+    "translation": "música",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy music."
+    ]
+  },
+  {
+    "word": "guitar",
+    "translation": "guitarra",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy guitar."
+    ]
+  },
+  {
+    "word": "piano",
+    "translation": "piano",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy piano."
+    ]
+  },
+  {
+    "word": "dancing",
+    "translation": "baile",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy dancing."
+    ]
+  },
+  {
+    "word": "singing",
+    "translation": "canto",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy singing."
+    ]
+  },
+  {
+    "word": "reading",
+    "translation": "lectura",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy reading."
+    ]
+  },
+  {
+    "word": "writing",
+    "translation": "escritura",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy writing."
+    ]
+  },
+  {
+    "word": "gardening",
+    "translation": "jardinería",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy gardening."
+    ]
+  },
+  {
+    "word": "cooking",
+    "translation": "cocina",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy cooking."
+    ]
+  },
+  {
+    "word": "baking",
+    "translation": "repostería",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy baking."
+    ]
+  },
+  {
+    "word": "knitting",
+    "translation": "tejido",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy knitting."
+    ]
+  },
+  {
+    "word": "sewing",
+    "translation": "costura",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy sewing."
+    ]
+  },
+  {
+    "word": "fishing",
+    "translation": "pesca",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy fishing."
+    ]
+  },
+  {
+    "word": "camping",
+    "translation": "camping",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy camping."
+    ]
+  },
+  {
+    "word": "hiking",
+    "translation": "senderismo",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy hiking."
+    ]
+  },
+  {
+    "word": "cycling",
+    "translation": "ciclismo",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy cycling."
+    ]
+  },
+  {
+    "word": "swimming",
+    "translation": "natación",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy swimming."
+    ]
+  },
+  {
+    "word": "running",
+    "translation": "running",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy running."
+    ]
+  },
+  {
+    "word": "yoga",
+    "translation": "yoga",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy yoga."
+    ]
+  },
+  {
+    "word": "chess",
+    "translation": "ajedrez",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy chess."
+    ]
+  },
+  {
+    "word": "board game",
+    "translation": "juego de mesa",
+    "partOfSpeech": "phrase",
+    "category": "hobbies",
+    "exampleSentences": [
+      "People often say \"board game\" in this situation."
+    ]
+  },
+  {
+    "word": "video game",
+    "translation": "videojuego",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy video game."
+    ]
+  },
+  {
+    "word": "collecting",
+    "translation": "coleccionismo",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy collecting."
+    ]
+  },
+  {
+    "word": "stamp",
+    "translation": "sello",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy stamp."
+    ]
+  },
+  {
+    "word": "coin",
+    "translation": "moneda",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy coin."
+    ]
+  },
+  {
+    "word": "craft",
+    "translation": "manualidad",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy craft."
+    ]
+  },
+  {
+    "word": "volunteering",
+    "translation": "voluntariado",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy volunteering."
+    ]
+  },
+  {
+    "word": "club",
+    "translation": "club",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy club."
+    ]
+  },
+  {
+    "word": "concert",
+    "translation": "concierto",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy concert."
+    ]
+  },
+  {
+    "word": "museum",
+    "translation": "museo",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy museum."
+    ]
+  },
+  {
+    "word": "theater",
+    "translation": "teatro",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy theater."
+    ]
+  },
+  {
+    "word": "movie",
+    "translation": "película",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy movie."
+    ]
+  },
+  {
+    "word": "series",
+    "translation": "serie",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy series."
+    ]
+  },
+  {
+    "word": "podcast",
+    "translation": "podcast",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy podcast."
+    ]
+  },
+  {
+    "word": "blog",
+    "translation": "blog",
+    "partOfSpeech": "noun",
+    "category": "hobbies",
+    "exampleSentences": [
+      "In my free time I enjoy blog."
+    ]
+  },
+  {
+    "word": "practice",
+    "translation": "practicar",
+    "partOfSpeech": "verb",
+    "category": "hobbies",
+    "exampleSentences": [
+      "I practice every weekend."
+    ]
+  },
+  {
+    "word": "enjoy",
+    "translation": "disfrutar",
+    "partOfSpeech": "verb",
+    "category": "hobbies",
+    "exampleSentences": [
+      "I enjoy every weekend."
+    ]
+  },
+  {
+    "word": "relax",
+    "translation": "relajarse",
+    "partOfSpeech": "verb",
+    "category": "hobbies",
+    "exampleSentences": [
+      "I relax every weekend."
+    ]
+  },
+  {
+    "word": "creative",
+    "translation": "creativo",
+    "partOfSpeech": "adjective",
+    "category": "hobbies",
+    "exampleSentences": [
+      "That seems very creative to me."
+    ]
+  },
+  {
+    "word": "fun",
+    "translation": "divertido",
+    "partOfSpeech": "adjective",
+    "category": "hobbies",
+    "exampleSentences": [
+      "That seems very fun to me."
+    ]
+  },
+  {
+    "word": "boring",
+    "translation": "aburrido",
+    "partOfSpeech": "adjective",
+    "category": "hobbies",
+    "exampleSentences": [
+      "That seems very boring to me."
+    ]
+  },
+  {
+    "word": "free time",
+    "translation": "tiempo libre",
+    "partOfSpeech": "phrase",
+    "category": "hobbies",
+    "exampleSentences": [
+      "People often say \"free time\" in this situation."
+    ]
+  },
+  {
+    "word": "spare time",
+    "translation": "tiempo libre",
+    "partOfSpeech": "phrase",
+    "category": "hobbies",
+    "exampleSentences": [
+      "People often say \"spare time\" in this situation."
+    ]
+  },
+  {
+    "word": "take up",
+    "translation": "empezar a practicar",
+    "partOfSpeech": "phrase",
+    "category": "hobbies",
+    "exampleSentences": [
+      "People often say \"take up\" in this situation."
+    ]
+  },
+  {
+    "word": "give up",
+    "translation": "dejar de",
+    "partOfSpeech": "phrase",
+    "category": "hobbies",
+    "exampleSentences": [
+      "People often say \"give up\" in this situation."
+    ]
+  },
+  {
+    "word": "yesterday",
+    "translation": "ayer",
+    "partOfSpeech": "adverb",
+    "category": "past_events",
+    "exampleSentences": [
+      "It happened yesterday."
+    ]
+  },
+  {
+    "word": "last week",
+    "translation": "la semana pasada",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"last week\" in this situation."
+    ]
+  },
+  {
+    "word": "last month",
+    "translation": "el mes pasado",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"last month\" in this situation."
+    ]
+  },
+  {
+    "word": "last year",
+    "translation": "el año pasado",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"last year\" in this situation."
+    ]
+  },
+  {
+    "word": "ago",
+    "translation": "hace",
+    "partOfSpeech": "adverb",
+    "category": "past_events",
+    "exampleSentences": [
+      "It happened ago."
+    ]
+  },
+  {
+    "word": "once",
+    "translation": "una vez",
+    "partOfSpeech": "adverb",
+    "category": "past_events",
+    "exampleSentences": [
+      "It happened once."
+    ]
+  },
+  {
+    "word": "twice",
+    "translation": "dos veces",
+    "partOfSpeech": "adverb",
+    "category": "past_events",
+    "exampleSentences": [
+      "It happened twice."
+    ]
+  },
+  {
+    "word": "already",
+    "translation": "ya",
+    "partOfSpeech": "adverb",
+    "category": "past_events",
+    "exampleSentences": [
+      "It happened already."
+    ]
+  },
+  {
+    "word": "yet",
+    "translation": "todavía",
+    "partOfSpeech": "adverb",
+    "category": "past_events",
+    "exampleSentences": [
+      "It happened yet."
+    ]
+  },
+  {
+    "word": "just",
+    "translation": "acabar de",
+    "partOfSpeech": "adverb",
+    "category": "past_events",
+    "exampleSentences": [
+      "It happened just."
+    ]
+  },
+  {
+    "word": "recently",
+    "translation": "recientemente",
+    "partOfSpeech": "adverb",
+    "category": "past_events",
+    "exampleSentences": [
+      "It happened recently."
+    ]
+  },
+  {
+    "word": "suddenly",
+    "translation": "de repente",
+    "partOfSpeech": "adverb",
+    "category": "past_events",
+    "exampleSentences": [
+      "It happened suddenly."
+    ]
+  },
+  {
+    "word": "finally",
+    "translation": "finalmente",
+    "partOfSpeech": "adverb",
+    "category": "past_events",
+    "exampleSentences": [
+      "It happened finally."
+    ]
+  },
+  {
+    "word": "eventually",
+    "translation": "al final",
+    "partOfSpeech": "adverb",
+    "category": "past_events",
+    "exampleSentences": [
+      "It happened eventually."
+    ]
+  },
+  {
+    "word": "memory",
+    "translation": "recuerdo",
+    "partOfSpeech": "noun",
+    "category": "past_events",
+    "exampleSentences": [
+      "Last year something related to memory happened to me."
+    ]
+  },
+  {
+    "word": "childhood",
+    "translation": "infancia",
+    "partOfSpeech": "noun",
+    "category": "past_events",
+    "exampleSentences": [
+      "Last year something related to childhood happened to me."
+    ]
+  },
+  {
+    "word": "past",
+    "translation": "pasado",
+    "partOfSpeech": "noun",
+    "category": "past_events",
+    "exampleSentences": [
+      "Last year something related to past happened to me."
+    ]
+  },
+  {
+    "word": "history",
+    "translation": "historia",
+    "partOfSpeech": "noun",
+    "category": "past_events",
+    "exampleSentences": [
+      "Last year something related to history happened to me."
+    ]
+  },
+  {
+    "word": "event",
+    "translation": "evento",
+    "partOfSpeech": "noun",
+    "category": "past_events",
+    "exampleSentences": [
+      "Last year something related to event happened to me."
+    ]
+  },
+  {
+    "word": "celebration",
+    "translation": "celebración",
+    "partOfSpeech": "noun",
+    "category": "past_events",
+    "exampleSentences": [
+      "Last year something related to celebration happened to me."
+    ]
+  },
+  {
+    "word": "wedding",
+    "translation": "boda",
+    "partOfSpeech": "noun",
+    "category": "past_events",
+    "exampleSentences": [
+      "Last year something related to wedding happened to me."
+    ]
+  },
+  {
+    "word": "graduation",
+    "translation": "graduación",
+    "partOfSpeech": "noun",
+    "category": "past_events",
+    "exampleSentences": [
+      "Last year something related to graduation happened to me."
+    ]
+  },
+  {
+    "word": "accident",
+    "translation": "accidente",
+    "partOfSpeech": "noun",
+    "category": "past_events",
+    "exampleSentences": [
+      "Last year something related to accident happened to me."
+    ]
+  },
+  {
+    "word": "mistake",
+    "translation": "error",
+    "partOfSpeech": "noun",
+    "category": "past_events",
+    "exampleSentences": [
+      "Last year something related to mistake happened to me."
+    ]
+  },
+  {
+    "word": "success",
+    "translation": "éxito",
+    "partOfSpeech": "noun",
+    "category": "past_events",
+    "exampleSentences": [
+      "Last year something related to success happened to me."
+    ]
+  },
+  {
+    "word": "failure",
+    "translation": "fracaso",
+    "partOfSpeech": "noun",
+    "category": "past_events",
+    "exampleSentences": [
+      "Last year something related to failure happened to me."
+    ]
+  },
+  {
+    "word": "visited",
+    "translation": "visitó",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She visited when she was a student."
+    ]
+  },
+  {
+    "word": "traveled",
+    "translation": "viajó",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She traveled when she was a student."
+    ]
+  },
+  {
+    "word": "moved",
+    "translation": "se mudó",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She moved when she was a student."
+    ]
+  },
+  {
+    "word": "met",
+    "translation": "conoció",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She met when she was a student."
+    ]
+  },
+  {
+    "word": "married",
+    "translation": "se casó",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She married when she was a student."
+    ]
+  },
+  {
+    "word": "graduated",
+    "translation": "se graduó",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She graduated when she was a student."
+    ]
+  },
+  {
+    "word": "won",
+    "translation": "ganó",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She won when she was a student."
+    ]
+  },
+  {
+    "word": "lost",
+    "translation": "perdió",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She lost when she was a student."
+    ]
+  },
+  {
+    "word": "forgot",
+    "translation": "olvidó",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She forgot when she was a student."
+    ]
+  },
+  {
+    "word": "remembered",
+    "translation": "recordó",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She remembered when she was a student."
+    ]
+  },
+  {
+    "word": "happened",
+    "translation": "pasó",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She happened when she was a student."
+    ]
+  },
+  {
+    "word": "changed",
+    "translation": "cambió",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She changed when she was a student."
+    ]
+  },
+  {
+    "word": "started",
+    "translation": "empezó",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She started when she was a student."
+    ]
+  },
+  {
+    "word": "finished",
+    "translation": "terminó",
+    "partOfSpeech": "verb",
+    "category": "past_events",
+    "exampleSentences": [
+      "She finished when she was a student."
+    ]
+  },
+  {
+    "word": "used to",
+    "translation": "solía",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"used to\" in this situation."
+    ]
+  },
+  {
+    "word": "when I was young",
+    "translation": "cuando era joven",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"when I was young\" in this situation."
+    ]
+  },
+  {
+    "word": "in those days",
+    "translation": "en aquellos días",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"in those days\" in this situation."
+    ]
+  },
+  {
+    "word": "long ago",
+    "translation": "hace mucho tiempo",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"long ago\" in this situation."
+    ]
+  },
+  {
+    "word": "at that time",
+    "translation": "en aquel momento",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"at that time\" in this situation."
+    ]
+  },
+  {
+    "word": "first time",
+    "translation": "primera vez",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"first time\" in this situation."
+    ]
+  },
+  {
+    "word": "never before",
+    "translation": "nunca antes",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"never before\" in this situation."
+    ]
+  },
+  {
+    "word": "old photo",
+    "translation": "foto antigua",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"old photo\" in this situation."
+    ]
+  },
+  {
+    "word": "childhood friend",
+    "translation": "amigo de la infancia",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"childhood friend\" in this situation."
+    ]
+  },
+  {
+    "word": "used to live",
+    "translation": "vivía antes",
+    "partOfSpeech": "phrase",
+    "category": "past_events",
+    "exampleSentences": [
+      "People often say \"used to live\" in this situation."
+    ]
+  },
+  {
+    "word": "think",
+    "translation": "pensar",
+    "partOfSpeech": "verb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I think this is a good idea."
+    ]
+  },
+  {
+    "word": "believe",
+    "translation": "creer",
+    "partOfSpeech": "verb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I believe this is a good idea."
+    ]
+  },
+  {
+    "word": "agree",
+    "translation": "estar de acuerdo",
+    "partOfSpeech": "verb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I agree this is a good idea."
+    ]
+  },
+  {
+    "word": "disagree",
+    "translation": "no estar de acuerdo",
+    "partOfSpeech": "verb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I disagree this is a good idea."
+    ]
+  },
+  {
+    "word": "prefer",
+    "translation": "preferir",
+    "partOfSpeech": "verb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I prefer this is a good idea."
+    ]
+  },
+  {
+    "word": "suppose",
+    "translation": "suponer",
+    "partOfSpeech": "verb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I suppose this is a good idea."
+    ]
+  },
+  {
+    "word": "feel",
+    "translation": "sentir",
+    "partOfSpeech": "verb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I feel this is a good idea."
+    ]
+  },
+  {
+    "word": "hope",
+    "translation": "esperar",
+    "partOfSpeech": "verb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I hope this is a good idea."
+    ]
+  },
+  {
+    "word": "wonder",
+    "translation": "preguntarse",
+    "partOfSpeech": "verb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I wonder this is a good idea."
+    ]
+  },
+  {
+    "word": "opinion",
+    "translation": "opinión",
+    "partOfSpeech": "noun",
+    "category": "opinions",
+    "exampleSentences": [
+      "In my opinion, opinion matters a lot."
+    ]
+  },
+  {
+    "word": "idea",
+    "translation": "idea",
+    "partOfSpeech": "noun",
+    "category": "opinions",
+    "exampleSentences": [
+      "In my opinion, idea matters a lot."
+    ]
+  },
+  {
+    "word": "view",
+    "translation": "punto de vista",
+    "partOfSpeech": "noun",
+    "category": "opinions",
+    "exampleSentences": [
+      "In my opinion, view matters a lot."
+    ]
+  },
+  {
+    "word": "point of view",
+    "translation": "punto de vista",
+    "partOfSpeech": "phrase",
+    "category": "opinions",
+    "exampleSentences": [
+      "People often say \"point of view\" in this situation."
+    ]
+  },
+  {
+    "word": "argument",
+    "translation": "argumento",
+    "partOfSpeech": "noun",
+    "category": "opinions",
+    "exampleSentences": [
+      "In my opinion, argument matters a lot."
+    ]
+  },
+  {
+    "word": "reason",
+    "translation": "razón",
+    "partOfSpeech": "noun",
+    "category": "opinions",
+    "exampleSentences": [
+      "In my opinion, reason matters a lot."
+    ]
+  },
+  {
+    "word": "fact",
+    "translation": "hecho",
+    "partOfSpeech": "noun",
+    "category": "opinions",
+    "exampleSentences": [
+      "In my opinion, fact matters a lot."
+    ]
+  },
+  {
+    "word": "truth",
+    "translation": "verdad",
+    "partOfSpeech": "noun",
+    "category": "opinions",
+    "exampleSentences": [
+      "In my opinion, truth matters a lot."
+    ]
+  },
+  {
+    "word": "lie",
+    "translation": "mentira",
+    "partOfSpeech": "noun",
+    "category": "opinions",
+    "exampleSentences": [
+      "In my opinion, lie matters a lot."
+    ]
+  },
+  {
+    "word": "doubt",
+    "translation": "duda",
+    "partOfSpeech": "noun",
+    "category": "opinions",
+    "exampleSentences": [
+      "In my opinion, doubt matters a lot."
+    ]
+  },
+  {
+    "word": "certain",
+    "translation": "seguro",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very certain to me."
+    ]
+  },
+  {
+    "word": "sure",
+    "translation": "seguro",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very sure to me."
+    ]
+  },
+  {
+    "word": "uncertain",
+    "translation": "inseguro",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very uncertain to me."
+    ]
+  },
+  {
+    "word": "possible",
+    "translation": "posible",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very possible to me."
+    ]
+  },
+  {
+    "word": "impossible",
+    "translation": "imposible",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very impossible to me."
+    ]
+  },
+  {
+    "word": "probably",
+    "translation": "probablemente",
+    "partOfSpeech": "adverb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I probably agree with you."
+    ]
+  },
+  {
+    "word": "maybe",
+    "translation": "quizás",
+    "partOfSpeech": "adverb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I maybe agree with you."
+    ]
+  },
+  {
+    "word": "perhaps",
+    "translation": "tal vez",
+    "partOfSpeech": "adverb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I perhaps agree with you."
+    ]
+  },
+  {
+    "word": "definitely",
+    "translation": "definitivamente",
+    "partOfSpeech": "adverb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I definitely agree with you."
+    ]
+  },
+  {
+    "word": "absolutely",
+    "translation": "absolutamente",
+    "partOfSpeech": "adverb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I absolutely agree with you."
+    ]
+  },
+  {
+    "word": "exactly",
+    "translation": "exactamente",
+    "partOfSpeech": "adverb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I exactly agree with you."
+    ]
+  },
+  {
+    "word": "in my opinion",
+    "translation": "en mi opinión",
+    "partOfSpeech": "phrase",
+    "category": "opinions",
+    "exampleSentences": [
+      "People often say \"in my opinion\" in this situation."
+    ]
+  },
+  {
+    "word": "I think that",
+    "translation": "creo que",
+    "partOfSpeech": "phrase",
+    "category": "opinions",
+    "exampleSentences": [
+      "People often say \"I think that\" in this situation."
+    ]
+  },
+  {
+    "word": "I believe that",
+    "translation": "creo que",
+    "partOfSpeech": "phrase",
+    "category": "opinions",
+    "exampleSentences": [
+      "People often say \"I believe that\" in this situation."
+    ]
+  },
+  {
+    "word": "in my view",
+    "translation": "desde mi punto de vista",
+    "partOfSpeech": "phrase",
+    "category": "opinions",
+    "exampleSentences": [
+      "People often say \"in my view\" in this situation."
+    ]
+  },
+  {
+    "word": "to be honest",
+    "translation": "siendo honesto",
+    "partOfSpeech": "phrase",
+    "category": "opinions",
+    "exampleSentences": [
+      "People often say \"to be honest\" in this situation."
+    ]
+  },
+  {
+    "word": "to tell the truth",
+    "translation": "a decir verdad",
+    "partOfSpeech": "phrase",
+    "category": "opinions",
+    "exampleSentences": [
+      "People often say \"to tell the truth\" in this situation."
+    ]
+  },
+  {
+    "word": "on the other hand",
+    "translation": "por otro lado",
+    "partOfSpeech": "phrase",
+    "category": "opinions",
+    "exampleSentences": [
+      "People often say \"on the other hand\" in this situation."
+    ]
+  },
+  {
+    "word": "however",
+    "translation": "sin embargo",
+    "partOfSpeech": "conjunction",
+    "category": "opinions",
+    "exampleSentences": [
+      "I wanted to go, however it was too late."
+    ]
+  },
+  {
+    "word": "although",
+    "translation": "aunque",
+    "partOfSpeech": "conjunction",
+    "category": "opinions",
+    "exampleSentences": [
+      "I wanted to go, although it was too late."
+    ]
+  },
+  {
+    "word": "because",
+    "translation": "porque",
+    "partOfSpeech": "conjunction",
+    "category": "opinions",
+    "exampleSentences": [
+      "I wanted to go, because it was too late."
+    ]
+  },
+  {
+    "word": "therefore",
+    "translation": "por lo tanto",
+    "partOfSpeech": "adverb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I therefore agree with you."
+    ]
+  },
+  {
+    "word": "instead",
+    "translation": "en cambio",
+    "partOfSpeech": "adverb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I instead agree with you."
+    ]
+  },
+  {
+    "word": "rather",
+    "translation": "más bien",
+    "partOfSpeech": "adverb",
+    "category": "opinions",
+    "exampleSentences": [
+      "I rather agree with you."
+    ]
+  },
+  {
+    "word": "better",
+    "translation": "mejor",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very better to me."
+    ]
+  },
+  {
+    "word": "worse",
+    "translation": "peor",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very worse to me."
+    ]
+  },
+  {
+    "word": "important",
+    "translation": "importante",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very important to me."
+    ]
+  },
+  {
+    "word": "necessary",
+    "translation": "necesario",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very necessary to me."
+    ]
+  },
+  {
+    "word": "useful",
+    "translation": "útil",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very useful to me."
+    ]
+  },
+  {
+    "word": "useless",
+    "translation": "inútil",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very useless to me."
+    ]
+  },
+  {
+    "word": "fair",
+    "translation": "justo",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very fair to me."
+    ]
+  },
+  {
+    "word": "unfair",
+    "translation": "injusto",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very unfair to me."
+    ]
+  },
+  {
+    "word": "right",
+    "translation": "correcto",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very right to me."
+    ]
+  },
+  {
+    "word": "wrong",
+    "translation": "incorrecto",
+    "partOfSpeech": "adjective",
+    "category": "opinions",
+    "exampleSentences": [
+      "That seems very wrong to me."
+    ]
+  }
+]
