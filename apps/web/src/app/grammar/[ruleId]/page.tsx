@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import api, { type GrammarRule } from "@/api/client";
 import { AppHeader } from "@/components/layout/AppHeader";
 import { PageContainer } from "@/components/layout/PageContainer";
+import { ProductionTask } from "@/components/production/ProductionTask";
 
 function cleanItem(item: string, prefix: string) {
   return item.startsWith(prefix) ? item.slice(prefix.length) : item;
@@ -24,6 +25,12 @@ export default function GrammarRulePage() {
   const subRules = rule.relatedStructures.filter((item) => item.startsWith("Sub-regla: "));
   const errors = rule.relatedStructures.filter((item) => item.startsWith("Error común: "));
   const production = rule.relatedStructures.filter((item) => item.startsWith("Producción ("));
+  const productionTasks = rule.productionTasks ?? [];
+  const taskTypes = new Set(productionTasks.map((task) => task.type.toLowerCase()));
+  for (const item of production) {
+    const match = item.match(/^Producción \(([^)]+)\)/);
+    if (match) taskTypes.add(match[1].toLowerCase());
+  }
 
   return (
     <>
@@ -58,12 +65,41 @@ export default function GrammarRulePage() {
             </section>
           )}
 
-          {production.length > 0 && (
-            <section className="mb-8 rounded-xl border border-primary/30 bg-primary/5 p-4">
-              <h2 className="mb-2 font-medium">Tarea de producción</h2>
-              <ul className="space-y-2 text-sm">
-                {production.map((item) => <li key={item}>{cleanItem(item, "Producción ")}</li>)}
-              </ul>
+          {(productionTasks.length > 0 || production.length > 0) && (
+            <section className="mb-8">
+              <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
+                <div>
+                  <h2 className="text-lg font-semibold">Tarea de producción</h2>
+                  <p className="text-sm text-muted-foreground">
+                    Practica lo aprendido con speaking, writing y listening.
+                  </p>
+                </div>
+                <div className="flex flex-wrap gap-2 text-xs text-muted-foreground">
+                  {taskTypes.has("speaking") && (
+                    <span className="rounded-full bg-violet-500/10 px-2.5 py-1 text-violet-300">Speaking</span>
+                  )}
+                  {taskTypes.has("writing") && (
+                    <span className="rounded-full bg-amber-500/10 px-2.5 py-1 text-amber-300">Writing</span>
+                  )}
+                  {taskTypes.has("listening") && (
+                    <span className="rounded-full bg-sky-500/10 px-2.5 py-1 text-sky-400">Listening</span>
+                  )}
+                </div>
+              </div>
+
+              {productionTasks.length > 0 ? (
+                <div className="space-y-4">
+                  {productionTasks.map((task, index) => (
+                    <ProductionTask key={`${task.type}-${index}`} task={task} />
+                  ))}
+                </div>
+              ) : (
+                <div className="rounded-xl border border-primary/30 bg-primary/5 p-4">
+                  <ul className="space-y-2 text-sm">
+                    {production.map((item) => <li key={item}>{cleanItem(item, "Producción ")}</li>)}
+                  </ul>
+                </div>
+              )}
             </section>
           )}
 

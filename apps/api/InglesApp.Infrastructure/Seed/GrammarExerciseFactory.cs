@@ -17,6 +17,29 @@ internal static class GrammarExerciseFactory
         return structures;
     }
 
+    public static List<ProductionTask> BuildProductionTasks(GrammarTopicSeed topic)
+    {
+        var productionType = topic.ProductionSkill == Skill.Speaking ? "speaking" : "writing";
+        var listeningText = CleanExample(
+            topic.Examples.FirstOrDefault() ?? topic.ProductionModel);
+
+        return
+        [
+            new ProductionTask
+            {
+                Type = productionType,
+                Prompt = topic.ProductionPrompt
+            },
+            new ProductionTask
+            {
+                Type = "listening",
+                Prompt = "Dictado: escucha el audio y escribe la oración que oyes.",
+                TtsText = listeningText,
+                Questions = ["Escribe exactamente la oración que escuchaste."]
+            }
+        ];
+    }
+
     public static List<Exercise> BuildExercises(GrammarRule rule, GrammarTopicSeed topic)
     {
         var exercises = new List<Exercise>();

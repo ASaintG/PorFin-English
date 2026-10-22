@@ -101,6 +101,14 @@ export interface LessonSummary {
   isCompleted: boolean;
 }
 
+export interface ProductionTask {
+  type: string;
+  prompt: string;
+  ttsText: string | null;
+  audioUrl: string | null;
+  questions: string[];
+}
+
 export interface GrammarRule {
   id: string;
   title: string;
@@ -109,6 +117,7 @@ export interface GrammarRule {
   category: string;
   examples: string[];
   relatedStructures: string[];
+  productionTasks: ProductionTask[];
 }
 
 export interface LessonDetail {

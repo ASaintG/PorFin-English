@@ -49,12 +49,18 @@ public class DailySessionService : IDailySessionService
     private readonly IReviewService _reviewService;
     private readonly IExerciseService _exerciseService;
     private readonly ILessonRepository _lessonRepository;
+    private readonly IUserRepository _userRepository;
 
-    public DailySessionService(IReviewService reviewService, IExerciseService exerciseService, ILessonRepository lessonRepository)
+    public DailySessionService(
+        IReviewService reviewService,
+        IExerciseService exerciseService,
+        ILessonRepository lessonRepository,
+        IUserRepository userRepository)
     {
         _reviewService = reviewService;
         _exerciseService = exerciseService;
         _lessonRepository = lessonRepository;
+        _userRepository = userRepository;
     }
 
     public Task<DailySessionDto> GetDailySessionAsync(string userId, CancellationToken ct = default) =>
@@ -68,8 +74,12 @@ public class DailySessionService : IDailySessionService
     {
         var vocab = await _reviewService.GetDueItemsAsync(userId, level, category, ct);
         var grammar = await _exerciseService.GetDueAsync(userId, level, category, ct);
-        var lessons = await _lessonRepository.GetByLevelAsync(level ?? CefrLevel.A1, ct);
-        var nextLesson = lessons.FirstOrDefault();
+        var user = await _userRepository.GetByIdAsync(userId, ct);
+        var targetLevel = level ?? user?.CurrentLevel ?? CefrLevel.A1;
+        var lessons = await _lessonRepository.GetByLevelAsync(targetLevel, ct);
+        var completed = user?.CompletedLessonIds.ToHashSet() ?? [];
+        var nextLesson = lessons.FirstOrDefault(lesson => !completed.Contains(lesson.Id))
+            ?? lessons.FirstOrDefault();
 
         return new DailySessionDto(
             vocab.Take(10).ToList(),

@@ -215,18 +215,21 @@ public class ContentSeeder
             var key = $"{topic.Level}|{topic.Title}";
             var examples = topic.Examples.Select(GrammarExerciseFactory.CleanExample).ToList();
             var related = GrammarExerciseFactory.BuildRelatedStructures(topic);
+            var productionTasks = GrammarExerciseFactory.BuildProductionTasks(topic);
 
             if (byKey.TryGetValue(key, out var rule))
             {
                 if (rule.Explanation != topic.Explanation
                     || rule.Category != topic.Category
                     || !rule.Examples.SequenceEqual(examples)
-                    || !rule.RelatedStructures.SequenceEqual(related))
+                    || !rule.RelatedStructures.SequenceEqual(related)
+                    || !ProductionTasksEqual(rule.ProductionTasks, productionTasks))
                 {
                     rule.Explanation = topic.Explanation;
                     rule.Category = topic.Category;
                     rule.Examples = examples;
                     rule.RelatedStructures = related;
+                    rule.ProductionTasks = productionTasks;
                     await _grammarRepository.UpdateAsync(rule, ct);
                     changedRuleIds.Add(rule.Id);
                     updatedCount++;
@@ -242,7 +245,8 @@ public class ContentSeeder
                     CefrLevel = topic.Level,
                     Category = topic.Category,
                     Examples = examples,
-                    RelatedStructures = related
+                    RelatedStructures = related,
+                    ProductionTasks = productionTasks
                 };
                 newRules.Add(rule);
                 byKey[key] = rule;
@@ -788,6 +792,17 @@ public class ContentSeeder
     };
 
     private static List<VocabSeedItem> GetInlineA2Vocabulary() => [];
+
+    private static bool ProductionTasksEqual(
+        IReadOnlyList<ProductionTask> current,
+        IReadOnlyList<ProductionTask> expected) =>
+        current.Count == expected.Count
+        && current.Zip(expected).All(pair =>
+            pair.First.Type == pair.Second.Type
+            && pair.First.Prompt == pair.Second.Prompt
+            && pair.First.TtsText == pair.Second.TtsText
+            && pair.First.AudioUrl == pair.Second.AudioUrl
+            && pair.First.Questions.SequenceEqual(pair.Second.Questions));
 
     private static List<T> LoadJson<T>(string resourceName)
     {

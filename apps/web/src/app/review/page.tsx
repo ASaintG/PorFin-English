@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
-import api, { type DailySession, type ExerciseDue, type GrammarRule, type ReviewItem } from "@/api/client";
+import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
+import api, { type DailySession, type ExerciseDue, type ReviewItem } from "@/api/client";
 import { ExerciseRenderer } from "@/components/exercises/ExerciseRenderer";
 import { Flashcard } from "@/components/exercises/Flashcard";
 import { AppHeader } from "@/components/layout/AppHeader";
@@ -19,10 +19,48 @@ type SessionItem =
   | { kind: "vocab"; data: ReviewItem }
   | { kind: "grammar"; data: ExerciseDue };
 
+type SkillFilter = "all" | "vocab" | "grammar";
+
 const LEVELS = ["A1", "A2", "B1"] as const;
 
-function formatCategory(category: string) {
-  return category.replace(/_/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+function VocabIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z" />
+      <path d="M9 7h7" />
+      <path d="M9 11h7" />
+    </svg>
+  );
+}
+
+function GrammarIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+      <path d="m3 8 4-4 4 4" />
+      <path d="M7 4v16" />
+      <path d="m13 16 4 4 4-4" />
+      <path d="M17 20V4" />
+    </svg>
+  );
+}
+
+function CheckIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+      <circle cx="12" cy="12" r="9" />
+      <path d="m8.5 12 2.5 2.5 4.5-5" />
+    </svg>
+  );
+}
+
+function ArrowRightIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+      <path d="M5 12h14" />
+      <path d="m13 6 6 6-6 6" />
+    </svg>
+  );
 }
 
 async function submitVocabReview(itemId: string, quality: number): Promise<boolean> {
@@ -70,11 +108,10 @@ type ReviewSessionResult = {
   error: string;
 };
 
-async function fetchReviewSession(level: string, category: string): Promise<ReviewSessionResult> {
+async function fetchReviewSession(level: string): Promise<ReviewSessionResult> {
   try {
     await syncPendingReviews();
     const params = new URLSearchParams({ cefrLevel: level });
-    if (category) params.set("category", category);
     const { data } = await api.get<DailySession>(`/daily/session?${params.toString()}`);
     const session: SessionItem[] = [
       ...data.vocabularyReviews.map((v) => ({ kind: "vocab" as const, data: v })),
@@ -108,34 +145,24 @@ export default function ReviewPage() {
   const [index, setIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
-  const [completed, setCompleted] = useState(false);
+  const [finished, setFinished] = useState(false);
   const [offlineQueued, setOfflineQueued] = useState(0);
   const [error, setError] = useState("");
   const [level, setLevel] = useState("A1");
-  const [category, setCategory] = useState("");
-  const [categories, setCategories] = useState<string[]>([]);
-
-  useEffect(() => {
-    api.get<GrammarRule[]>(`/grammar?cefrLevel=${level}`)
-      .then(({ data }) => {
-        const extra = level === "B1" ? ["environment", "technology"] : [];
-        const next = Array.from(new Set([...data.map((rule) => rule.category), ...extra])).sort();
-        setCategories(next);
-        setCategory((current) => (current && !next.includes(current) ? "" : current));
-      })
-      .catch(() => setCategories([]));
-  }, [level]);
+  const [skillFilter, setSkillFilter] = useState<SkillFilter>("all");
+  const [reviewedCount, setReviewedCount] = useState(0);
 
   const loadReviews = useCallback(() => {
-    void fetchReviewSession(level, category).then((result) => {
+    void fetchReviewSession(level).then((result) => {
       setItems(result.session);
       setIndex(0);
-      setCompleted(result.session.length === 0);
+      setReviewedCount(0);
+      setFinished(false);
       setLessonLink(result.lessonLink);
       setError(result.error);
       setLoading(false);
     });
-  }, [level, category]);
+  }, [level]);
 
   useEffect(() => {
     void loadReviews();
@@ -150,23 +177,49 @@ export default function ReviewPage() {
     return () => window.removeEventListener("online", handleOnline);
   }, [loadReviews]);
 
+  const counts = useMemo(
+    () => ({
+      all: items.length,
+      vocab: items.filter((item) => item.kind === "vocab").length,
+      grammar: items.filter((item) => item.kind === "grammar").length,
+    }),
+    [items],
+  );
+
+  const filteredItems = useMemo(
+    () =>
+      skillFilter === "all"
+        ? items
+        : items.filter((item) => item.kind === skillFilter),
+    [items, skillFilter],
+  );
+
+  const current = filteredItems[index];
+
   const changeLevel = (value: string) => {
     setLoading(true);
     setLevel(value);
   };
 
-  const changeCategory = (value: string) => {
-    setLoading(true);
-    setCategory(value);
+  const changeSkillFilter = (value: SkillFilter) => {
+    setIndex(0);
+    setReviewedCount(0);
+    setFinished(false);
+    setSkillFilter(value);
   };
 
-  const current = items[index];
+  const advance = () => {
+    const nextIndex = index + 1;
+    if (nextIndex >= filteredItems.length) setFinished(true);
+    else setIndex(nextIndex);
+  };
 
   const handleVocabAnswer = async (quality: number) => {
     if (!current || current.kind !== "vocab") return;
     setSubmitting(true);
     const synced = await submitVocabReview(current.data.itemId, quality);
     if (!synced) setOfflineQueued((n) => n + 1);
+    setReviewedCount((n) => n + 1);
     advance();
     setSubmitting(false);
   };
@@ -175,46 +228,55 @@ export default function ReviewPage() {
     if (!current || current.kind !== "grammar") return;
     setSubmitting(true);
     await submitGrammarReview(current.data.id, correct);
+    setReviewedCount((n) => n + 1);
     advance();
     setSubmitting(false);
   };
 
-  const advance = () => {
-    const nextIndex = index + 1;
-    if (nextIndex >= items.length) setCompleted(true);
-    else setIndex(nextIndex);
-  };
-
   const filters = (
-    <div className="mb-6 w-full max-w-lg">
-      <div className="flex flex-wrap items-center gap-2">
-        <div className="flex rounded-lg border border-border p-1">
-          {LEVELS.map((value) => (
-            <button
-              key={value}
-              type="button"
-              onClick={() => changeLevel(value)}
-              className={`rounded-md px-3 py-1 text-sm transition-colors ${
-                level === value ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:bg-muted"
-              }`}
-            >
-              {value}
-            </button>
-          ))}
-        </div>
-        <select
-          value={category}
-          onChange={(event) => changeCategory(event.target.value)}
-          className="rounded-lg border border-border bg-background px-3 py-1.5 text-sm"
-          aria-label="Filtrar por tema"
-        >
-          <option value="">Todos los temas</option>
-          {categories.map((value) => (
-            <option key={value} value={value}>
-              {formatCategory(value)}
-            </option>
-          ))}
-        </select>
+    <div className="mb-8 w-full max-w-3xl space-y-3">
+      <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Filtrar por nivel">
+        {LEVELS.map((value) => (
+          <button
+            key={value}
+            type="button"
+            onClick={() => changeLevel(value)}
+            aria-pressed={level === value}
+            className={`rounded-full px-5 py-2 text-sm font-semibold transition-all ${
+              level === value
+                ? "bg-primary text-primary-foreground shadow-md shadow-primary/20"
+                : "bg-muted text-muted-foreground hover:bg-muted/80 hover:text-foreground"
+            }`}
+          >
+            {value}
+          </button>
+        ))}
+      </div>
+
+      <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Filtrar por habilidad">
+        <SkillPill
+          label="Todos"
+          count={counts.all}
+          active={skillFilter === "all"}
+          onClick={() => changeSkillFilter("all")}
+          tone="neutral"
+        />
+        <SkillPill
+          label="Vocabulario"
+          count={counts.vocab}
+          active={skillFilter === "vocab"}
+          onClick={() => changeSkillFilter("vocab")}
+          tone="vocab"
+          icon={<VocabIcon className="h-4 w-4" />}
+        />
+        <SkillPill
+          label="Gramática"
+          count={counts.grammar}
+          active={skillFilter === "grammar"}
+          onClick={() => changeSkillFilter("grammar")}
+          tone="grammar"
+          icon={<GrammarIcon className="h-4 w-4" />}
+        />
       </div>
     </div>
   );
@@ -230,36 +292,80 @@ export default function ReviewPage() {
     );
   }
 
-  if (completed || !current) {
+  if (finished) {
     return (
       <>
         <AppHeader />
-        <PageContainer className="flex flex-1 flex-col items-center justify-center text-center">
-          <div className="mx-auto w-full max-w-lg">
-            <h1 className="mb-2 text-2xl font-semibold">¡Sesión completada!</h1>
-            <p className="mb-4 text-muted-foreground">
-              {items.length > 0
-                ? "Buen trabajo. Vocabulario y gramática actualizados con SM-2."
-                : "No hay ítems pendientes para este nivel y tema."}
-            </p>
-            {filters}
-            {lessonLink && (
-              <Link href={`/lessons/${lessonLink.id}`} className="mb-4 block text-sm text-primary underline">
-                Continuar con: {lessonLink.title}
-              </Link>
-            )}
-            {offlineQueued > 0 && (
-              <p className="mb-4 text-sm text-warning">
-                {offlineQueued} respuesta(s) en cola — se sincronizarán al reconectar.
+        <PageContainer className="flex flex-1 flex-col items-center justify-center">
+          <div className="mx-auto w-full max-w-2xl">
+            <div className="rounded-3xl border border-border bg-card p-6 text-center shadow-sm sm:p-8">
+              <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-success/10 text-success">
+                <CheckIcon className="h-9 w-9" />
+              </div>
+              <h1 className="text-2xl font-semibold">¡Buen trabajo!</h1>
+              <p className="mt-2 text-muted-foreground">
+                Has repasado {reviewedCount} {reviewedCount === 1 ? "tarjeta" : "tarjetas"}.
               </p>
-            )}
-            <div className="flex justify-center gap-3">
-              <Link href="/dashboard" className="rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-hover">
-                Dashboard
-              </Link>
-              <button type="button" onClick={() => { setLoading(true); loadReviews(); }} className="rounded-lg border border-border px-5 py-2.5 text-sm transition-colors hover:bg-muted">
-                Otra ronda
-              </button>
+
+              {offlineQueued > 0 && (
+                <p className="mt-3 text-sm text-warning">
+                  {offlineQueued} respuesta(s) en cola — se sincronizarán al reconectar.
+                </p>
+              )}
+
+              <div className="mt-8 rounded-2xl border border-primary/30 bg-primary/5 p-5 text-left sm:p-6">
+                <p className="text-xs font-semibold uppercase tracking-wide text-primary">
+                  Siguiente sesión
+                </p>
+                {lessonLink ? (
+                  <>
+                    <h2 className="mt-2 text-xl font-semibold">{lessonLink.title}</h2>
+                    <p className="mt-1 text-sm text-muted-foreground">
+                      Continúa con la siguiente lección recomendada para tu nivel.
+                    </p>
+                    <Link
+                      href={`/lessons/${lessonLink.id}`}
+                      className="mt-5 inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-hover"
+                    >
+                      Continuar aprendiendo
+                      <ArrowRightIcon className="h-4 w-4" />
+                    </Link>
+                  </>
+                ) : (
+                  <>
+                    <h2 className="mt-2 text-xl font-semibold">Explora la ruta de aprendizaje</h2>
+                    <p className="mt-1 text-sm text-muted-foreground">
+                      Encuentra tu siguiente tema y sigue practicando.
+                    </p>
+                    <Link
+                      href="/path"
+                      className="mt-5 inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-hover"
+                    >
+                      Ver ruta de aprendizaje
+                      <ArrowRightIcon className="h-4 w-4" />
+                    </Link>
+                  </>
+                )}
+              </div>
+
+              <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setLoading(true);
+                    loadReviews();
+                  }}
+                  className="rounded-xl border border-border bg-transparent px-5 py-2.5 text-sm font-medium transition-colors hover:bg-muted"
+                >
+                  Otra ronda
+                </button>
+                <Link
+                  href="/dashboard"
+                  className="rounded-xl border border-border bg-transparent px-5 py-2.5 text-sm font-medium transition-colors hover:bg-muted"
+                >
+                  Volver al Dashboard
+                </Link>
+              </div>
             </div>
           </div>
         </PageContainer>
@@ -267,24 +373,67 @@ export default function ReviewPage() {
     );
   }
 
+  if (!current) {
+    return (
+      <>
+        <AppHeader />
+        <PageContainer className="flex flex-1 flex-col items-center">
+          {filters}
+          <div className="w-full max-w-3xl rounded-3xl border border-dashed border-border p-8 text-center">
+            <h1 className="text-xl font-semibold">No hay tarjetas pendientes</h1>
+            <p className="mt-2 text-sm text-muted-foreground">
+              {skillFilter === "all"
+                ? `No hay repasos para ${level} en este momento.`
+                : `No hay repasos de ${skillFilter === "vocab" ? "vocabulario" : "gramática"} para ${level}.`}
+            </p>
+            {skillFilter !== "all" && counts.all > 0 && (
+              <button
+                type="button"
+                onClick={() => changeSkillFilter("all")}
+                className="mt-5 rounded-xl border border-border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
+              >
+                Ver todos los repasos
+              </button>
+            )}
+          </div>
+        </PageContainer>
+      </>
+    );
+  }
+
+  const isVocab = current.kind === "vocab";
+
   return (
     <>
       <AppHeader />
       <PageContainer className="flex flex-1 flex-col items-center">
         {filters}
         <div className="mb-6 w-full max-w-lg">
-          <div className="mb-2 flex justify-between text-sm text-muted-foreground">
-            <span>
-              {current.kind === "vocab" ? "Vocabulario" : "Gramática"} · {index + 1} de {items.length}
+          <div className="mb-2 flex items-center justify-between gap-3 text-sm text-muted-foreground">
+            <span className="inline-flex items-center gap-2">
+              <span
+                className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium ${
+                  isVocab
+                    ? "bg-success/10 text-success"
+                    : "bg-sky-500/10 text-sky-400"
+                }`}
+              >
+                {isVocab ? <VocabIcon className="h-3.5 w-3.5" /> : <GrammarIcon className="h-3.5 w-3.5" />}
+                {isVocab ? "Vocabulario" : "Gramática"}
+              </span>
+              <span>{index + 1} de {filteredItems.length}</span>
             </span>
             {error && <span className="text-warning">{error}</span>}
           </div>
           <div className="h-2 overflow-hidden rounded-full bg-progress-track">
-            <div className="h-full rounded-full bg-success transition-all" style={{ width: `${((index + 1) / items.length) * 100}%` }} />
+            <div
+              className={`h-full rounded-full transition-all ${isVocab ? "bg-success" : "bg-sky-500"}`}
+              style={{ width: `${((index + 1) / filteredItems.length) * 100}%` }}
+            />
           </div>
         </div>
 
-        {current.kind === "vocab" ? (
+        {isVocab ? (
           <Flashcard
             key={current.data.itemId}
             word={current.data.word}
@@ -307,5 +456,46 @@ export default function ReviewPage() {
         )}
       </PageContainer>
     </>
+  );
+}
+
+function SkillPill({
+  label,
+  count,
+  active,
+  onClick,
+  tone,
+  icon,
+}: {
+  label: string;
+  count: number;
+  active: boolean;
+  onClick: () => void;
+  tone: "neutral" | "vocab" | "grammar";
+  icon?: ReactNode;
+}) {
+  const activeStyles = {
+    neutral: "border-slate-600 bg-slate-700 text-white shadow-sm",
+    vocab: "border-success/40 bg-success/15 text-success",
+    grammar: "border-sky-500/40 bg-sky-500/15 text-sky-400",
+  }[tone];
+
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-all ${
+        active
+          ? activeStyles
+          : "border-border bg-muted/60 text-muted-foreground hover:bg-muted hover:text-foreground"
+      }`}
+    >
+      {icon}
+      {label}
+      <span className={`rounded-full px-1.5 py-0.5 text-[11px] ${active ? "bg-black/15" : "bg-background/50"}`}>
+        {count}
+      </span>
+    </button>
   );
 }

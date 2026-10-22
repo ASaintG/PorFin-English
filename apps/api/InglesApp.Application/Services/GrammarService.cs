@@ -14,16 +14,28 @@ public class GrammarService : IGrammarService
     public async Task<IReadOnlyList<GrammarRuleDto>> GetByLevelAsync(CefrLevel level, CancellationToken ct = default)
     {
         var rules = await _grammarRepository.GetByLevelAsync(level, ct);
-        return rules.Select(r => new GrammarRuleDto(
-            r.Id, r.Title, r.Explanation, r.CefrLevel.ToString(),
-            r.Category, r.Examples, r.RelatedStructures)).ToList();
+        return rules.Select(ToDto).ToList();
     }
 
     public async Task<GrammarRuleDto?> GetByIdAsync(string id, CancellationToken ct = default)
     {
-        var r = await _grammarRepository.GetByIdAsync(id, ct);
-        return r is null ? null : new GrammarRuleDto(
-            r.Id, r.Title, r.Explanation, r.CefrLevel.ToString(),
-            r.Category, r.Examples, r.RelatedStructures);
+        var rule = await _grammarRepository.GetByIdAsync(id, ct);
+        return rule is null ? null : ToDto(rule);
     }
+
+    private static GrammarRuleDto ToDto(Domain.Entities.GrammarRule rule) =>
+        new(
+            rule.Id,
+            rule.Title,
+            rule.Explanation,
+            rule.CefrLevel.ToString(),
+            rule.Category,
+            rule.Examples,
+            rule.RelatedStructures,
+            rule.ProductionTasks.Select(task => new ProductionTaskDto(
+                task.Type,
+                task.Prompt,
+                task.TtsText,
+                task.AudioUrl,
+                task.Questions)).ToList());
 }

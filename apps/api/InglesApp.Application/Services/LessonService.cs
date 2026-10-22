@@ -53,7 +53,9 @@ public class LessonService : ILessonService
             if (r is not null)
                 grammarRules.Add(new DTOs.Grammar.GrammarRuleDto(
                     r.Id, r.Title, r.Explanation, r.CefrLevel.ToString(),
-                    r.Category, r.Examples, r.RelatedStructures));
+                    r.Category, r.Examples, r.RelatedStructures,
+                    r.ProductionTasks.Select(task => new DTOs.Grammar.ProductionTaskDto(
+                        task.Type, task.Prompt, task.TtsText, task.AudioUrl, task.Questions)).ToList()));
         }
 
         return new LessonDetailDto(
