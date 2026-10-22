@@ -22,12 +22,12 @@ export default function LessonsPage() {
           {lessons.map((l) => (
             <Link
               key={l.id}
-              href={l.isLocked ? "#" : `/lessons/${l.id}`}
-              className={`block rounded-xl border border-border bg-card p-4 transition-colors ${l.isLocked ? "opacity-50" : "hover:border-primary/50"}`}
+              href={`/lessons/${l.id}`}
+              className="block rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/50"
             >
               <div className="flex justify-between">
                 <h2 className="font-medium">{l.sequence}. {l.title}</h2>
-                {l.isLocked && <span className="text-xs text-muted-foreground">Bloqueada</span>}
+                {l.isCompleted && <span className="text-xs text-success">Completada</span>}
               </div>
               <p className="text-sm text-muted-foreground">{l.description}</p>
               <p className="mt-1 text-xs text-muted-foreground">{l.exerciseCount} ejercicios · {l.theme}</p>

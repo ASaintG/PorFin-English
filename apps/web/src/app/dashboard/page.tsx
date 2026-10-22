@@ -66,7 +66,7 @@ export default function DashboardPage() {
           <section aria-label="Acciones">
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
               <ActionCard title="Sesión diaria (~15 min)" href="/review" desc="Repaso vocabulario + gramática" />
-              <ActionCard title="Ruta de aprendizaje" href="/path" desc="Unidades CEFR desbloqueables" />
+              <ActionCard title="Ruta de aprendizaje" href="/path" desc="Unidades CEFR por nivel" />
               <ActionCard title="Lecciones temáticas" href="/lessons" desc="Restaurante, trabajo, direcciones..." />
               <ActionCard title="Lectura y listening" href="/reading" desc="Comprensión con TTS" />
               <ActionCard title="Speaking y writing" href="/speaking" desc="Producción oral y escrita B1" />

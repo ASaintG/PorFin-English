@@ -9,7 +9,7 @@ public record LessonSummaryDto(
     string Theme,
     int Sequence,
     int ExerciseCount,
-    bool IsLocked);
+    bool IsCompleted);
 
 public record LessonDetailDto(
     string Id,

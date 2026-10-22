@@ -31,16 +31,13 @@ public class LessonService : ILessonService
         var user = await _userRepository.GetByIdAsync(userId, ct)
             ?? throw new KeyNotFoundException("User not found.");
         var lessons = await _lessonRepository.GetByLevelAsync(level, ct);
-        var allLessons = await _lessonRepository.GetAllSortedAsync(ct);
         var completed = user.CompletedLessonIds.ToHashSet();
 
         return lessons.Select(l =>
-        {
-            var isLocked = IsLessonLocked(l, allLessons, completed);
-            return new LessonSummaryDto(
+            new LessonSummaryDto(
                 l.Id, l.Title, l.Description, l.CefrLevel.ToString(),
-                l.Category, l.Theme, l.Sequence, l.ExerciseIds.Count, isLocked);
-        }).ToList();
+                l.Category, l.Theme, l.Sequence, l.ExerciseIds.Count,
+                completed.Contains(l.Id))).ToList();
     }
 
     public async Task<LessonDetailDto?> GetByIdAsync(string id, CancellationToken ct = default)
@@ -80,16 +77,5 @@ public class LessonService : ILessonService
             user.CompletedLessonIds.Add(lessonId);
             await _userRepository.UpdateAsync(user, ct);
         }
-    }
-
-    public static bool IsLessonLocked(
-        Domain.Entities.Lesson lesson,
-        IReadOnlyList<Domain.Entities.Lesson> allLessons,
-        HashSet<string> completed)
-    {
-        if (lesson.Sequence <= 1) return false;
-        var previous = allLessons.FirstOrDefault(l => l.Sequence == lesson.Sequence - 1);
-        if (previous is null) return false;
-        return !completed.Contains(previous.Id);
     }
 }

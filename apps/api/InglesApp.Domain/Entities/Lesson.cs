@@ -13,5 +13,4 @@ public class Lesson
     public int Sequence { get; set; }
     public List<string> ExerciseIds { get; set; } = [];
     public List<string> GrammarRuleIds { get; set; } = [];
-    public bool IsLocked { get; set; }
 }

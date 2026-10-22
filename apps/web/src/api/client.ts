@@ -98,7 +98,7 @@ export interface LessonSummary {
   theme: string;
   sequence: number;
   exerciseCount: number;
-  isLocked: boolean;
+  isCompleted: boolean;
 }
 
 export interface GrammarRule {

@@ -515,11 +515,9 @@ public class ContentSeeder
                 Theme = theme,
                 Sequence = seq,
                 GrammarRuleIds = ruleIds,
-                ExerciseIds = exIds,
-                IsLocked = seq > 1
+                ExerciseIds = exIds
             });
         }
-        if (lessons.Count > 0) lessons[0].IsLocked = false;
         return lessons;
     }
 
