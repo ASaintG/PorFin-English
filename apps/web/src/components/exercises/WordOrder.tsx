@@ -25,9 +25,9 @@ export function WordOrder({ words, correctOrder, onSubmit, disabled }: WordOrder
   };
 
   return (
-    <div className="w-full max-w-lg rounded-2xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900">
-      <p className="mb-2 text-sm text-zinc-500">Ordena las palabras:</p>
-      <div className="mb-4 min-h-[2.5rem] rounded-lg bg-zinc-100 p-3 dark:bg-zinc-800">
+    <div className="w-full max-w-lg rounded-2xl border border-border bg-card p-6">
+      <p className="mb-2 text-sm text-muted-foreground">Ordena las palabras:</p>
+      <div className="mb-4 min-h-[2.5rem] rounded-lg bg-muted p-3">
         {selected.join(" ") || "..."}
       </div>
       <div className="mb-4 flex flex-wrap gap-2">
@@ -37,7 +37,7 @@ export function WordOrder({ words, correctOrder, onSubmit, disabled }: WordOrder
             type="button"
             disabled={disabled}
             onClick={() => handlePick(w)}
-            className="rounded-full border border-zinc-300 px-3 py-1 text-sm dark:border-zinc-600"
+            className="rounded-full border border-border bg-background px-3 py-1 text-sm transition-colors hover:border-primary/50"
           >
             {w}
           </button>
@@ -47,7 +47,7 @@ export function WordOrder({ words, correctOrder, onSubmit, disabled }: WordOrder
         type="button"
         disabled={disabled || selected.length !== words.length}
         onClick={handleSubmit}
-        className="rounded-lg bg-emerald-700 px-4 py-2 text-sm text-white disabled:opacity-40"
+        className="rounded-lg bg-primary px-4 py-2 text-sm text-primary-foreground transition-colors hover:bg-primary-hover disabled:opacity-40"
       >
         Comprobar
       </button>

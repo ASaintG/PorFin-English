@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import api, { type LessonSummary } from "@/api/client";
 import { AppHeader } from "@/components/layout/AppHeader";
+import { PageContainer } from "@/components/layout/PageContainer";
 
 export default function LessonsPage() {
   const [lessons, setLessons] = useState<LessonSummary[]>([]);
@@ -15,25 +16,25 @@ export default function LessonsPage() {
   return (
     <>
       <AppHeader />
-      <main className="mx-auto max-w-3xl px-4 py-8">
+      <PageContainer>
         <h1 className="mb-6 text-2xl font-semibold">Lecciones temáticas</h1>
-        <div className="space-y-3">
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           {lessons.map((l) => (
             <Link
               key={l.id}
               href={l.isLocked ? "#" : `/lessons/${l.id}`}
-              className={`block rounded-xl border p-4 ${l.isLocked ? "opacity-50" : "hover:border-emerald-300"} border-zinc-200 dark:border-zinc-800`}
+              className={`block rounded-xl border border-border bg-card p-4 transition-colors ${l.isLocked ? "opacity-50" : "hover:border-primary/50"}`}
             >
               <div className="flex justify-between">
                 <h2 className="font-medium">{l.sequence}. {l.title}</h2>
-                {l.isLocked && <span className="text-xs">Bloqueada</span>}
+                {l.isLocked && <span className="text-xs text-muted-foreground">Bloqueada</span>}
               </div>
-              <p className="text-sm text-zinc-500">{l.description}</p>
-              <p className="mt-1 text-xs text-zinc-400">{l.exerciseCount} ejercicios · {l.theme}</p>
+              <p className="text-sm text-muted-foreground">{l.description}</p>
+              <p className="mt-1 text-xs text-muted-foreground">{l.exerciseCount} ejercicios · {l.theme}</p>
             </Link>
           ))}
         </div>
-      </main>
+      </PageContainer>
     </>
   );
 }

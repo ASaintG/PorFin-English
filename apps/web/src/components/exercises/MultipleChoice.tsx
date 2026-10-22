@@ -10,7 +10,7 @@ interface MultipleChoiceProps {
 
 export function MultipleChoice({ question, options, correctIndex, onSubmit, disabled }: MultipleChoiceProps) {
   return (
-    <div className="w-full max-w-lg rounded-2xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900">
+    <div className="w-full max-w-lg rounded-2xl border border-border bg-card p-6">
       <p className="mb-4 font-medium">{question}</p>
       <div className="space-y-2">
         {options.map((opt, i) => (
@@ -19,7 +19,7 @@ export function MultipleChoice({ question, options, correctIndex, onSubmit, disa
             type="button"
             disabled={disabled}
             onClick={() => onSubmit(i === correctIndex)}
-            className="block w-full rounded-lg border border-zinc-200 px-4 py-2 text-left text-sm hover:bg-emerald-50 dark:border-zinc-700 dark:hover:bg-emerald-950"
+            className="block w-full rounded-lg border border-border bg-background px-4 py-2 text-left text-sm transition-colors hover:border-primary/50 hover:bg-primary/10"
           >
             {opt}
           </button>

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useAuthStore } from "@/stores/authStore";
+import { UserMenu } from "./UserMenu";
 
 const links = [
   { href: "/dashboard", label: "Dashboard" },
@@ -20,27 +20,31 @@ const links = [
 
 export function AppHeader() {
   const pathname = usePathname();
-  const { email, logout } = useAuthStore();
 
   return (
-    <header className="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-950">
-      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-3">
-        <Link href="/dashboard" className="text-lg font-semibold">InglesApp</Link>
-        <nav className="flex flex-wrap gap-3">
+    <header className="border-b border-border bg-card">
+      <div className="mx-auto flex w-full max-w-[1400px] flex-wrap items-center justify-between gap-x-6 gap-y-3 px-6 py-4 lg:px-8 xl:flex-nowrap">
+        <Link href="/dashboard" className="shrink-0 text-lg font-bold tracking-tight text-foreground">
+          InglesApp
+        </Link>
+
+        <nav className="order-3 flex w-full items-center gap-4 overflow-x-auto pb-1 xl:order-none xl:w-auto xl:flex-1 xl:justify-center xl:gap-6 xl:overflow-visible xl:pb-0">
           {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm ${pathname.startsWith(link.href) ? "text-emerald-700 font-medium" : "text-zinc-600"}`}
+              className={`whitespace-nowrap text-sm transition-colors ${
+                pathname.startsWith(link.href)
+                  ? "font-medium text-primary"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
             >
               {link.label}
             </Link>
           ))}
         </nav>
-        <div className="flex items-center gap-3">
-          <span className="hidden text-xs text-zinc-500 sm:inline">{email}</span>
-          <button type="button" onClick={() => void logout()} className="text-sm text-zinc-600">Salir</button>
-        </div>
+
+        <UserMenu />
       </div>
     </header>
   );

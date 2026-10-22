@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import api, { type LessonDetail } from "@/api/client";
 import { FillBlank } from "@/components/exercises/FillBlank";
 import { AppHeader } from "@/components/layout/AppHeader";
+import { PageContainer } from "@/components/layout/PageContainer";
 
 export default function LessonDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -24,34 +25,36 @@ export default function LessonDetailPage() {
     else if (lesson) await api.post(`/lessons/${id}/complete`);
   };
 
-  if (!lesson) return <><AppHeader /><main className="p-8">Cargando...</main></>;
+  if (!lesson) return <><AppHeader /><PageContainer>Cargando...</PageContainer></>;
 
   return (
     <>
       <AppHeader />
-      <main className="mx-auto max-w-3xl px-4 py-8">
-        <h1 className="mb-2 text-2xl font-semibold">{lesson.title}</h1>
-        <p className="mb-6 text-zinc-600">{lesson.description}</p>
+      <PageContainer>
+        <div className="mx-auto w-full max-w-4xl">
+          <h1 className="mb-2 text-2xl font-semibold">{lesson.title}</h1>
+          <p className="mb-6 text-muted-foreground">{lesson.description}</p>
 
-        {lesson.grammarRules.map((r) => (
-          <div key={r.id} className="mb-4 rounded-xl border border-zinc-200 p-4 dark:border-zinc-800">
-            <h3 className="font-medium">{r.title}</h3>
-            <p className="mt-1 text-sm text-zinc-600">{r.explanation}</p>
-            <ul className="mt-2 list-inside list-disc text-sm italic">
-              {r.examples.map((e) => <li key={e}>{e}</li>)}
-            </ul>
-          </div>
-        ))}
+          {lesson.grammarRules.map((r) => (
+            <div key={r.id} className="mb-4 rounded-xl border border-border bg-card p-4">
+              <h3 className="font-medium">{r.title}</h3>
+              <p className="mt-1 text-sm text-muted-foreground">{r.explanation}</p>
+              <ul className="mt-2 list-inside list-disc text-sm italic">
+                {r.examples.map((e) => <li key={e}>{e}</li>)}
+              </ul>
+            </div>
+          ))}
 
-        {exercise ? (
-          <div>
-            <p className="mb-2 text-sm text-zinc-500">Ejercicio {exIndex + 1} de {lesson.exercises.length}</p>
-            <FillBlank content={exercise.content} onSubmit={handleSubmit} />
-          </div>
-        ) : (
-          <p className="text-emerald-700">Lección completada.</p>
-        )}
-      </main>
+          {exercise ? (
+            <div>
+              <p className="mb-2 text-sm text-muted-foreground">Ejercicio {exIndex + 1} de {lesson.exercises.length}</p>
+              <FillBlank content={exercise.content} onSubmit={handleSubmit} />
+            </div>
+          ) : (
+            <p className="text-success">Lección completada.</p>
+          )}
+        </div>
+      </PageContainer>
     </>
   );
 }

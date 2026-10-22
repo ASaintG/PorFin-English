@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import api, { type ReadingDetail } from "@/api/client";
 import { ComprehensionQuestions } from "@/components/exercises/ComprehensionQuestions";
 import { AppHeader } from "@/components/layout/AppHeader";
+import { PageContainer } from "@/components/layout/PageContainer";
 import { useSpeech } from "@/hooks/useSpeech";
 import { cacheReadingText, getCachedReadingText } from "@/lib/offlineDb";
 
@@ -36,28 +37,30 @@ export default function ReadingDetailPage() {
     setResult(`Puntuación: ${data.scorePercent}% (${data.correct}/${data.total})`);
   };
 
-  if (!text) return <><AppHeader /><main className="p-8">Cargando...</main></>;
+  if (!text) return <><AppHeader /><PageContainer>Cargando...</PageContainer></>;
 
   return (
     <>
       <AppHeader />
-      <main className="mx-auto max-w-3xl px-4 py-8">
-        <h1 className="mb-4 text-2xl font-semibold">{text.title}</h1>
-        {supported && (
-          <div className="mb-4 flex gap-2">
-            <button type="button" onClick={() => speak(text.body)} className="rounded-lg border px-3 py-1 text-sm">Escuchar</button>
-            <button type="button" onClick={() => speakWithHighlight(text.body, setHighlight)} className="rounded-lg border px-3 py-1 text-sm">Con resaltado</button>
-          </div>
-        )}
-        <p className="mb-6 leading-relaxed">
-          {words.map((w, i) => (
-            <span key={i} className={i === highlight ? "rounded bg-yellow-200 dark:bg-yellow-900" : ""}>{w} </span>
-          ))}
-        </p>
-        <p className="mb-6 text-xs text-zinc-400">{text.attribution}</p>
-        <ComprehensionQuestions questions={text.questions} onSubmit={handleSubmit} />
-        {result && <p className="mt-4 font-medium text-emerald-700">{result}</p>}
-      </main>
+      <PageContainer>
+        <div className="mx-auto w-full max-w-3xl">
+          <h1 className="mb-4 text-2xl font-semibold">{text.title}</h1>
+          {supported && (
+            <div className="mb-4 flex gap-2">
+              <button type="button" onClick={() => speak(text.body)} className="rounded-lg border border-border px-3 py-1 text-sm transition-colors hover:bg-muted">Escuchar</button>
+              <button type="button" onClick={() => speakWithHighlight(text.body, setHighlight)} className="rounded-lg border border-border px-3 py-1 text-sm transition-colors hover:bg-muted">Con resaltado</button>
+            </div>
+          )}
+          <p className="mb-6 leading-relaxed">
+            {words.map((w, i) => (
+              <span key={i} className={i === highlight ? "rounded bg-warning/30 text-foreground" : ""}>{w} </span>
+            ))}
+          </p>
+          <p className="mb-6 text-xs text-muted-foreground">{text.attribution}</p>
+          <ComprehensionQuestions questions={text.questions} onSubmit={handleSubmit} />
+          {result && <p className="mt-4 font-medium text-success">{result}</p>}
+        </div>
+      </PageContainer>
     </>
   );
 }

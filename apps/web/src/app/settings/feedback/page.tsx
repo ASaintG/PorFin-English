@@ -3,6 +3,7 @@
 import { FormEvent, useState } from "react";
 import api from "@/api/client";
 import { AppHeader } from "@/components/layout/AppHeader";
+import { PageContainer } from "@/components/layout/PageContainer";
 
 export default function FeedbackPage() {
   const [type, setType] = useState("suggestion");
@@ -25,7 +26,8 @@ export default function FeedbackPage() {
   return (
     <>
       <AppHeader />
-      <main className="mx-auto max-w-lg px-4 py-8">
+      <PageContainer>
+        <div className="mx-auto w-full max-w-2xl">
         <h1 className="mb-4 text-2xl font-semibold">Enviar feedback</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -33,7 +35,7 @@ export default function FeedbackPage() {
             <select
               value={type}
               onChange={(e) => setType(e.target.value)}
-              className="w-full rounded-lg border border-zinc-300 px-3 py-2 text-sm dark:border-zinc-700 dark:bg-zinc-950"
+              className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground focus:border-primary focus:outline-none"
             >
               <option value="suggestion">Sugerencia</option>
               <option value="bug">Reportar error</option>
@@ -46,7 +48,7 @@ export default function FeedbackPage() {
               value={content}
               onChange={(e) => setContent(e.target.value)}
               rows={5}
-              className="w-full rounded-lg border border-zinc-300 px-3 py-2 text-sm dark:border-zinc-700 dark:bg-zinc-950"
+              className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground focus:border-primary focus:outline-none"
             />
           </div>
           <div>
@@ -54,15 +56,16 @@ export default function FeedbackPage() {
             <input
               value={relatedItemId}
               onChange={(e) => setRelatedItemId(e.target.value)}
-              className="w-full rounded-lg border border-zinc-300 px-3 py-2 text-sm dark:border-zinc-700 dark:bg-zinc-950"
+              className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground focus:border-primary focus:outline-none"
             />
           </div>
-          <button type="submit" className="rounded-lg bg-emerald-700 px-4 py-2 text-sm text-white">
+          <button type="submit" className="rounded-lg bg-primary px-4 py-2 text-sm text-primary-foreground transition-colors hover:bg-primary-hover">
             Enviar
           </button>
         </form>
-        {message && <p className="mt-4 text-sm text-emerald-700">{message}</p>}
-      </main>
+        {message && <p className="mt-4 text-sm text-success">{message}</p>}
+        </div>
+      </PageContainer>
     </>
   );
 }

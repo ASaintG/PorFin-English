@@ -1,12 +1,13 @@
 "use client";
 
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import api, { type ComprehensionQuestion, type FillBlankContent } from "@/api/client";
 import { ExamTimer } from "@/components/exam/ExamTimer";
 import { ComprehensionQuestions } from "@/components/exercises/ComprehensionQuestions";
 import { FillBlank } from "@/components/exercises/FillBlank";
 import { Flashcard } from "@/components/exercises/Flashcard";
 import { AppHeader } from "@/components/layout/AppHeader";
+import { PageContainer } from "@/components/layout/PageContainer";
 
 type ExamItem =
   | { kind: "vocab"; id: string; skill: string; word: string; translation: string; partOfSpeech: string; category: string }
@@ -25,9 +26,11 @@ export default function ExamPage() {
   const indexRef = useRef(index);
   const itemsRef = useRef(items);
 
-  answersRef.current = answers;
-  indexRef.current = index;
-  itemsRef.current = items;
+  useEffect(() => {
+    answersRef.current = answers;
+    indexRef.current = index;
+    itemsRef.current = items;
+  }, [answers, index, items]);
 
   const submitExam = useCallback(async (allAnswers: typeof answers) => {
     const { data } = await api.post<typeof result>("/exam/submit", { answers: allAnswers });
@@ -104,10 +107,11 @@ export default function ExamPage() {
   return (
     <>
       <AppHeader />
-      <main className="mx-auto max-w-lg px-4 py-8">
+      <PageContainer>
+        <div className="mx-auto w-full max-w-lg">
         <h1 className="mb-4 text-2xl font-semibold">Simulador de examen</h1>
         {!started && (
-          <button type="button" onClick={start} className="rounded-lg bg-emerald-700 px-5 py-2 text-white">
+          <button type="button" onClick={start} className="rounded-lg bg-primary px-5 py-2 text-primary-foreground transition-colors hover:bg-primary-hover">
             Iniciar examen (~30 min)
           </button>
         )}
@@ -116,7 +120,7 @@ export default function ExamPage() {
         )}
         {started && !result && item && !expired && (
           <>
-            <p className="mb-4 text-sm text-zinc-500">Pregunta {index + 1} de {items.length} · {item.skill}</p>
+            <p className="mb-4 text-sm text-muted-foreground">Pregunta {index + 1} de {items.length} · {item.skill}</p>
             {item.kind === "vocab" && (
               <Flashcard
                 word={item.word}
@@ -132,7 +136,7 @@ export default function ExamPage() {
             {item.kind === "comprehension" && (
               <div>
                 <h2 className="mb-2 font-medium">{item.title}</h2>
-                {item.transcript && <p className="mb-4 text-sm italic text-zinc-600">{item.transcript}</p>}
+                {item.transcript && <p className="mb-4 text-sm italic text-muted-foreground">{item.transcript}</p>}
                 <ComprehensionQuestions
                   questions={item.questions}
                   onSubmit={(selected) => {
@@ -148,11 +152,12 @@ export default function ExamPage() {
           <div>
             <p className="text-xl font-semibold">Resultado: {result.scorePercent}%</p>
             {result.sectionScores.map((s) => (
-              <p key={s.section} className="text-sm">{s.section}: {s.correct}/{s.total}</p>
+              <p key={s.section} className="text-sm text-muted-foreground">{s.section}: {s.correct}/{s.total}</p>
             ))}
           </div>
         )}
-      </main>
+        </div>
+      </PageContainer>
     </>
   );
 }

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import api, { type GrammarRule } from "@/api/client";
 import { AppHeader } from "@/components/layout/AppHeader";
+import { PageContainer } from "@/components/layout/PageContainer";
 
 export default function GrammarPage() {
   const [rules, setRules] = useState<GrammarRule[]>([]);
@@ -19,20 +20,20 @@ export default function GrammarPage() {
   return (
     <>
       <AppHeader />
-      <main className="mx-auto max-w-3xl px-4 py-8">
+      <PageContainer>
         <div className="mb-6 flex items-center justify-between">
           <h1 className="text-2xl font-semibold">Gramática</h1>
-          <Link href="/review" className="text-sm text-emerald-700 underline">Repaso SRS</Link>
+          <Link href="/review" className="text-sm text-primary underline">Repaso SRS</Link>
         </div>
-        <div className="space-y-3">
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           {rules.map((r) => (
-            <Link key={r.id} href={`/grammar/${r.id}`} className="block rounded-xl border border-zinc-200 p-4 hover:border-emerald-300 dark:border-zinc-800">
+            <Link key={r.id} href={`/grammar/${r.id}`} className="block rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/50">
               <h2 className="font-medium">{r.title}</h2>
-              <p className="text-sm text-zinc-500">{r.cefrLevel} · {r.category}</p>
+              <p className="text-sm text-muted-foreground">{r.cefrLevel} · {r.category}</p>
             </Link>
           ))}
         </div>
-      </main>
+      </PageContainer>
     </>
   );
 }

@@ -1,11 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import api, { type DailySession, type ExerciseDue, type ReviewItem } from "@/api/client";
 import { FillBlank } from "@/components/exercises/FillBlank";
 import { Flashcard } from "@/components/exercises/Flashcard";
 import { AppHeader } from "@/components/layout/AppHeader";
+import { PageContainer } from "@/components/layout/PageContainer";
 import {
   cacheReviewSession,
   enqueueReview,
@@ -57,6 +58,42 @@ async function syncPendingReviews(): Promise<void> {
   }
 }
 
+type ReviewSessionResult = {
+  session: SessionItem[];
+  lessonLink: { id: string; title: string } | null;
+  error: string;
+};
+
+async function fetchReviewSession(): Promise<ReviewSessionResult> {
+  try {
+    await syncPendingReviews();
+    const { data } = await api.get<DailySession>("/daily/session");
+    const session: SessionItem[] = [
+      ...data.vocabularyReviews.map((v) => ({ kind: "vocab" as const, data: v })),
+      ...data.grammarReviews.map((g) => ({ kind: "grammar" as const, data: g })),
+    ];
+    await cacheReviewSession(data.vocabularyReviews);
+    return {
+      session,
+      lessonLink:
+        data.recommendedLessonId && data.recommendedLessonTitle
+          ? { id: data.recommendedLessonId, title: data.recommendedLessonTitle }
+          : null,
+      error: "",
+    };
+  } catch {
+    const cached = await getCachedReviewSession();
+    if (cached?.items?.length) {
+      return {
+        session: (cached.items as ReviewItem[]).map((v) => ({ kind: "vocab" as const, data: v })),
+        lessonLink: null,
+        error: "Sin conexión — usando sesión guardada.",
+      };
+    }
+    return { session: [], lessonLink: null, error: "No se pudo cargar el repaso." };
+  }
+}
+
 export default function ReviewPage() {
   const [items, setItems] = useState<SessionItem[]>([]);
   const [lessonLink, setLessonLink] = useState<{ id: string; title: string } | null>(null);
@@ -67,44 +104,47 @@ export default function ReviewPage() {
   const [offlineQueued, setOfflineQueued] = useState(0);
   const [error, setError] = useState("");
 
-  const loadReviews = useCallback(async () => {
+  const loadReviews = () => {
     setLoading(true);
-    setError("");
-    try {
-      await syncPendingReviews();
-      const { data } = await api.get<DailySession>("/daily/session");
-      const session: SessionItem[] = [
-        ...data.vocabularyReviews.map((v) => ({ kind: "vocab" as const, data: v })),
-        ...data.grammarReviews.map((g) => ({ kind: "grammar" as const, data: g })),
-      ];
-      setItems(session);
+    void fetchReviewSession().then((result) => {
+      setItems(result.session);
       setIndex(0);
-      setCompleted(session.length === 0);
-      if (data.recommendedLessonId && data.recommendedLessonTitle) {
-        setLessonLink({ id: data.recommendedLessonId, title: data.recommendedLessonTitle });
-      }
-      await cacheReviewSession(data.vocabularyReviews);
-    } catch {
-      const cached = await getCachedReviewSession();
-      if (cached?.items?.length) {
-        const session = (cached.items as ReviewItem[]).map((v) => ({ kind: "vocab" as const, data: v }));
-        setItems(session);
-        setIndex(0);
-        setError("Sin conexión — usando sesión guardada.");
-      } else {
-        setError("No se pudo cargar el repaso.");
-      }
-    } finally {
+      setCompleted(result.session.length === 0);
+      setLessonLink(result.lessonLink);
+      setError(result.error);
       setLoading(false);
-    }
-  }, []);
+    });
+  };
 
   useEffect(() => {
-    loadReviews();
-    const handleOnline = () => syncPendingReviews().then(loadReviews);
+    let cancelled = false;
+    void fetchReviewSession().then((result) => {
+      if (cancelled) return;
+      setItems(result.session);
+      setIndex(0);
+      setCompleted(result.session.length === 0);
+      setLessonLink(result.lessonLink);
+      setError(result.error);
+      setLoading(false);
+    });
+    const handleOnline = () => {
+      setLoading(true);
+      void fetchReviewSession().then((result) => {
+        if (cancelled) return;
+        setItems(result.session);
+        setIndex(0);
+        setCompleted(result.session.length === 0);
+        setLessonLink(result.lessonLink);
+        setError(result.error);
+        setLoading(false);
+      });
+    };
     window.addEventListener("online", handleOnline);
-    return () => window.removeEventListener("online", handleOnline);
-  }, [loadReviews]);
+    return () => {
+      cancelled = true;
+      window.removeEventListener("online", handleOnline);
+    };
+  }, []);
 
   const current = items[index];
 
@@ -135,9 +175,9 @@ export default function ReviewPage() {
     return (
       <>
         <AppHeader />
-        <main className="flex flex-1 items-center justify-center">
-          <p className="text-zinc-500">Cargando sesión diaria...</p>
-        </main>
+        <PageContainer className="flex flex-1 items-center justify-center">
+          <p className="text-muted-foreground">Cargando sesión diaria...</p>
+        </PageContainer>
       </>
     );
   }
@@ -146,32 +186,34 @@ export default function ReviewPage() {
     return (
       <>
         <AppHeader />
-        <main className="mx-auto flex max-w-lg flex-1 flex-col items-center justify-center px-4 py-12 text-center">
-          <h1 className="mb-2 text-2xl font-semibold">¡Sesión completada!</h1>
-          <p className="mb-2 text-zinc-600">
-            {items.length > 0
-              ? "Buen trabajo. Vocabulario y gramática actualizados con SM-2."
-              : "No hay ítems pendientes por ahora."}
-          </p>
-          {lessonLink && (
-            <Link href={`/lessons/${lessonLink.id}`} className="mb-4 text-sm text-emerald-700 underline">
-              Continuar con: {lessonLink.title}
-            </Link>
-          )}
-          {offlineQueued > 0 && (
-            <p className="mb-4 text-sm text-amber-600">
-              {offlineQueued} respuesta(s) en cola — se sincronizarán al reconectar.
+        <PageContainer className="flex flex-1 flex-col items-center justify-center text-center">
+          <div className="mx-auto w-full max-w-lg">
+            <h1 className="mb-2 text-2xl font-semibold">¡Sesión completada!</h1>
+            <p className="mb-2 text-muted-foreground">
+              {items.length > 0
+                ? "Buen trabajo. Vocabulario y gramática actualizados con SM-2."
+                : "No hay ítems pendientes por ahora."}
             </p>
-          )}
-          <div className="flex gap-3">
-            <Link href="/dashboard" className="rounded-lg bg-emerald-700 px-5 py-2.5 text-sm font-medium text-white">
-              Dashboard
-            </Link>
-            <button type="button" onClick={loadReviews} className="rounded-lg border px-5 py-2.5 text-sm">
-              Otra ronda
-            </button>
+            {lessonLink && (
+              <Link href={`/lessons/${lessonLink.id}`} className="mb-4 text-sm text-primary underline">
+                Continuar con: {lessonLink.title}
+              </Link>
+            )}
+            {offlineQueued > 0 && (
+              <p className="mb-4 text-sm text-warning">
+                {offlineQueued} respuesta(s) en cola — se sincronizarán al reconectar.
+              </p>
+            )}
+            <div className="flex justify-center gap-3">
+              <Link href="/dashboard" className="rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-hover">
+                Dashboard
+              </Link>
+              <button type="button" onClick={loadReviews} className="rounded-lg border border-border px-5 py-2.5 text-sm transition-colors hover:bg-muted">
+                Otra ronda
+              </button>
+            </div>
           </div>
-        </main>
+        </PageContainer>
       </>
     );
   }
@@ -179,16 +221,16 @@ export default function ReviewPage() {
   return (
     <>
       <AppHeader />
-      <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col items-center px-4 py-8">
+      <PageContainer className="flex flex-1 flex-col items-center">
         <div className="mb-6 w-full max-w-lg">
-          <div className="mb-2 flex justify-between text-sm text-zinc-500">
+          <div className="mb-2 flex justify-between text-sm text-muted-foreground">
             <span>
               {current.kind === "vocab" ? "Vocabulario" : "Gramática"} · {index + 1} de {items.length}
             </span>
-            {error && <span className="text-amber-600">{error}</span>}
+            {error && <span className="text-warning">{error}</span>}
           </div>
-          <div className="h-2 overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-800">
-            <div className="h-full rounded-full bg-emerald-600 transition-all" style={{ width: `${((index + 1) / items.length) * 100}%` }} />
+          <div className="h-2 overflow-hidden rounded-full bg-progress-track">
+            <div className="h-full rounded-full bg-success transition-all" style={{ width: `${((index + 1) / items.length) * 100}%` }} />
           </div>
         </div>
 
@@ -212,7 +254,7 @@ export default function ReviewPage() {
             onSubmit={handleGrammarAnswer}
           />
         )}
-      </main>
+      </PageContainer>
     </>
   );
 }

@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import api, { type PlacementQuestion } from "@/api/client";
 import { FillBlank } from "@/components/exercises/FillBlank";
+import { PageContainer } from "@/components/layout/PageContainer";
 import { useAuthStore } from "@/stores/authStore";
 
 export default function PlacementPage() {
@@ -54,13 +55,15 @@ export default function PlacementPage() {
   };
 
   const q = questions[index];
-  if (!q) return <main className="flex min-h-screen items-center justify-center">Cargando test...</main>;
+  if (!q) return <PageContainer className="flex min-h-screen items-center justify-center">Cargando test...</PageContainer>;
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-lg flex-col justify-center px-4">
-      <h1 className="mb-2 text-2xl font-semibold">Test de nivel</h1>
-      <p className="mb-6 text-sm text-zinc-500">Pregunta {index + 1} de {questions.length} · Nivel actual: {level}</p>
-      <FillBlank content={q.content} onSubmit={handleAnswer} />
-    </main>
+    <PageContainer className="flex min-h-screen flex-col justify-center">
+      <div className="mx-auto w-full max-w-lg">
+        <h1 className="mb-2 text-2xl font-semibold">Test de nivel</h1>
+        <p className="mb-6 text-sm text-muted-foreground">Pregunta {index + 1} de {questions.length} · Nivel actual: {level}</p>
+        <FillBlank content={q.content} onSubmit={handleAnswer} />
+      </div>
+    </PageContainer>
   );
 }

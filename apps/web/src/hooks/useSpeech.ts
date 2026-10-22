@@ -1,13 +1,19 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useSyncExternalStore } from "react";
+
+const subscribe = () => () => {};
 
 export function useSpeech() {
-  const [supported, setSupported] = useState(false);
+  const supported = useSyncExternalStore(
+    subscribe,
+    () => typeof window !== "undefined" && "speechSynthesis" in window,
+    () => false,
+  );
   const voiceRef = useRef<SpeechSynthesisVoice | null>(null);
 
   useEffect(() => {
-    setSupported(typeof window !== "undefined" && "speechSynthesis" in window);
+    if (!("speechSynthesis" in window)) return;
     const loadVoices = () => {
       const voices = window.speechSynthesis.getVoices();
       voiceRef.current =

@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState, useSyncExternalStore } from "react";
 
 type SpeechRecognitionInstance = {
   lang: string;
@@ -10,17 +10,18 @@ type SpeechRecognitionInstance = {
   start: () => void;
 };
 
+const subscribe = () => () => {};
+
 export function useSpeechRecognition() {
-  const [supported, setSupported] = useState(false);
+  const supported = useSyncExternalStore(
+    subscribe,
+    () =>
+      typeof window !== "undefined" &&
+      ("SpeechRecognition" in window || "webkitSpeechRecognition" in window),
+    () => false,
+  );
   const [listening, setListening] = useState(false);
   const [transcript, setTranscript] = useState("");
-
-  useEffect(() => {
-    setSupported(
-      typeof window !== "undefined" &&
-        ("SpeechRecognition" in window || "webkitSpeechRecognition" in window),
-    );
-  }, []);
 
   const start = useCallback(() => {
     if (!supported) return;
