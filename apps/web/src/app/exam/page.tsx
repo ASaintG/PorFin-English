@@ -1,17 +1,17 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import api, { type ComprehensionQuestion, type FillBlankContent } from "@/api/client";
+import api, { type ComprehensionQuestion, type ExerciseContent } from "@/api/client";
 import { ExamTimer } from "@/components/exam/ExamTimer";
 import { ComprehensionQuestions } from "@/components/exercises/ComprehensionQuestions";
-import { FillBlank } from "@/components/exercises/FillBlank";
+import { ExerciseRenderer } from "@/components/exercises/ExerciseRenderer";
 import { Flashcard } from "@/components/exercises/Flashcard";
 import { AppHeader } from "@/components/layout/AppHeader";
 import { PageContainer } from "@/components/layout/PageContainer";
 
 type ExamItem =
   | { kind: "vocab"; id: string; skill: string; word: string; translation: string; partOfSpeech: string; category: string }
-  | { kind: "grammar"; id: string; skill: string; content: FillBlankContent }
+  | { kind: "grammar"; id: string; skill: string; type: string; content: ExerciseContent }
   | { kind: "comprehension"; id: string; skill: string; title: string; transcript?: string; questions: (ComprehensionQuestion & { correctIndex: number })[] };
 
 export default function ExamPage() {
@@ -67,7 +67,8 @@ export default function ExamPage() {
             kind: "grammar",
             id: String(raw.id),
             skill: sec.skill,
-            content: raw.content as FillBlankContent,
+            type: String(raw.type ?? "FillBlank"),
+            content: raw.content as ExerciseContent,
           });
         } else if (raw.questions) {
           flat.push({
@@ -132,7 +133,7 @@ export default function ExamPage() {
                 onDontKnow={() => advance(false)}
               />
             )}
-            {item.kind === "grammar" && <FillBlank content={item.content} onSubmit={advance} />}
+            {item.kind === "grammar" && <ExerciseRenderer type={item.type} content={item.content} onSubmit={advance} />}
             {item.kind === "comprehension" && (
               <div>
                 <h2 className="mb-2 font-medium">{item.title}</h2>

@@ -65,12 +65,26 @@ export interface FillBlankContent {
   correctIndex: number;
 }
 
+export interface MultipleChoiceContent {
+  question: string;
+  options: string[];
+  correctIndex: number;
+}
+
+export interface WordOrderContent {
+  words: string[];
+  correctOrder: string[];
+}
+
+export type ExerciseContent = FillBlankContent | MultipleChoiceContent | WordOrderContent;
+
 export interface ExerciseDue {
   id: string;
   type: string;
-  content: FillBlankContent;
+  content: ExerciseContent;
   cefrLevel: string;
   skill: string;
+  category: string;
   repetitions: number;
   nextReviewDate: string;
 }
@@ -94,6 +108,7 @@ export interface GrammarRule {
   cefrLevel: string;
   category: string;
   examples: string[];
+  relatedStructures: string[];
 }
 
 export interface LessonDetail {
@@ -105,7 +120,7 @@ export interface LessonDetail {
   theme: string;
   sequence: number;
   grammarRules: GrammarRule[];
-  exercises: { id: string; type: string; content: FillBlankContent; category: string }[];
+  exercises: { id: string; type: string; content: ExerciseContent; category: string }[];
 }
 
 export interface ReadingSummary {
@@ -164,7 +179,7 @@ export interface WritingPrompt {
 export interface PlacementQuestion {
   exerciseId: string;
   type: string;
-  content: FillBlankContent;
+  content: ExerciseContent;
   cefrLevel: string;
 }
 

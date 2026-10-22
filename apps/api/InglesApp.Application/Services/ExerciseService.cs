@@ -23,7 +23,14 @@ public class ExerciseService : IExerciseService
         _srs = srs;
     }
 
-    public async Task<IReadOnlyList<ExerciseDueDto>> GetDueAsync(string userId, CancellationToken ct = default)
+    public Task<IReadOnlyList<ExerciseDueDto>> GetDueAsync(string userId, CancellationToken ct = default) =>
+        GetDueAsync(userId, null, null, ct);
+
+    public async Task<IReadOnlyList<ExerciseDueDto>> GetDueAsync(
+        string userId,
+        CefrLevel? level,
+        string? category,
+        CancellationToken ct = default)
     {
         var due = await _progressRepository.GetDueByItemTypeAsync(userId, ItemType.Grammar, DateTime.UtcNow, ct);
         var results = new List<ExerciseDueDto>();
@@ -32,13 +39,17 @@ public class ExerciseService : IExerciseService
         {
             var ex = await _exerciseRepository.GetByIdAsync(p.ItemId, ct);
             if (ex is null) continue;
+            if (level.HasValue && ex.CefrLevel != level.Value) continue;
+            if (!MatchesCategory(ex.Category, category)) continue;
             results.Add(MapDue(ex, p));
         }
 
         if (results.Count == 0)
         {
-            var available = await _exerciseRepository.GetByLevelAndSkillAsync(CefrLevel.A1, Skill.Grammar, ct);
-            foreach (var ex in available.Take(10))
+            var available = await _exerciseRepository.GetByLevelAndSkillAsync(
+                level ?? CefrLevel.A1, Skill.Grammar, ct);
+
+            foreach (var ex in available.Where(e => MatchesCategory(e.Category, category)).Take(10))
             {
                 var existing = await _progressRepository.GetByUserAndItemAsync(userId, ex.Id, ct);
                 if (existing is not null) continue;
@@ -50,6 +61,10 @@ public class ExerciseService : IExerciseService
 
         return results;
     }
+
+    private static bool MatchesCategory(string itemCategory, string? category) =>
+        string.IsNullOrWhiteSpace(category)
+        || itemCategory.Equals(category, StringComparison.OrdinalIgnoreCase);
 
     public async Task<SubmitExerciseResponse> SubmitAsync(
         string userId, string exerciseId, SubmitExerciseRequest request, CancellationToken ct = default)
@@ -79,5 +94,5 @@ public class ExerciseService : IExerciseService
 
     private static ExerciseDueDto MapDue(Domain.Entities.Exercise ex, Domain.Entities.UserProgress p) =>
         new(ex.Id, ex.Type.ToString(), ExerciseGeneratorService.ParseContent(ex.ContentJson),
-            ex.CefrLevel.ToString(), ex.Skill.ToString(), p.Repetitions, p.NextReviewDate);
+            ex.CefrLevel.ToString(), ex.Skill.ToString(), ex.Category, p.Repetitions, p.NextReviewDate);
 }

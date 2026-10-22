@@ -1,6 +1,7 @@
 using System.Security.Claims;
 using InglesApp.Application.DTOs.Reviews;
 using InglesApp.Application.Interfaces;
+using InglesApp.Domain.Enums;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,12 +22,15 @@ public class ReviewsController : ControllerBase
     }
 
     [HttpGet("due")]
-    public async Task<ActionResult<IReadOnlyList<ReviewItemDto>>> GetDue(CancellationToken cancellationToken)
+    public async Task<ActionResult<IReadOnlyList<ReviewItemDto>>> GetDue(
+        [FromQuery] CefrLevel? cefrLevel,
+        [FromQuery] string? category,
+        CancellationToken cancellationToken)
     {
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier)
             ?? throw new UnauthorizedAccessException();
 
-        var items = await _reviewService.GetDueItemsAsync(userId, cancellationToken);
+        var items = await _reviewService.GetDueItemsAsync(userId, cefrLevel, category, cancellationToken);
         await _progressService.UpdateStreakAsync(userId, cancellationToken);
         return Ok(items);
     }

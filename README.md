@@ -60,12 +60,12 @@ Copia `.env.example` y exporta las variables, o usa `appsettings.Development.jso
 
 ## Funcionalidades v0.1
 
-- Vocabulario A1–B2 (~1000 A1, ~300 A2, ~1500 B1, ~2000 B2)
-- Gramática con ejercicios fill-in-blank y SM-2
+- Vocabulario A1–B2 (~1000 A1, ~300 A2, ~700 B1, ~700 B2, más packs temáticos)
+- Gramática A1–B1 con 45 temas, explicaciones ricas y 5 tipos de ejercicios (fill-in-blank, multiple choice, word order y corrección de errores)
 - Lecciones temáticas con desbloqueo progresivo (20 unidades)
-- Lectura y listening con TTS y preguntas de comprensión
-- Speaking (STT) y writing con prompts laborales B1
-- Placement test, learning path, sesión diaria, simulador de examen con cronómetro
+- Lectura por niveles, listening con TTS y preguntas de comprensión
+- Speaking (STT) y writing por niveles, con prompts de producción y evaluación por IA
+- Placement test, learning path, sesión diaria con filtros por nivel/tema, simulador de examen con cronómetro
 - PWA básica y offline (cola de repasos + batch sync)
 - Cookie JWT `httpOnly` para rutas protegidas
 

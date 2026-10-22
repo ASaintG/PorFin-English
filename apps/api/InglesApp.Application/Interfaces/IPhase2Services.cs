@@ -21,6 +21,7 @@ public interface ILessonService
 public interface IExerciseService
 {
     Task<IReadOnlyList<ExerciseDueDto>> GetDueAsync(string userId, CancellationToken cancellationToken = default);
+    Task<IReadOnlyList<ExerciseDueDto>> GetDueAsync(string userId, CefrLevel? level, string? category, CancellationToken cancellationToken = default);
     Task<SubmitExerciseResponse> SubmitAsync(string userId, string exerciseId, SubmitExerciseRequest request, CancellationToken cancellationToken = default);
     Task<IReadOnlyList<ExerciseDto>> GetPlacementExercisesAsync(CefrLevel level, CancellationToken cancellationToken = default);
 }

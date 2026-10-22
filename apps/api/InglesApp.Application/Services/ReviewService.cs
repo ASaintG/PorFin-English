@@ -1,5 +1,6 @@
 using InglesApp.Application.DTOs.Reviews;
 using InglesApp.Application.Interfaces;
+using InglesApp.Domain.Enums;
 using InglesApp.Domain.Interfaces;
 using InglesApp.Domain.Services;
 
@@ -21,8 +22,15 @@ public class ReviewService : IReviewService
         _srs = srs;
     }
 
+    public Task<IReadOnlyList<ReviewItemDto>> GetDueItemsAsync(
+        string userId,
+        CancellationToken cancellationToken = default) =>
+        GetDueItemsAsync(userId, null, null, cancellationToken);
+
     public async Task<IReadOnlyList<ReviewItemDto>> GetDueItemsAsync(
         string userId,
+        CefrLevel? level,
+        string? category,
         CancellationToken cancellationToken = default)
     {
         var dueProgress = await _progressRepository.GetDueItemsAsync(userId, DateTime.UtcNow, cancellationToken);
@@ -32,6 +40,8 @@ public class ReviewService : IReviewService
         {
             var vocab = await _vocabularyRepository.GetByIdAsync(progress.ItemId, cancellationToken);
             if (vocab is null) continue;
+            if (level.HasValue && vocab.CefrLevel != level.Value) continue;
+            if (!MatchesCategory(vocab.Category, category)) continue;
 
             results.Add(new ReviewItemDto(
                 vocab.Id,
@@ -46,8 +56,8 @@ public class ReviewService : IReviewService
 
         if (results.Count == 0)
         {
-            var newWords = await _vocabularyRepository.GetByLevelAsync(
-                Domain.Enums.CefrLevel.A1, 0, 20, cancellationToken);
+            var newWords = await _vocabularyRepository.GetByLevelAndCategoryAsync(
+                level ?? CefrLevel.A1, category, 0, 20, cancellationToken);
 
             foreach (var vocab in newWords)
             {
@@ -71,6 +81,10 @@ public class ReviewService : IReviewService
 
         return results;
     }
+
+    private static bool MatchesCategory(string itemCategory, string? category) =>
+        string.IsNullOrWhiteSpace(category)
+        || itemCategory.Equals(category, StringComparison.OrdinalIgnoreCase);
 
     public async Task<SubmitReviewResponse> SubmitReviewAsync(
         string userId,

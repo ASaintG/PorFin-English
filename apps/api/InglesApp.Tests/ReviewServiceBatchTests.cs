@@ -67,7 +67,12 @@ public class ReviewServiceBatchTests
         public Task<VocabularyItem?> GetByIdAsync(string id, CancellationToken cancellationToken = default) => Task.FromResult<VocabularyItem?>(null);
         public Task<IReadOnlyList<VocabularyItem>> GetByLevelAsync(CefrLevel level, int skip, int take, CancellationToken cancellationToken = default) =>
             Task.FromResult<IReadOnlyList<VocabularyItem>>([]);
+        public Task<IReadOnlyList<VocabularyItem>> GetByLevelAndCategoryAsync(CefrLevel level, string? category, int skip, int take, CancellationToken cancellationToken = default) =>
+            Task.FromResult<IReadOnlyList<VocabularyItem>>([]);
+        public Task<long> CountByLevelAndCategoryAsync(CefrLevel level, string category, CancellationToken cancellationToken = default) => Task.FromResult(0L);
         public Task InsertManyAsync(IEnumerable<VocabularyItem> items, CancellationToken cancellationToken = default) => Task.CompletedTask;
+        public Task UpdateManyAsync(IEnumerable<VocabularyItem> items, CancellationToken cancellationToken = default) => Task.CompletedTask;
+        public Task DeleteManyAsync(IEnumerable<string> ids, CancellationToken cancellationToken = default) => Task.CompletedTask;
         public Task<bool> AnyAsync(CancellationToken cancellationToken = default) => Task.FromResult(false);
         public Task<long> CountByLevelAsync(CefrLevel level, CancellationToken cancellationToken = default) => Task.FromResult(0L);
     }

@@ -39,6 +39,7 @@ public interface IPlacementService
 public interface IDailySessionService
 {
     Task<DTOs.Daily.DailySessionDto> GetDailySessionAsync(string userId, CancellationToken cancellationToken = default);
+    Task<DTOs.Daily.DailySessionDto> GetDailySessionAsync(string userId, CefrLevel? level, string? category, CancellationToken cancellationToken = default);
 }
 
 public interface IExamSimulatorService

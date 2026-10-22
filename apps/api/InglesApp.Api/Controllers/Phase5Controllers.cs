@@ -2,6 +2,7 @@ using System.Security.Claims;
 using InglesApp.Application.DTOs.Exam;
 using InglesApp.Application.DTOs.Placement;
 using InglesApp.Application.Interfaces;
+using InglesApp.Domain.Enums;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -40,10 +41,13 @@ public class DailyController : ControllerBase
     public DailyController(IDailySessionService dailySessionService) => _dailySessionService = dailySessionService;
 
     [HttpGet("session")]
-    public async Task<IActionResult> GetSession(CancellationToken ct = default)
+    public async Task<IActionResult> GetSession(
+        [FromQuery] CefrLevel? cefrLevel,
+        [FromQuery] string? category,
+        CancellationToken ct = default)
     {
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier)!;
-        return Ok(await _dailySessionService.GetDailySessionAsync(userId, ct));
+        return Ok(await _dailySessionService.GetDailySessionAsync(userId, cefrLevel, category, ct));
     }
 }
 

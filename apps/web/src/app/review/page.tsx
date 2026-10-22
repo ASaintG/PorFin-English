@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import api, { type DailySession, type ExerciseDue, type ReviewItem } from "@/api/client";
-import { FillBlank } from "@/components/exercises/FillBlank";
+import { useCallback, useEffect, useState } from "react";
+import api, { type DailySession, type ExerciseDue, type GrammarRule, type ReviewItem } from "@/api/client";
+import { ExerciseRenderer } from "@/components/exercises/ExerciseRenderer";
 import { Flashcard } from "@/components/exercises/Flashcard";
 import { AppHeader } from "@/components/layout/AppHeader";
 import { PageContainer } from "@/components/layout/PageContainer";
@@ -18,6 +18,12 @@ import {
 type SessionItem =
   | { kind: "vocab"; data: ReviewItem }
   | { kind: "grammar"; data: ExerciseDue };
+
+const LEVELS = ["A1", "A2", "B1"] as const;
+
+function formatCategory(category: string) {
+  return category.replace(/_/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
 
 async function submitVocabReview(itemId: string, quality: number): Promise<boolean> {
   try {
@@ -64,10 +70,12 @@ type ReviewSessionResult = {
   error: string;
 };
 
-async function fetchReviewSession(): Promise<ReviewSessionResult> {
+async function fetchReviewSession(level: string, category: string): Promise<ReviewSessionResult> {
   try {
     await syncPendingReviews();
-    const { data } = await api.get<DailySession>("/daily/session");
+    const params = new URLSearchParams({ cefrLevel: level });
+    if (category) params.set("category", category);
+    const { data } = await api.get<DailySession>(`/daily/session?${params.toString()}`);
     const session: SessionItem[] = [
       ...data.vocabularyReviews.map((v) => ({ kind: "vocab" as const, data: v })),
       ...data.grammarReviews.map((g) => ({ kind: "grammar" as const, data: g })),
@@ -103,23 +111,23 @@ export default function ReviewPage() {
   const [completed, setCompleted] = useState(false);
   const [offlineQueued, setOfflineQueued] = useState(0);
   const [error, setError] = useState("");
-
-  const loadReviews = () => {
-    setLoading(true);
-    void fetchReviewSession().then((result) => {
-      setItems(result.session);
-      setIndex(0);
-      setCompleted(result.session.length === 0);
-      setLessonLink(result.lessonLink);
-      setError(result.error);
-      setLoading(false);
-    });
-  };
+  const [level, setLevel] = useState("A1");
+  const [category, setCategory] = useState("");
+  const [categories, setCategories] = useState<string[]>([]);
 
   useEffect(() => {
-    let cancelled = false;
-    void fetchReviewSession().then((result) => {
-      if (cancelled) return;
+    api.get<GrammarRule[]>(`/grammar?cefrLevel=${level}`)
+      .then(({ data }) => {
+        const extra = level === "B1" ? ["environment", "technology"] : [];
+        const next = Array.from(new Set([...data.map((rule) => rule.category), ...extra])).sort();
+        setCategories(next);
+        setCategory((current) => (current && !next.includes(current) ? "" : current));
+      })
+      .catch(() => setCategories([]));
+  }, [level]);
+
+  const loadReviews = useCallback(() => {
+    void fetchReviewSession(level, category).then((result) => {
       setItems(result.session);
       setIndex(0);
       setCompleted(result.session.length === 0);
@@ -127,24 +135,30 @@ export default function ReviewPage() {
       setError(result.error);
       setLoading(false);
     });
+  }, [level, category]);
+
+  useEffect(() => {
+    void loadReviews();
+  }, [loadReviews]);
+
+  useEffect(() => {
     const handleOnline = () => {
       setLoading(true);
-      void fetchReviewSession().then((result) => {
-        if (cancelled) return;
-        setItems(result.session);
-        setIndex(0);
-        setCompleted(result.session.length === 0);
-        setLessonLink(result.lessonLink);
-        setError(result.error);
-        setLoading(false);
-      });
+      void loadReviews();
     };
     window.addEventListener("online", handleOnline);
-    return () => {
-      cancelled = true;
-      window.removeEventListener("online", handleOnline);
-    };
-  }, []);
+    return () => window.removeEventListener("online", handleOnline);
+  }, [loadReviews]);
+
+  const changeLevel = (value: string) => {
+    setLoading(true);
+    setLevel(value);
+  };
+
+  const changeCategory = (value: string) => {
+    setLoading(true);
+    setCategory(value);
+  };
 
   const current = items[index];
 
@@ -171,6 +185,40 @@ export default function ReviewPage() {
     else setIndex(nextIndex);
   };
 
+  const filters = (
+    <div className="mb-6 w-full max-w-lg">
+      <div className="flex flex-wrap items-center gap-2">
+        <div className="flex rounded-lg border border-border p-1">
+          {LEVELS.map((value) => (
+            <button
+              key={value}
+              type="button"
+              onClick={() => changeLevel(value)}
+              className={`rounded-md px-3 py-1 text-sm transition-colors ${
+                level === value ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:bg-muted"
+              }`}
+            >
+              {value}
+            </button>
+          ))}
+        </div>
+        <select
+          value={category}
+          onChange={(event) => changeCategory(event.target.value)}
+          className="rounded-lg border border-border bg-background px-3 py-1.5 text-sm"
+          aria-label="Filtrar por tema"
+        >
+          <option value="">Todos los temas</option>
+          {categories.map((value) => (
+            <option key={value} value={value}>
+              {formatCategory(value)}
+            </option>
+          ))}
+        </select>
+      </div>
+    </div>
+  );
+
   if (loading) {
     return (
       <>
@@ -189,13 +237,14 @@ export default function ReviewPage() {
         <PageContainer className="flex flex-1 flex-col items-center justify-center text-center">
           <div className="mx-auto w-full max-w-lg">
             <h1 className="mb-2 text-2xl font-semibold">¡Sesión completada!</h1>
-            <p className="mb-2 text-muted-foreground">
+            <p className="mb-4 text-muted-foreground">
               {items.length > 0
                 ? "Buen trabajo. Vocabulario y gramática actualizados con SM-2."
-                : "No hay ítems pendientes por ahora."}
+                : "No hay ítems pendientes para este nivel y tema."}
             </p>
+            {filters}
             {lessonLink && (
-              <Link href={`/lessons/${lessonLink.id}`} className="mb-4 text-sm text-primary underline">
+              <Link href={`/lessons/${lessonLink.id}`} className="mb-4 block text-sm text-primary underline">
                 Continuar con: {lessonLink.title}
               </Link>
             )}
@@ -208,7 +257,7 @@ export default function ReviewPage() {
               <Link href="/dashboard" className="rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-hover">
                 Dashboard
               </Link>
-              <button type="button" onClick={loadReviews} className="rounded-lg border border-border px-5 py-2.5 text-sm transition-colors hover:bg-muted">
+              <button type="button" onClick={() => { setLoading(true); loadReviews(); }} className="rounded-lg border border-border px-5 py-2.5 text-sm transition-colors hover:bg-muted">
                 Otra ronda
               </button>
             </div>
@@ -222,6 +271,7 @@ export default function ReviewPage() {
     <>
       <AppHeader />
       <PageContainer className="flex flex-1 flex-col items-center">
+        {filters}
         <div className="mb-6 w-full max-w-lg">
           <div className="mb-2 flex justify-between text-sm text-muted-foreground">
             <span>
@@ -247,8 +297,9 @@ export default function ReviewPage() {
             onDontKnow={() => handleVocabAnswer(2)}
           />
         ) : (
-          <FillBlank
+          <ExerciseRenderer
             key={current.data.id}
+            type={current.data.type}
             content={current.data.content}
             disabled={submitting}
             onSubmit={handleGrammarAnswer}

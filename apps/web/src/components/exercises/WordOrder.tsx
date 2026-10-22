@@ -10,16 +10,16 @@ interface WordOrderProps {
 }
 
 export function WordOrder({ words, correctOrder, onSubmit, disabled }: WordOrderProps) {
-  const [selected, setSelected] = useState<string[]>([]);
-  const remaining = words.filter((w) => !selected.includes(w));
+  const [selected, setSelected] = useState<number[]>([]);
+  const remaining = words.map((word, index) => ({ word, index })).filter(({ index }) => !selected.includes(index));
 
-  const handlePick = (word: string) => {
+  const handlePick = (index: number) => {
     if (disabled) return;
-    setSelected([...selected, word]);
+    setSelected([...selected, index]);
   };
 
   const handleSubmit = () => {
-    const correct = selected.join(" ") === correctOrder.join(" ");
+    const correct = selected.map((index) => words[index]).join(" ") === correctOrder.join(" ");
     onSubmit(correct);
     setSelected([]);
   };
@@ -28,18 +28,18 @@ export function WordOrder({ words, correctOrder, onSubmit, disabled }: WordOrder
     <div className="w-full max-w-lg rounded-2xl border border-border bg-card p-6">
       <p className="mb-2 text-sm text-muted-foreground">Ordena las palabras:</p>
       <div className="mb-4 min-h-[2.5rem] rounded-lg bg-muted p-3">
-        {selected.join(" ") || "..."}
+        {selected.map((index) => words[index]).join(" ") || "..."}
       </div>
       <div className="mb-4 flex flex-wrap gap-2">
-        {remaining.map((w) => (
+        {remaining.map(({ word, index }) => (
           <button
-            key={w}
+            key={index}
             type="button"
             disabled={disabled}
-            onClick={() => handlePick(w)}
+            onClick={() => handlePick(index)}
             className="rounded-full border border-border bg-background px-3 py-1 text-sm transition-colors hover:border-primary/50"
           >
-            {w}
+            {word}
           </button>
         ))}
       </div>

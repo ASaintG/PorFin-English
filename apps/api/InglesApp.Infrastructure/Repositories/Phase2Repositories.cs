@@ -18,10 +18,23 @@ public class GrammarRepository : IGrammarRepository
     public async Task<IReadOnlyList<GrammarRule>> GetByLevelAsync(CefrLevel level, CancellationToken ct = default) =>
         await _collection.Find(g => g.CefrLevel == level).ToListAsync(ct);
 
+    public async Task<IReadOnlyList<GrammarRule>> GetAllAsync(CancellationToken ct = default) =>
+        await _collection.Find(FilterDefinition<GrammarRule>.Empty).ToListAsync(ct);
+
     public async Task InsertManyAsync(IEnumerable<GrammarRule> rules, CancellationToken ct = default)
     {
         var list = rules.ToList();
         if (list.Count > 0) await _collection.InsertManyAsync(list, cancellationToken: ct);
+    }
+
+    public async Task UpdateAsync(GrammarRule rule, CancellationToken ct = default) =>
+        await _collection.ReplaceOneAsync(g => g.Id == rule.Id, rule, cancellationToken: ct);
+
+    public async Task DeleteByIdsAsync(IEnumerable<string> ids, CancellationToken ct = default)
+    {
+        var idList = ids.ToList();
+        if (idList.Count > 0)
+            await _collection.DeleteManyAsync(g => idList.Contains(g.Id), ct);
     }
 
     public async Task<bool> AnyAsync(CancellationToken ct = default) =>
@@ -46,6 +59,9 @@ public class ExerciseRepository : IExerciseRepository
     public async Task<IReadOnlyList<Exercise>> GetByLevelAndSkillAsync(CefrLevel level, Skill skill, CancellationToken ct = default) =>
         await _collection.Find(e => e.CefrLevel == level && e.Skill == skill).ToListAsync(ct);
 
+    public async Task<IReadOnlyList<Exercise>> GetByGrammarRuleIdAsync(string grammarRuleId, CancellationToken ct = default) =>
+        await _collection.Find(e => e.GrammarRuleId == grammarRuleId).ToListAsync(ct);
+
     public async Task<IReadOnlyList<Exercise>> GetByLessonIdAsync(string lessonId, CancellationToken ct = default) =>
         await _collection.Find(e => e.LessonId == lessonId).ToListAsync(ct);
 
@@ -53,6 +69,13 @@ public class ExerciseRepository : IExerciseRepository
     {
         var list = exercises.ToList();
         if (list.Count > 0) await _collection.InsertManyAsync(list, cancellationToken: ct);
+    }
+
+    public async Task DeleteByGrammarRuleIdsAsync(IEnumerable<string> grammarRuleIds, CancellationToken ct = default)
+    {
+        var idList = grammarRuleIds.ToList();
+        if (idList.Count > 0)
+            await _collection.DeleteManyAsync(e => e.GrammarRuleId != null && idList.Contains(e.GrammarRuleId), ct);
     }
 
     public async Task<bool> AnyAsync(CancellationToken ct = default) =>
@@ -79,6 +102,9 @@ public class LessonRepository : ILessonRepository
         var list = lessons.ToList();
         if (list.Count > 0) await _collection.InsertManyAsync(list, cancellationToken: ct);
     }
+
+    public async Task DeleteAllAsync(CancellationToken ct = default) =>
+        await _collection.DeleteManyAsync(FilterDefinition<Lesson>.Empty, ct);
 
     public async Task<bool> AnyAsync(CancellationToken ct = default) =>
         await _collection.CountDocumentsAsync(FilterDefinition<Lesson>.Empty, cancellationToken: ct) > 0;

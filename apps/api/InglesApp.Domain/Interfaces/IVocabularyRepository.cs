@@ -7,7 +7,11 @@ public interface IVocabularyRepository
 {
     Task<VocabularyItem?> GetByIdAsync(string id, CancellationToken cancellationToken = default);
     Task<IReadOnlyList<VocabularyItem>> GetByLevelAsync(CefrLevel level, int skip, int take, CancellationToken cancellationToken = default);
+    Task<IReadOnlyList<VocabularyItem>> GetByLevelAndCategoryAsync(CefrLevel level, string? category, int skip, int take, CancellationToken cancellationToken = default);
     Task<long> CountByLevelAsync(CefrLevel level, CancellationToken cancellationToken = default);
+    Task<long> CountByLevelAndCategoryAsync(CefrLevel level, string category, CancellationToken cancellationToken = default);
     Task InsertManyAsync(IEnumerable<VocabularyItem> items, CancellationToken cancellationToken = default);
+    Task UpdateManyAsync(IEnumerable<VocabularyItem> items, CancellationToken cancellationToken = default);
+    Task DeleteManyAsync(IEnumerable<string> ids, CancellationToken cancellationToken = default);
     Task<bool> AnyAsync(CancellationToken cancellationToken = default);
 }

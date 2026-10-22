@@ -3,7 +3,7 @@
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import api, { type LessonDetail } from "@/api/client";
-import { FillBlank } from "@/components/exercises/FillBlank";
+import { ExerciseRenderer } from "@/components/exercises/ExerciseRenderer";
 import { AppHeader } from "@/components/layout/AppHeader";
 import { PageContainer } from "@/components/layout/PageContainer";
 
@@ -42,13 +42,23 @@ export default function LessonDetailPage() {
               <ul className="mt-2 list-inside list-disc text-sm italic">
                 {r.examples.map((e) => <li key={e}>{e}</li>)}
               </ul>
+              {r.relatedStructures.length > 0 && (
+                <ul className="mt-3 space-y-1 border-t border-border pt-3 text-sm text-muted-foreground">
+                  {r.relatedStructures.map((item) => <li key={item}>{item}</li>)}
+                </ul>
+              )}
             </div>
           ))}
 
           {exercise ? (
             <div>
               <p className="mb-2 text-sm text-muted-foreground">Ejercicio {exIndex + 1} de {lesson.exercises.length}</p>
-              <FillBlank content={exercise.content} onSubmit={handleSubmit} />
+              <ExerciseRenderer
+                key={exercise.id}
+                type={exercise.type}
+                content={exercise.content}
+                onSubmit={handleSubmit}
+              />
             </div>
           ) : (
             <p className="text-success">Lección completada.</p>

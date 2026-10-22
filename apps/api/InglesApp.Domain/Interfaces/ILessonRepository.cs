@@ -9,5 +9,6 @@ public interface ILessonRepository
     Task<IReadOnlyList<Lesson>> GetByLevelAsync(CefrLevel level, CancellationToken cancellationToken = default);
     Task<IReadOnlyList<Lesson>> GetAllSortedAsync(CancellationToken cancellationToken = default);
     Task InsertManyAsync(IEnumerable<Lesson> lessons, CancellationToken cancellationToken = default);
+    Task DeleteAllAsync(CancellationToken cancellationToken = default);
     Task<bool> AnyAsync(CancellationToken cancellationToken = default);
 }

@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import api, { type PlacementQuestion } from "@/api/client";
-import { FillBlank } from "@/components/exercises/FillBlank";
+import { ExerciseRenderer } from "@/components/exercises/ExerciseRenderer";
 import { PageContainer } from "@/components/layout/PageContainer";
 import { useAuthStore } from "@/stores/authStore";
 
@@ -62,7 +62,7 @@ export default function PlacementPage() {
       <div className="mx-auto w-full max-w-lg">
         <h1 className="mb-2 text-2xl font-semibold">Test de nivel</h1>
         <p className="mb-6 text-sm text-muted-foreground">Pregunta {index + 1} de {questions.length} · Nivel actual: {level}</p>
-        <FillBlank content={q.content} onSubmit={handleAnswer} />
+        <ExerciseRenderer type={q.type} content={q.content} onSubmit={handleAnswer} />
       </div>
     </PageContainer>
   );

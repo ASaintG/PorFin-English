@@ -16,6 +16,7 @@ public record ExerciseDueDto(
     object Content,
     string CefrLevel,
     string Skill,
+    string Category,
     int Repetitions,
     DateTime NextReviewDate);
 

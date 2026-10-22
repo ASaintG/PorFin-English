@@ -57,11 +57,18 @@ public class DailySessionService : IDailySessionService
         _lessonRepository = lessonRepository;
     }
 
-    public async Task<DailySessionDto> GetDailySessionAsync(string userId, CancellationToken ct = default)
+    public Task<DailySessionDto> GetDailySessionAsync(string userId, CancellationToken ct = default) =>
+        GetDailySessionAsync(userId, null, null, ct);
+
+    public async Task<DailySessionDto> GetDailySessionAsync(
+        string userId,
+        CefrLevel? level,
+        string? category,
+        CancellationToken ct = default)
     {
-        var vocab = await _reviewService.GetDueItemsAsync(userId, ct);
-        var grammar = await _exerciseService.GetDueAsync(userId, ct);
-        var lessons = await _lessonRepository.GetByLevelAsync(CefrLevel.A1, ct);
+        var vocab = await _reviewService.GetDueItemsAsync(userId, level, category, ct);
+        var grammar = await _exerciseService.GetDueAsync(userId, level, category, ct);
+        var lessons = await _lessonRepository.GetByLevelAsync(level ?? CefrLevel.A1, ct);
         var nextLesson = lessons.FirstOrDefault();
 
         return new DailySessionDto(
